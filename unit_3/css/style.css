@@ -3,13 +3,26 @@ body{
 }
 #first {
     font-weight: bold;
+    font-size:48px;
+    /* text-align: center */
+}
+#quote{
+    /* text-transform: capitalize; */
+    font-style: italic;
+    font-size: 32px;
+}
+img{
+    opacity: 0.5;
+    /* filter: grayscale(100%); */
+    max-width: 50%;
+    height: auto;
 }
 h1 {
-    color: #0000ff;
-    background-color: #ffff00;
+    /* color: #0000ff; */
+    /* background-color: #ffff00; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
-    text-decoration: underline;
-    text-transform: capitalize
+    /* text-decoration: underline; */
+    text-transform: capitalize;
 }

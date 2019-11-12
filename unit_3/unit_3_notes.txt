@@ -48,3 +48,16 @@ Absolute Address - need url of online location of image file
 Image Attributes
 Alt (text shown if image can't be rendered)
 Title (provides additional information about image, title value will pop up over image)
+in CSS:
+    background: url("imageurl");
+    background-size: cover; //covers the entire page in an image (not tiled)
+
+<hr> horizontal rule (line)
+&hearts; makes a heart 'html entity'
+
+CSS Nomenclature
+h1 - the selector
+{ - curly brackets
+text-align: -property
+center; -value
+}
