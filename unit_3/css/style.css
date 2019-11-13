@@ -1,5 +1,9 @@
 body{
     text-align: center;
+    /* background-image: url("../images/IMG_3197.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 #first {
     font-weight: bold;
