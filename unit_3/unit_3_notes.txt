@@ -61,3 +61,9 @@ h1 - the selector
 text-align: -property
 center; -value
 }
+
+1:1
+HTTPS - secure protocol, security certificate tied to domain. Allows for more encryption and protection.
+
+Transitions
+https://css-tricks.com/almanac/properties/t/transition/
