@@ -4,7 +4,11 @@ var arr = [
     "Everything you need is within you.",
     "Find the flow.",
     "Be in the present.",
-
+    "Begin.",
+    "The real meditation is how you live your life.",
+    "Be happy in the moment, that's enough...",
+    "My mama said \"You can't hurry love\"",
+    "Send love to those who need it",
 ];
 
 window.onload = function () {
