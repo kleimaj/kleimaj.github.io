@@ -19,25 +19,31 @@ body{
     /* text-align: center */
 }
 #quote{
+    width: min-content;
+    width:40%;
     /* text-transform: capitalize; */
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-size: 42px;
 }
 #bio{
     width: min-content;
-    width: 50%; 
-    margin: 1em auto;
+    width: 40%; 
+    /* margin: 1em auto; */
     line-height: 30px;
 }
 #hero_image{
     position: absolute;
     opacity: .5;
     z-index: -1;
-    left:50%;
+    /* margin: auto; */
+    /* right: 10%; */
+    left:40%;
+    top: 0%;
     transform: rotate(90deg);
+    /* size: 100% 100%; */
     filter: grayscale(100%);
-    /* max-width: 100%; */
+    max-width: 75%;
     /* height:100%; */
 }
 @font-face{
@@ -45,11 +51,16 @@ body{
     src: url("../fonts/SUPERFLY.TTF")
 }
 img{
-    opacity: 0.5;
+    /* opacity: 0.5; */
     /* filter: grayscale(100%); */
-    max-width: 50%;
-    right: 0px;
+    /* max-width: 50%; */
+    /* right: 0px; */
     /* height: 50%; */
+}
+a{
+    color:darkviolet;
+    text-decoration: none;
+    font-weight: bold;
 }
 h1 {
     /* color: #ffffff; */
