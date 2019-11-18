@@ -1,37 +1,55 @@
+@font-face{
+    font-family: "Superfly";
+    src: url("../fonts/SUPERFLY.TTF")
+}
+
 body{
     text-align: center; 
-    /*background-image: url("../images/opaque_hero.png");
-    background-position: right; */
-    /* background-size: cover; */
-    /* height: 500px;
-    background-position: 50px 150px;
-    background-repeat: no-repeat; */
 }
+
+a{
+    color:darkviolet;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Superfly"; */
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+}
+
 #hero {
     margin: auto;
     padding: 50px;
-    /* width: 50%; */
 }
+
 #first {
     font-weight: bold;
     font-size:120px;
     font-family: 'Shirkhand',regular;
-    /* text-align: center */
 }
+
 #quote{
     width: min-content;
     width:40%;
-    /* text-transform: capitalize; */
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-size: 42px;
 }
+
 #bio{
     width: min-content;
     width: 40%; 
-    /* margin: 1em auto; */
     line-height: 2em;
 }
+
 #hero_image{
     position: absolute;
     opacity: .5;
@@ -41,38 +59,5 @@ body{
     transform: rotate(90deg);
     filter: grayscale(100%);
     max-width: 75%;
-    /*size: 50% 100%;*/
     object-fit: cover;
-    /* height:100%; */
-}
-
-@font-face{
-    font-family: "Superfly";
-    src: url("../fonts/SUPERFLY.TTF")
-}
-img{
-    /* opacity: 0.5; */
-    /* filter: grayscale(100%); */
-    /* max-width: 50%; */
-    /* right: 0px; */
-    /* height: 50%; */
-}
-a{
-    color:darkviolet;
-    text-decoration: none;
-    font-weight: bolder;
-}
-h1 {
-    /* color: #ffffff; */
-    /* background-color: #ffff00; */
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: "Superfly"; */
-    font-size: 24px;
-    font-weight: normal;
-    /* text-decoration: underline; */
-    text-transform: capitalize;
-}
-p {
-font-family: 'Montserrat', sans-serif;
-/* width: 75%; */
 }
