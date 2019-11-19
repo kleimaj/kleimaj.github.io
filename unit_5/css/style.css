@@ -1,0 +1,92 @@
+body{
+    text-align: center; 
+}
+#hero {
+    /* margin: auto auto; */
+    /* padding: 50px; */
+    /* background-color: darkgreen; */
+    overflow: hidden;
+    position: relative;
+    min-height: 800px;
+    /* max-width: auto; */
+    /* height: 90%; */
+    /* width: 50%; */
+}
+#first {
+    font-weight: bold;
+    font-size:120px;
+    font-family: 'Shirkhand',regular;
+    /* text-align: center */
+}
+#profile_text{
+    /* background-color: aqua; */
+    /* position: relative; */
+    /* size: 50% 50%; */
+    /* width: min-content; */
+    width:40%;
+    /* padding: 0 0 3em 3em; */
+    margin: 0 0 3em 3em;
+    /* width: 50%;
+    height: 50%; */
+}
+#quote{
+    /* background-color: darkgreen; */
+    /* width: min-content; */
+    /* width:80%; */
+    /* text-transform: capitalize; */
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 42px;
+}
+#bio{
+    /* background-color: red; */
+    /* width: min-content; */
+    /* width: 100%;  */
+    /* margin: 0%; */
+    line-height: 2em;
+}
+#hero_image{
+    position: absolute;
+    /* opacity: .5; */
+    z-index: -1;
+    left:40%;
+    top: 0%;
+    /* margin: 0% 0% 0% 40%; */
+    transform: rotate(90deg);
+    filter: grayscale(100%);
+    max-width: 75%;
+    /*size: 50% 100%;*/
+    /* object-fit: cover; */
+    /* height:100%; */
+}
+
+@font-face{
+    font-family: "Superfly";
+    src: url("../fonts/SUPERFLY.TTF")
+}
+img{
+    /* opacity: 0.5; */
+    /* filter: grayscale(100%); */
+    /* max-width: 50%; */
+    /* right: 0px; */
+    /* height: 50%; */
+}
+a{
+    color:darkviolet;
+    text-decoration: none;
+    font-weight: bolder;
+}
+h1 {
+    /* color: #ffffff; */
+    /* background-color: #ffff00; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Superfly"; */
+    font-size: 24px;
+    font-weight: normal;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+}
+p {
+font-family: 'Montserrat', sans-serif;
+/* width: 75%; */
+}

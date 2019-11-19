@@ -1,0 +1,41 @@
+Unit_5 Section 1: Inline vs Block Elements
+Display Property
+{Display : Block(next paragraph of text, line break before and after, they break the flow) or Inline (no newlines)}
+Block Elements (H1s, ps, ordered and unordered lists)
+Inline Elements(anchors, images, strong, italicazed texts)
+
+Section 2: Generic Content Wrappers
+Grouping elements together
+Generic tags, span and div (don't contribute anything by themselves, require css)
+Span vs Div
+Span: inline-elements (small portion of text)
+Div: Block-elements (grouping larger portions)
+
+Section 4: The Box Model
+all elements are rectangular boxes (with width, height, padding, borders, and margins)
+Sample code:
+<h1> Headline (height,width) </h1> ---- padding ---- border ----- margin -----
+css:
+border-color: color, border-style: double, dotted, dashed, solid
+auto: (any window size), box can be horizontally centered by setting its right and left margins to auto
+padding: 0 0 0 0 (top right bottom left)
+         0 0 (top+bottom, right+left)
+
+Section 5: Header, Footer, Nav
+Semantic Code: describes value, regardless of style (group and organize content with descrictive names)
+<header>
+<nav>
+<footer>
+
+Section 6: Semantic Elements
+header, footer, main, aside
+within semantic elements are 
+1.navs, which contain links to help navigate your site
+2.sections, group contents of page into chunks
+3.articles, contain standalone blocks of text
+
+Less Commonly used Semantic Elements
+1. figure -- graphical elements like photos, images, code blocks, etc.
+2. figcaption -- captions of <figure> elements
+3. mark -- highlighted or marked text
+4. time -- wrap dates and times.
