@@ -1,6 +1,39 @@
 body{
     text-align: center; 
 }
+
+.header_text{
+    display: inline;
+    font-weight: bold;
+}
+
+#header_nav {
+    /* display: inline; */
+    /* background-color: aqua; */
+    border-bottom: 2px solid black;
+    height: 100px;
+}
+
+#header_name {
+    /* background-color: yellow; */
+    margin: 40px 0 0 75px;
+    float: left;
+}
+#header_profile {
+    /* background-color: yellow; */
+    margin: 40px 45px 0 0;
+    float: right;
+}
+#header_works {
+    /* background-color: yellow; */
+    margin: 40px 35px 0 0px;
+    float: right;
+}
+#header_music {
+    margin: 35px 25px 0 0px;
+    float: right;
+}
+
 #hero {
     /* margin: auto auto; */
     /* padding: 50px; */
@@ -23,7 +56,7 @@ body{
     /* position: relative; */
     /* size: 50% 50%; */
     /* width: min-content; */
-    width:40%;
+    width:45%;
     /* padding: 0 0 3em 3em; */
     margin: 0 0 3em 3em;
     /* width: 50%;
