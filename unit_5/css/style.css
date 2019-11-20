@@ -26,23 +26,33 @@ section {
     font-weight: bold;
 }
 
+#home {
+    line-height: 0.5em;
+    display: inline;
+    font-weight: normal;
+    margin: 35px 0 0 100px;
+    float: left;
+}
 #header_nav {
     /* display: inline; */
     /* background-color: aqua; */
     z-index: 1;
     position: relative;
-    border-bottom: 2px solid black;
+    /*border-bottom: 2px solid black;*/
     height: 100px;
 }
 
 #header_name {
-    /* background-color: yellow; */
-    margin: 40px 0 0 75px;
-    float: left;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Shirkhand',regular;
+    /* margin: 40px 0 0 75px;
+    float: left;*/
+    margin: 0px;
 }
 #header_profile {
     /* background-color: yellow; */
-    margin: 40px 45px 0 0;
+    margin: 40px 95px 0 0;
     float: right;
 }
 #header_works {
@@ -51,7 +61,7 @@ section {
     float: right;
 }
 #header_music {
-    margin: 35px 25px 0 0px;
+    margin: 35px 35px 0 0px;
     float: right;
 }
 
