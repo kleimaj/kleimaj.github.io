@@ -1,6 +1,25 @@
 body{
     text-align: center; 
 }
+header {
+    background-color: #FFED74;
+}
+nav {
+    background-color: #E8C66A;
+}
+aside {
+    background-color: #FFC675;
+}
+article {
+    background-color: #E89C6C;
+}
+footer {
+    background-color: #FF957E;
+}
+section {
+    background-color: #E89C6C;
+}
+
 
 .header_text{
     display: inline;
