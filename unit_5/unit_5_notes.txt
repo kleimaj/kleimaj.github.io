@@ -39,3 +39,14 @@ Less Commonly used Semantic Elements
 2. figcaption -- captions of <figure> elements
 3. mark -- highlighted or marked text
 4. time -- wrap dates and times.
+
+1:1
+Section vs Article
+
+Name: San-Serif
+Move to top left, make on one line
+make more balanced
+typography.com 
+https://fontpair.co/
+position: fixed
+a href "/index2.html"
