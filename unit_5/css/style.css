@@ -1,7 +1,7 @@
 body{
     text-align: center; 
 }
-/* header {
+header {
     background-color: #FFED74;
 }
 nav {
@@ -18,12 +18,20 @@ footer {
 }
 section {
     background-color: #E89C6C;
-} */
+}
 
 
 .header_text{
     display: inline;
     font-weight: bold;
+}
+.project_article{
+    width: 50%;
+    float:left;
+}
+.project_aside{
+    width:50%;
+    float:right;
 }
 
 #home {
@@ -65,6 +73,7 @@ section {
 }
 #header_music {
     margin: 35px 35px 0 0px;
+    font-size: 24px;
     float: right;
 }
 
@@ -73,7 +82,7 @@ section {
     overflow: hidden;
     position: relative;
     min-height: 800px;
-    height: 1000px;
+    /* height: 1000px; */
 }
 #hero_text{
     margin: 1em 0 0 3em;
