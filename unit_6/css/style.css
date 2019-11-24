@@ -24,6 +24,11 @@ section {
     display: inline;
     font-weight: bold;
 }
+.a_nav{
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+}
 .project_article{
     /*background-color: violet;*/
     /*border: 1px black solid;*/
@@ -47,6 +52,11 @@ section {
     clear: both;
     height: 0;
 }
+.two_column {
+    /*background-color: #FFB7CF;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
 
 #colab_photo{
     position: relative;
@@ -69,11 +79,6 @@ section {
 }
 #mom_photo{
     position: relative;
-}
-#two_column {
-    /*background-color: #FFB7CF;*/
-    /*border: 1px black solid;*/
-    padding: 20px;
 }
 
 #home {
@@ -163,11 +168,7 @@ section {
     filter: grayscale(100%);
     max-width: 75%;
 }
-#a_nav{
-    color:black;
-    text-decoration: none;
-    font-weight: normal;
-}
+
 
 @font-face{
     font-family: "Superfly";
@@ -191,7 +192,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: normal;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 p {
 font-family: 'Montserrat', sans-serif;
