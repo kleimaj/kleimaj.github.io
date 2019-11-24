@@ -20,18 +20,37 @@ section {
     background-color: #E89C6C;
 }
 
-
 .header_text{
     display: inline;
     font-weight: bold;
 }
 .project_article{
-    width: 50%;
-    float:left;
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
 }
 .project_aside{
-    width:50%;
-    float:right;
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 #home {
