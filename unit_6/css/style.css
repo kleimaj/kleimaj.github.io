@@ -52,7 +52,7 @@ section {
     clear: both;
     height: 0;
 }
-.two_column {
+#two_column {
     /*background-color: #FFB7CF;*/
     /*border: 1px black solid;*/
     padding: 20px;
