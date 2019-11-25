@@ -33,10 +33,18 @@ strong{
     text-decoration: none;
     color:hotpink;
 }
-#bio{
+.bio{
     /* align-content: center; */
     /* width: 30%; */
-    padding: 0 50px 50px 50px;
+    padding: 0 110px 0 110px;
+}
+#header_link{
+    margin: 40px 95px 0 0;
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Alatsi';
 }
 #profile_image{
     position: relative;
