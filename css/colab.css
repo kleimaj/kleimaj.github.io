@@ -1,0 +1,44 @@
+header{
+}
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+#header_nav{
+    text-align: center;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    /*border-bottom: 2px solid black;*/
+    top:0;
+    width:100%;
+    height: 100px;
+}
+#gif{
+    display:block;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+#close{
+    position: relative;
+    top:30px;
+    opacity: 1;
+    background-color: black;
+    border-radius: 5px;
+    color:white;
+    z-index: 2;
+    font-size: 25px;
+    padding: .5em;
+    text-decoration: none;
+}
+#iphone{
+    float:right;
+    width:40%;
+    padding:5px;
+}
+#iphones{
+float: left;
+width:40%;
+padding:5px;
+}
