@@ -1,6 +1,266 @@
 body{
-	background-color: black;
+    text-align: center; 
 }
-h1, p {
-	color: gold;
+footer{
+    background-color: #DDDDDD;
+    /*float: left;*/
+    display: inline-block;
+    width: 100%;
+    /*top: 100px;*/
+    height:100%;
+    /*height:50px;*/
+}
+/*header {
+    background-color: #FFED74;
+}
+nav {
+    background-color: #E8C66A;
+}
+aside {
+    background-color: #FFC675;
+}
+article {
+    background-color: #E89C6C;
+}
+footer {
+    background-color: #FF957E;
+}
+section {
+    background-color: #E89C6C;
+}*/
+
+.header_text{
+    display: inline;
+    font-weight: bold;
+}
+.a_nav{
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+}
+.project_article{
+    /*background-color: violet;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+.project_aside{
+    /*background-color: pink;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    overflow: hidden;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.footer_project{
+    /*width:100px;*/
+    display:inline-block;
+}
+.footer_link{
+    padding: 0 100px;
+    display: block;
+    font-family: 'Alatsi',regular;
+    /*background-color: yellow;*/
+    color:black;
+    font-size:30px;
+}
+.footer_sublink{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+#two_column {
+    /*background-color: #FFB7CF;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+#links{
+    /*float:left;*/
+    /*margin-left: 50px;*/
+    /*background-color: yellow;*/
+}
+#git_logo{
+    width:40px;
+    padding:20px;
+}
+#linkedin_logo{
+    width:40px;
+    padding:20px;
+}
+#mail_logo{
+    width:40px;
+    padding:20px;
+}
+
+#colab_photo{
+    position: relative;
+    /*left: 1000px;*/
+    /*right:50px;*/
+    /*height:10px;*/
+    /*width: 30%;*/
+    /*width:1500px;*/
+    height:600px;
+}
+#jamr_photo{
+    position: relative;
+    /*width: 1500px;*/
+    height: 600px;
+}
+
+#ircam_photo{
+    position: relative;
+    height:600px;
+}
+#mom_photo{
+    position: relative;
+}
+
+#home {
+    line-height: 0.5em;
+    display: inline;
+    font-weight: normal;
+    margin: 35px 0 0 100px;
+    float: left;
+}
+#header_nav {
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    /*opacity: .8;*/
+    /*border-bottom: 2px solid black;*/
+    top:0;
+    width:100%;
+    height: 100px;
+}
+
+#header_name {
+    font-weight: bold;
+    font-size: 40px;
+    /* font-family: 'Shrikhand',regular; */
+    font-family: 'Rage';
+    margin: 0px;
+}
+#header_subname{
+    float: left;
+    
+}
+#header_profile {
+    margin: 40px 95px 0 0;
+    float: right;
+}
+#header_works {
+    margin: 40px 35px 0 0px;
+    float: right;
+}
+#header_music {
+    margin: 35px 35px 0 0px;
+    font-size: 24px;
+    float: right;
+}
+
+#hero {
+     /*background-color: yellow; */
+     /*border: 2px solid black;*/
+    overflow: hidden;
+    position: relative;
+    /*min-height: 800px;*/
+    /*padding:10px;*/
+    /*width:2000px;*/
+    /*float:right;*/
+     height: 810px; 
+}
+#landscape_image{
+    position: relative;
+    height:800px;
+    /*width: 80%;*/
+    left:500px;
+    bottom:500px;
+    z-index: -1;
+}
+#hero_text{
+    /*float:left;*/
+    /*background-color: yellow;*/
+    /*width:100%;*/
+    /*margin: 1em 0 0 3em;*/
+}
+#first {
+    /* font-weight: bold; */
+    width: 45%;
+    line-height: 4em;
+    /* margin: 0px; */
+    /* background-color: red; */
+    font-size:80px;
+    /* font-family: 'Open Sans',sans-serif; */
+    font-family: 'Alatsi',regular;
+    font-weight: bold;
+}
+#profile_text{
+    /* background-color: aqua; */
+    width:45%;
+    margin: -5em 0;
+    /* margin: 1em 0 0em 3em; */
+}
+#quote{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 42px;
+}
+#bio{
+    line-height: 2em;
+}
+#hero_image{
+    position: relative;
+    z-index: -1;
+    /*left:30%;*/
+    /*top:0%;*/
+    /*border: 2px solid black;*/
+    bottom:500px;
+    left: 800px;
+    display: block;
+    /*bottom:30%;*/
+    /*top: 100%;*/
+    /*top:-1000px;*/
+    transform: rotate(90deg);
+    filter: grayscale(100%);
+    /*max-width: 75%;*/
+    height:900px;
+}
+
+
+@font-face{
+    font-family: "Superfly";
+    src: url("../fonts/SUPERFLY.TTF");
+}
+@font-face{
+    font-family: "Rage";
+    src: url("../fonts/RAGE.TTF");
+}
+
+a{
+    color:darkviolet;
+    text-decoration: none;
+    font-weight: bolder;
+}
+h1{
+    font-family: 'Alatsi',regular;
+    font-size: 50px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    /*text-transform: capitalize;*/
+}
+p {
+font-family: 'Montserrat', sans-serif;
 }
