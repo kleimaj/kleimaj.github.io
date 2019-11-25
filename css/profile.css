@@ -1,0 +1,94 @@
+main{
+    /* float:left; */
+    /* background-color: yellow; */
+    display: inline block;
+}
+h1{
+    font-family: 'Rage';
+    /* font-family: 'Shrikhand',regular; */
+    text-shadow: 2px 2px hotpink;
+    font-size: 80px;
+}
+h2{
+    font-family:'Alatsi',regular;
+    font-size: 2em;}
+p{
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size:18px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+strong{
+    font-family: 'Alatsi',regular;
+    font-size: 24px;
+    line-height: 2em;
+}
+@font-face{
+    font-family: "Rage";
+    src: url("../fonts/RAGE.TTF");
+}
+.bio_a{
+    font-weight: bold;
+    text-decoration: none;
+    color:hotpink;
+}
+#bio{
+    /* align-content: center; */
+    /* width: 30%; */
+    padding: 0 50px 50px 50px;
+}
+#profile_image{
+    position: relative;
+    z-index: 1;
+    /*left:30%;*/
+    /*top:0%;*/
+    /* border: 3px solid black; */
+    /* background-color: yellow; */
+    /* bottom:500px; */
+    /* left: 800px; */
+    display: block;
+    /*bottom:30%;*/
+    /*top: 100%;*/
+    /*top:-1000px;*/
+    right:180px;
+    transform: rotate(90deg);
+    filter: grayscale(100%);
+    /*max-width: 75%;*/
+    height:1000px;
+}
+#main_image{
+    /* background-color: yellow; */
+    overflow: hidden;
+    width: 50%;
+    height:900px;
+    float: right;
+    /* right:0%; */
+}
+#main_text{
+    position: relative;
+    /* background-color: yellow; */
+    /* padding:10px; */
+    z-index: 2;
+    width: 50%;
+    text-align: center;
+    /* top:50px; */
+    /* bottom:1000px; */
+    float: left;
+}
+#header_nav {
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    /*opacity: .8;*/
+    /*border-bottom: 2px solid black;*/
+    top:0;
+    width:100%;
+    height: 100px;
+}
+#header_link{
+
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+
+}
