@@ -47,3 +47,22 @@ mobile doesn't use any toggle visibility
 less stable internet connection
 limited screen space
 users are in motion or in a hurry
+
+Huda Portfolio Notes
+Colors: Needs to be more my brand, more personal
+My work doesn't define me
+Left Justify relative button
+NEED Contact page
+About Me - taking up too much room (top nav)
+need to write more about me
+Co.Lab
+Elaborate on what I did
+Move Our Team to the top
+3 typefaces max
+Case Study: have iterations and show dirty work (why and how)
+
+1:1 Notes
+mobile first helps with prioritizing information
+2 column layout can be bad on mobile
+CSS shadow (box shadow)
+XD inspect css style rules for elements

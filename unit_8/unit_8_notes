@@ -16,3 +16,20 @@ ex. unfloat elements in media query:
 
 Adaptive Design
 developers set media queries at widths responding to specific devices in portrait and landscape
+
+Em
+A unit of measurement used in typography
+defined by width of uppercase M in the current face and point size
+
+Set body font-size to 30px and in media queries, alter body to lower font sizes
+
+Media Queries
+screens (max width: 768px) ipad in portrait... align headings to center, unfloat Blocks
+screens (max-wdith: 480px) iphones in landscape
+set wrapper to 95%, more real estate
+add meta tag in head - site assumes device it's looking at
+
+Viewport: width of screen
+all mobile devices have two orientations
+We typically set two breakpoints. one for tablets (portrait and landscape)
+and one for portrait oriented small screens
