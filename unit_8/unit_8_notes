@@ -1,0 +1,18 @@
+Fixed Width: Blocks of content will be the same fixed width.
+Launching fixed width on small screen : site will zoom out, or render at fixed resolution, possibly ruinign the ux.
+Fluid Layout, Liquid Layout: define space and width percentages
+Height, Width, Margin, and Padding percentages
+
+Media Queries: retrieve device information in CSS
+@ media only screen and (min-width: 768px)
+@ media only screen and (max width: 320px) and (min-width: 320px)
+ex. unfloat elements in media query:
+@media only screen and (max-width: 480px) {
+    .article {
+        float: none;
+        width: auto;
+    }
+}
+
+Adaptive Design
+developers set media queries at widths responding to specific devices in portrait and landscape
