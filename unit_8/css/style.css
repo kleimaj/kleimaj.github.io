@@ -44,10 +44,19 @@ body{
 
 @media (max-width: 480px) {
     body{
-        font-size: 20px;
+        font-size: 25px;
     }
     .card{
         float: none;
-        width: 90%;
+        width: 80%;
+    }
+}
+@media (max-width: 320px) {
+    body{
+        font-size: 18px;
+    }
+    .card{
+        float: none;
+        width: 80%;
     }
 }
