@@ -1,0 +1,53 @@
+body{
+    font-size: 30px;
+}
+.card{
+    text-decoration: none;
+    display: block;    
+    color: white;
+    border-radius: 0 0 0 25px;
+    /* border: 2px black; */
+    width: 25%;
+    float:left;
+}
+.card h3{
+    font-family: 'Alatsi',bold;
+}
+.card p{
+    font-family: 'Montserrat', bold;
+}
+
+#profile {
+    color: black;
+}
+#profile h1{
+    font-family: 'Rage';
+    font-weight: normal;
+    font-size: 3em;
+}
+#profile h2{
+    font-family: 'Alatsi', normal, 1em;
+}
+#CoLab {
+    background-color: #0DBBA3;
+}
+#Jamr {
+    background-color: #6514a7;
+}
+#ircam {
+    background-color: #1F14A7;
+}
+@font-face{
+    font-family: "Rage";
+    src: url("../../fonts/RAGE.TTF");
+}
+
+@media (max-width: 480px) {
+    body{
+        font-size: 20px;
+    }
+    .card{
+        float: none;
+        width: 90%;
+    }
+}
