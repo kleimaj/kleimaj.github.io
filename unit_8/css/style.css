@@ -6,9 +6,9 @@ body{
     display: block;    
     color: white;
     border-radius: 0 0 0 25px;
-    /* border: 2px black; */
     width: 25%;
     float:left;
+    position: relative;
 }
 .card h3{
     font-family: 'Alatsi',bold;
@@ -19,6 +19,7 @@ body{
 
 #profile {
     color: black;
+    z-index: 4;
 }
 #profile h1{
     font-family: 'Rage';
@@ -30,12 +31,15 @@ body{
 }
 #CoLab {
     background-color: #0DBBA3;
+    z-index: 3;
 }
 #Jamr {
     background-color: #6514a7;
+    z-index: 2;
 }
 #ircam {
     background-color: #1F14A7;
+    z-index: 1;
 }
 @font-face{
     font-family: "Rage";
@@ -48,7 +52,12 @@ body{
     }
     .card{
         float: none;
-        width: 80%;
+        /* position: relative; */
+        width: 110%;
+        /* margin: 0 120px 0 0; */
+        margin-left: -9px;
+        margin-top: -50px;
+        position: relative;
     }
 }
 @media (max-width: 320px) {
