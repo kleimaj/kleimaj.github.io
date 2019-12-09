@@ -310,8 +310,8 @@ a {
     p {
         width: 90%;
         left: 4%;
-        font-size: .2;
-        line-height: 1.2em;
+        font-size: .9em;
+        line-height: 1.4em;
     }
     #mobile_logo {
         width: 200px;
@@ -327,10 +327,16 @@ a {
         background-color: #0DBBA3;
         z-index: 3;
     }
-    #Colab h3 {
+    #motivation{
+        position: relative;
+        top: 15px;
     }
-    #Colab p {
+    #Contact {
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+
     #Jamr {
         z-index: 2;
         background-color:  #6514a7;
