@@ -13,33 +13,41 @@
     <body>
         <header>
             <nav id = "mobile_header">
-            <img src="Logo.svg" alt="Logo">
-            <h1>Back To My Projects</h1>
+            <img id = "logo" src="Logo.svg" alt="Logo">
+            <a href="index.html">Back To My Projects</a>
             </nav>
             <nav id = "browser_header">
-                <img src="Logo.svg" alt="Logo">
-                <h1>My Works</h1>
+                <img id = "logo" src="Logo.svg" alt="Logo">
+                <a href="index.html" id="back">My Works</a>
             </nav>
         </header>
         <main>
-            <img src="images/headshots/jacob_img.svg" alt="headshot">
-            <p>I'm Jacob, and I'm a junior developer with a bachelor's degree in computer science and ux design.
+            <img id = "headshot" src="images/headshots/jacob_img.svg" alt="headshot">
+            <p>I'm Jacob Kleiman, and I'm a junior developer with a bachelor's degree in computer science and ux design.
                     I graduated from Western Washington University in the Spring of 2019,
                     and I'm currently working at <a class="bio_a" href="https://www.universalmusic.com/">Universal Music Group</a> in the Greater Los Angeles Area.</p>
             <p>I'm looking to explore memorable experiences, whether that be through software development, UX design, or <a href="">music</a>.</p>
-            <nav>
             <h2>Contact</h2>
-            <a href="">jacobakleiman@gmail.com</a>
-            <a href="">Linkedin</a>
-            <a href="">Github</a>
-            <a href="">Resume</a>
+            <nav id="contact_links" class="clearfix">
+            <a href="mailto:jacobakleiman@gmail.com">jacobakleiman@gmail.com</a>
+            <a href="https://www.linkedin.com/in/jacob-kleiman-577946160/">Linkedin</a>
+            <a href="https://github.com/kleimaj">Github</a>
+            <a href="JacobKleimanResume.docx" download>Resume</a>
             </nav>
         </main>
         <footer>
-            <nav>
+            <a href ="#" id = "Colab" class = "card" class="clearfix">
                 <h3>Co.Lab</h3>
-                <p>See the first project!</p>
-            </nav>
+                <p href="">UX Case Study</p>
+            </a>
+            <a href ="#" id = "Jamr" class = "card" class="clearfix">
+                    <h3>Jamr</h3>
+                    <p href="">Mobile Project</p>
+            </a>
+            <a href ="#" id="ircam" class = "card" class="clearfix">
+                    <h3>ircam</h3>
+                    <p href="">Music Classifier</p>
+            </a>
         </footer>
     </body>
 </html>
