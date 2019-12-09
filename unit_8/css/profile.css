@@ -320,12 +320,16 @@ a {
         font-size: 1em;
     }
     #headshot{
-        width: 100px;
+        width: 300px;
     }
     #Colab {
         position: relative;
         background-color: #0DBBA3;
         z-index: 3;
+    }
+    #Colab h3 {
+    }
+    #Colab p {
     }
     #Jamr {
         z-index: 2;
@@ -333,6 +337,7 @@ a {
     }
     #ircam {
         z-index: 1;
+        margin-bottom: 50px;
         background-color: #1F14A7;
     }
     .card {
