@@ -1,5 +1,10 @@
 body{
     font-size: 30px;
+    margin:0;
+}
+.card_label {
+    position: relative;
+    margin: 0 auto;
 }
 .card{
     text-align: center;
@@ -7,9 +12,11 @@ body{
     display: block;    
     color: white;
     border-radius: 0 0 0 25px;
-    width: 25%;
-    margin: 50px;
-    float:left;
+    width: 100%;
+    /* margin: 50px; */
+    /* float:left; */
+    margin-top: -20px;
+    padding: 10px;
     position: relative;
     height: 200px;
     box-shadow: 0px 4px 5px rgba(0,0,0,.7);
@@ -25,7 +32,7 @@ body{
 #header_logo{
     width:250px;
     position: relative;
-    left: 50px;
+    left: 15%;
     display: inline-block;
 }
 #right_nav {
@@ -36,6 +43,7 @@ body{
     text-decoration: none;
     color: black;
     font-family: 'Montserrat';
+    font-weight: bold;
     position: relative;
     right: 220px;
 }
@@ -75,61 +83,58 @@ body{
     font-family: "Rage";
     src: url("../../fonts/RAGE.TTF");
 }
+@media (min-width: 750px){
+    main {
+        position: relative;
+        top: 75px;
+    }
+}
 @media (min-width: 480px){
+    
     #profile {
         visibility: hidden;
+        display: none;
     }
-    .card h3,p {
+    .card h3 {
         position: relative;
-        bottom: 40px;
-        right: 100px;
+        bottom: 15px;
+    
+        /* right: 100px; */
     }
     .card p{
         position: relative;
-        bottom: 100px;
-        /* visibility: hidden; */
-    }
-    .card p:hover{
-        visibility: visible;
-    }
-    .icon{
-        /* display: none; */
-        position: relative;
-        bottom: 200px;
-        left: 120px;
-    }
-
-}
-
-@media (max-width: 1700px) {
-    .icon {
-        display: none;
-    }
-    .card h3,p {
-        position: relative;
-        left: 0px;
-        /* bottom: 10px; */
-    }
-}
-
-@media (max-width: 700px) {
-    body {
-        font-size: 20px;
-    }
-    .card p {
+        /* bottom: 100px; */
+        /* top: 10px; */
+        /* line-height: 2em; */
         visibility: hidden;
     }
-    #right_nav {
-        float:none;
+    .card :hover > p{
+        visibility: visible;
+        
+    }
+    #CoLab img {
         position: relative;
-        top: 100px;
+        margin: auto;
+        bottom:132px;
     }
-    .icon{
-        display: none;
+    #Jamr img {
+        position: relative;
+        margin: auto;
+        bottom:140px;
     }
+    #ircam img {
+        position: relative;
+        margin: auto;
+        bottom:140px;
+    }
+    .card_label {
+        position: relative;
+        bottom:40px;
+    }
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
     body{
         font-size: 25px;
     }
@@ -141,6 +146,11 @@ body{
         z-index: 4;
         width: 110%;
     box-shadow: 0px 4px 5px rgba(0,0,0,.7);
+    visibility: visible;
+    display: block;
+    }
+    #CoLab p{
+        position: relative;
     }
     #logo{
         width: 200px;
@@ -148,19 +158,14 @@ body{
         padding-bottom: 20px;
         margin-left: 45px;
     }
-    .icon {
-        /* padding-left: 200px; */
-        display: block;
-        position: relative;
-        left: 270px;
-        bottom: 100px;;
+    .card_label{
+        display: inline-block;
     }
+    
     .card{
         text-align: left;
-        margin: -50px;
         float: none;
         width: 110%;
-        margin-left: -9px;
         height: 230px;
         margin-top: -80px;
         padding-top: 10px;
@@ -169,19 +174,26 @@ body{
         box-shadow: 0px 4px 5px rgba(0,0,0,.7);
     }
     .card h3{
-        margin-right:150px;
+        margin-left: 75px;
+        top: 40px;
         /* background-color: blue; */
         position: relative;
         line-height: 1em;
-        text-align: center;
+        text-align: left;
         padding-top: 50px;
     }
     .card p{
         text-align: center;
-        margin-right: 150px;
-        margin-top:-50px;
+        left: 35px;
         visibility: visible;
         /* background-color: chartreuse; */
+    }
+    .icon {
+        /* padding-left: 200px; */
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        top: -100px;
     }
     #palmtree{
         position: relative;
@@ -189,63 +201,18 @@ body{
         bottom: 30px;
     }
 }
-@media (max-width: 320px) {
-    body{
-        /* font-size: 18px; */
-    }
-    header {
-        display: none;
-
-    }
-    #profile{
-    box-shadow: 0px 4px 5px rgba(0,0,0,.7);
-    }
-    #logo{
+@media (max-width: 480px) {
+    .card h3{
         position: relative;
-        width:170px;
-        right: 40px;
+        top: -1px;
     }
-    #palmtree{
+    .card p{
         position: relative;
-        top:-25px;
-        /* right: -20px; */
-    }
-    #CoLab h3,p{
-        position: relative;
-        top: 10px;
-    }
-    #CoLab img{
-        top:-70px;
+        top: -40px;
     }
     .icon{
         position: relative;
-        top: -110px;
-        left: 210px;
-    }
-    .card{
-        text-align: left;
-        margin: -50px;
-        float: none;
-        width: 110%;
-        margin-left: -9px;
-        margin-top: -90px;
-        position: relative;
-        display: block;
-        box-shadow: 0px 4px 5px rgba(0,0,0,.7);
-    }
-    .card h3{
-        margin-right:150px;
-        /* background-color: blue; */
-        position: relative;
-        line-height: 1em;
-        text-align: center;
-        padding-top: 50px;
-    }
-    .card p{
-        text-align: center;
-        margin-right: 150px;
-        margin-top:-50px;
-        visibility: visible;
-        /* background-color: chartreuse; */
+        top: -136px;
+        left: 270px;
     }
 }
