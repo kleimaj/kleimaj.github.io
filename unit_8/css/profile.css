@@ -302,10 +302,12 @@ a {
     }
 }
 @media (max-width: 480px) {
+    main{
+        z-index: 2;
+        position: relative;
+    }
     footer {
         margin-top: 20px;
-        height: 100px;
-        z-index: -1;
     }
     p {
         width: 90%;
@@ -323,7 +325,7 @@ a {
         width: 300px;
     }
     #Colab {
-        position: relative;
+        /* position: relative; */
         background-color: #0DBBA3;
         z-index: 3;
     }
@@ -354,7 +356,7 @@ a {
         width: 109%;
         margin-top: -15px;
         left: -10px;
-        height: 100px;
+        height: 120px;
         position: relative;
         background-color: #0DBBA3;
         font-family: 'Alatsi';
@@ -364,10 +366,12 @@ a {
     }
     .card h3 {
         position: relative;
+        display: inline-block;    
         top: 20px;
     }
     .card p {
         position: relative;
+        display: inline-block;
         top: 20px;
         text-align: center;
         width: 100%;
