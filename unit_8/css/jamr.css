@@ -1,0 +1,165 @@
+
+html, body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+body{
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    background-color: #6514a7;
+}
+main {
+    background-color: #6514a7;
+}
+h1,h2,h3, p, a, li{
+    color: white;
+}
+h1,h2,h3,a,li {
+    font-family: 'Montserrat';
+}
+p{
+    font-family: 'Montserrat';
+}
+footer {
+    position: relative;
+    top:25px;
+    text-align: center;
+    background-color: #1F14A7;
+}
+#button{
+    z-index: 2;
+    color:white;
+    background-color: black;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    position: fixed;
+    padding: 10px;
+    left: 10%;
+    top: 5%;
+    opacity: 65%;
+}
+#logo_whole {
+    position: relative;
+    top: 70px;
+}
+#subhead{
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    text-align: center;
+}
+#problem_solution {
+    width: 90%;
+    padding: 30px;
+    background-color: white;
+}
+#problem_solution p{
+    position:relative;
+    top: -10px;
+    color: black;
+
+}
+#problem_solution h2 {
+    color: black;
+    text-align:left;
+}
+#background_info{
+    /* text-align: center; */
+}
+.item{
+    width:45%;
+    float:left;
+    /* display: inline-block; */
+}
+.item h3{
+    text-align: center;
+}
+.item img{
+    position: relative;
+    left: 70px;
+}
+#background_info li{
+    list-style: none;
+}
+#goals{
+    background-color: white;
+}
+.goal img,h3{
+    display: inline-block;
+}
+.goal{
+    padding: 10px;
+}
+.goal h3,p{
+    color:black;
+}
+.goal p{
+    position: relative;
+    top: -40px;
+    color:black
+}
+#userflow h1{
+    text-align: center;
+}
+#userflow h3,p{
+    padding: 10px;
+    color:white
+}
+#userflow p{
+    position: relative;
+    top: -50px;
+}
+#wireframes h1{
+    text-align: center;
+    color: black;
+}
+#wireframes{
+    background-color: white;
+}
+#final {
+    position: relative;
+    z-index: 1;
+}
+#final h1{
+    text-align: center;
+}
+#final p {
+    font-size: .85em;
+}
+#users {
+    text-align: center;
+}
+#p_float{
+    width: 40%;
+}
+.float {
+    float: left;
+}
+#rect_bg1{
+    background-image: url('../images/jamr/Rectangle\ 65.png');
+    background-repeat: no-repeat;
+    background-position: 30% 150%;
+
+}
+#rect_bg2{
+    background-image: url('../images/jamr/Rectangle\ 66.png');
+    background-position: 20% 205%;
+    background-repeat: no-repeat;
+
+}
+#rect_bg1 p{
+    color: black;
+}
+#rect_bg2 p{
+    color: black;
+}
+#future_work {
+    padding: 15px;
+}
+#future_work li{
+    line-height: 1.5em;;
+}
