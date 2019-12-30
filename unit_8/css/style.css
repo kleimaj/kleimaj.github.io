@@ -143,7 +143,7 @@ body{
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     body{
         font-size: 25px;
     }
@@ -223,5 +223,31 @@ body{
         position: relative;
         top: -136px;
         left: 270px;
+    }
+}
+@media (max-width:850px) and (min-width:450px) {
+    .card h3,img,p{
+        text-align: center;
+    }
+    .card_label{
+        /* background-color: brown; */
+        width: 100%;
+        text-align: center;
+        display: block;
+        position: relative;
+        left: -50px;
+    }
+    .card_label h3,p{
+        text-align: center;
+    }
+    .card {
+        text-align: center;
+    }
+    #palmtree {
+        position: relative;
+        left: 75px;
+    }
+    #profile{
+        text-align: center;
     }
 }
