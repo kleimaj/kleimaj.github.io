@@ -41,11 +41,12 @@ p {
 footer {
     background-color: #6514a7;
     position: relative;
+    text-align: center;
     top: 40px;
 }
 footer img{
     position: relative;
-    top:-20px;
+    /* top:-20px; */
 }
 footer h2{
     z-index: 2;
@@ -115,7 +116,9 @@ footer h2{
 #takeaways img{
     text-align: center;
     position: relative;
-    left: 25%;
+    display: block;
+    margin: auto;
+    /* left: 25%; */
 }
 #takeaways p{
     padding: 0 20px;
@@ -134,26 +137,115 @@ footer h2{
 }
 .goal img{
     float: left;
-    display: block;
+    display: inline-block;
     position: relative;
-    left:10px;
+    text-align: center;
+    /* left: 5%; */
 }
 .goal h3{
     font-size: 1em;
     position: relative;
     top: -20px;
-    left: 40px;
+    text-align: center;
 }
 .goal{
     display:block;
     position: relative;
-    padding: 5px;
+    padding:  5px 15px;
 }
 .info {
     display: inline-block;
     width: 40%;
     text-align: center;
 }
-/* @media (min-width: 480px){
-
-} */
+@media (min-width: 560px){
+    .goal img{
+        left: 15%;
+    }
+    #prototyping img {
+        text-align: center;
+        /* display: block; */
+    }
+    #paper {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        /* left: 20%; */
+    }
+    #takeaways img{
+        position: relative;
+        margin: auto;
+        display: block;
+        /* left: 35%; */
+    }
+    #branding img{
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    #phones {
+        display: block;
+    }
+}
+@media (min-width: 700px){
+    #problem_solution {
+        /* background-color: yellow; */
+        /* display: block; */
+        width: auto;
+        padding: 0 100px;
+        /* padding: 50px; */
+    }
+    .goal img{
+        left: 25%;
+    }
+}
+@media (min-width: 1000px){
+    #problem_solution {
+        padding: 0 200px;
+    }
+    .goal img{
+        left: 30%;
+    }
+    #takeaways p{
+        width: auto;
+        padding: 0 100px;
+    }
+    #branding p {
+        width: auto;
+        padding: 0 100px;
+    }
+}
+@media (min-width: 1200px){
+    #problem_solution {
+        padding: 0 400px;
+    }
+    #takeaways p{
+        padding: 0 20px;
+    }
+    #branding p {
+        width: auto;
+        padding: 0 300px;
+    }
+    .takeaway_item {
+        display: inline-block;
+        width: 30%;
+        float: left;
+    }
+    #moodboards img {
+        float: left;
+        padding: 20px;
+        /* left: 15%; */
+    }
+}
+@media (min-width: 1400px){
+    .goal img{
+        left: 35%;
+    }
+}
+@media (min-width: 1850px){
+    .goal img{
+        left: 40%;
+    }
+}
