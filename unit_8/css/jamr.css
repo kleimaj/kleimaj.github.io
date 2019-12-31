@@ -37,6 +37,9 @@ footer {
     top:25px;
     text-align: center;
     background-color: #1F14A7;
+    z-index: 2;
+    border-radius: 5px 5px 0 0;
+    
 }
 #button{
     z-index: 2;
@@ -66,6 +69,7 @@ footer {
 }
 #problem_solution {
     padding: 5px 15px;
+    border-radius: 15px;
     background-color: white;
 }
 #problem_solution p{
@@ -98,6 +102,7 @@ footer {
     padding: 0 10px;
 }
 #goals{
+    border-radius: 10px;
     background-color: white;
 }
 #goals h2{
@@ -142,6 +147,9 @@ footer {
 }
 #wireframes{
     background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
 }
 #wireframes img{
     text-align: center;
@@ -184,7 +192,7 @@ footer {
 } 
 #future_work {
     position: relative;
-    top: 50px;
+    top: 60px;
     /* padding: 15px; */
     background-color: white;
     color: black;
@@ -237,6 +245,7 @@ footer {
         left: 2%;
         padding: 0 10px;
     }
+
     
     #future_work ol{
         padding: 25px;
@@ -246,9 +255,13 @@ footer {
     }
 }
 @media (min-width: 560px){
+    body{
+        font-size: 25px;
+    }
+
     #problem_solution{
         width: auto;
-        padding: 25px;
+        padding: 25px 15%;
     }
     #final p{
         padding: 0 50px;
@@ -257,7 +270,12 @@ footer {
         left: 15%;
     }
     .goal{
-        padding: 0 75px;
+        padding: 0 10%;
+        display: block;
+        margin: auto;
+    }
+    #userflow h3, p {
+        padding: 0 20%;
     }
 }
 @media (min-width: 1000px){
@@ -265,13 +283,17 @@ footer {
         padding: 25px 20%;
     }
     #final p{
-        padding: 0 20%;
+        padding: 0 30%;
     }
     .item{
         left: 20%;
     }
+    
     .goal{
         padding: 0 25%;
+    }
+    #wireframes{
+        padding: 0 10%;
     }
     #userflow h3{
         padding: 0 25%;

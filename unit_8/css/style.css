@@ -13,12 +13,12 @@ body{
 }
 .card_label {
     position: relative;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .card{
     text-align: center;
     text-decoration: none;
-    display: block;    
+    display: inline-block;    
     color: white;
     border-radius: 0 0 0 25px;
     width: 100%;
@@ -121,6 +121,10 @@ body{
         visibility: visible;
         
     }
+    .card{
+        position: relative;
+        padding-bottom: 25px;
+    }
     #CoLab img {
         position: relative;
         margin: auto;
@@ -139,10 +143,16 @@ body{
     .card_label {
         position: relative;
         bottom:40px;
+        height: 190px;
     }
 
 }
-
+@media (min-width: 850px) {
+    body{
+        position: relative;
+        top: 50px;
+    }
+}
 @media (max-width: 850px) {
     body{
         font-size: 25px;
@@ -242,6 +252,8 @@ body{
     }
     .card {
         text-align: center;
+        height: 190px;
+
     }
     #palmtree {
         position: relative;

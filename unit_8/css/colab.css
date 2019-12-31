@@ -176,7 +176,7 @@ footer h2{
     #takeaways img{
         position: relative;
         margin: auto;
-        display: block;
+        /* display: inline-block; */
         /* left: 35%; */
     }
     #branding img{
@@ -202,6 +202,9 @@ footer h2{
     }
 }
 @media (min-width: 1000px){
+    body{
+        font-size: 30px;
+    }
     #problem_solution {
         padding: 0 200px;
     }
@@ -219,24 +222,32 @@ footer h2{
 }
 @media (min-width: 1200px){
     #problem_solution {
-        padding: 0 400px;
+        padding: 0 30%;
     }
     #takeaways p{
         padding: 0 20px;
     }
     #branding p {
         width: auto;
-        padding: 0 300px;
+        padding: 0 30%;
     }
     .takeaway_item {
         display: inline-block;
         width: 30%;
-        float: left;
+        /* float: left; */
+        position: relative;
+        left: 5%;
+    }
+    #moodboards {
+        display: block;
+        margin: auto;
+        text-align: center;
     }
     #moodboards img {
         float: left;
-        padding: 20px;
-        /* left: 15%; */
+        padding: 15px;
+        /* left: 25%; */
+        /* left: 10%; */
     }
 }
 @media (min-width: 1400px){
