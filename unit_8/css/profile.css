@@ -223,9 +223,11 @@ a {
         margin: 0;
         text-align: left;
         padding: 0;
+        display: block;
+        margin: auto;
         position: relative;
         width: 70%;
-        left: 25%;
+        /* left: 25%; */
     }
     footer {
         width: 90%;
@@ -293,7 +295,7 @@ a {
         /* background-color: black; */
     }
     p {
-        left: 20%;
+        /* left: 20%; */
     }
     .card {
         text-align: center;
@@ -319,8 +321,8 @@ a {
         margin-top: 20px;
     }
     p {
-        width: 90%;
-        left: 4%;
+        /* width: 90%; */
+        /* left: 4%; */
         font-size: .9em;
         line-height: 1.4em;
     }
