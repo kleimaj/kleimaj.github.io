@@ -17,6 +17,7 @@ html, body {
 body{
     font-size: 20px;
     width: 100%;
+    text-align: center;
     margin: 0;
     background-color: #0DBBA3;
     color: white;
@@ -37,6 +38,7 @@ h2 {
 }
 p {
     font-family: 'Montserrat';
+    text-align: left;
 }
 footer {
     background-color: #6514a7;
@@ -91,7 +93,7 @@ footer h2{
 #problem_solution h2 {
     text-align:left;
 }
-#background_info{
+#background_info p{
     text-align: center;
 }
 #occaison{
@@ -134,6 +136,32 @@ footer h2{
 }
 #final_design{
     text-align: center;
+}
+#yt {
+    padding: 15px;
+    width: 560px;
+    height: 315px;
+}
+#team{
+    margin: 0 auto;
+    display: inline-block;
+}
+.teammate{
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.teammate img{
+    width: 150px;
+      border-radius: 1000px;
+}
+.teammate p{
+    line-height: .5em;
+    position: relative;
+    text-align: center;
+    top: -10px;
 }
 .goal img{
     float: left;
@@ -189,6 +217,12 @@ footer h2{
         display: block;
     }
 }
+@media (max-width: 650px) {
+    #yt {
+        width: 345px;
+        height: 235px;
+     }
+}
 @media (min-width: 700px){
     #problem_solution {
         /* background-color: yellow; */
@@ -218,6 +252,15 @@ footer h2{
     #branding p {
         width: auto;
         padding: 0 100px;
+    }
+}
+@media (max-width: 1100px) {
+    .teammate{
+        font-size: 15px;
+    }
+    .teammate img{
+        width: 90px;
+          border-radius: 1000px;
     }
 }
 @media (min-width: 1200px){

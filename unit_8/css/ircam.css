@@ -38,6 +38,7 @@ footer {
     color: black;
     text-align: center;
     padding: 30px;
+    border-radius: 5px;
 }
 footer a{
     color: black;
@@ -71,6 +72,8 @@ footer a{
     background-color:white;
     padding: 20px;
     margin: 20px 0px;
+    border-radius: 5px;
+
 }
 #background_info li {
     list-style: none;
@@ -89,6 +92,8 @@ footer a{
 #mii {
     padding: 5px 0px;
     background-color: #414141;
+    border-radius: 5px;
+
 }
 #ircam h2 {
     text-align: center;
@@ -96,9 +101,14 @@ footer a{
 #ircam p {
     padding: 0 15px;
 }
+#ircam{
+    border-radius: 5px;
+}
 #process {
     background-color: #414141;
     padding: 15px;
+    border-radius: 5px;
+
 }
 #metadata {
     text-align: center;

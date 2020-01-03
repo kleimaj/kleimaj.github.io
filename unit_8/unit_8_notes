@@ -33,3 +33,6 @@ Viewport: width of screen
 all mobile devices have two orientations
 We typically set two breakpoints. one for tablets (portrait and landscape)
 and one for portrait oriented small screens
+
+make images links, link goes to image
+https://css-tricks.com/almanac/properties/t/transition/

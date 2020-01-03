@@ -163,6 +163,12 @@ body{
     #CoLab h3{
         padding: 15px;
     }
+    #desktop_cards{
+        position: relative;
+        left: 5%;
+        margin: auto;
+        text-align: center;
+    }
 }
 @media (max-width: 850px) {
     body{
