@@ -37,6 +37,15 @@ a:hover{
     color: white;
     font-family: 'Montserrat';
 }
+#umg{
+    display: inline;
+}
+#music{
+    display: inline;
+}
+#music:hover{
+    font-family: 'Shrikhand';
+}
 @media (max-width: 850px) {
     a{
         color:black;
@@ -337,7 +346,7 @@ a:hover{
         margin-top: 20px;
     }
     p {
-        /* width: 90%; */
+        width: 90%;
         left: 4%;
         font-size: .9em;
         line-height: 1.4em;
