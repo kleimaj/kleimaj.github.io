@@ -35,7 +35,7 @@ p{
 }
 footer {
     position: relative;
-    top:25px;
+    top:50px;
     text-align: center;
     background-color: #1F14A7;
     z-index: 2;
@@ -168,6 +168,7 @@ footer {
 #userflow img{
     display: block;
     margin: auto;
+    width:350px;
 }
 #wireframes h1{
     text-align: center;
