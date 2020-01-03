@@ -8,6 +8,7 @@
     user-select: none;
 }
 body{
+    overflow-x: hidden;
     font-size: 30px;
 }
 h1,h2{
@@ -18,8 +19,15 @@ p {
     color: #707070;
 }
 a {
-    color: black;
+    -moz-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    transition: color .2s ease-in;
+    color: #707070;
     display: block;
+}
+a:hover{
+    color:black;
 }
 .card h3 {
     font-family: 'Alatsi';
@@ -29,8 +37,10 @@ a {
     color: white;
     font-family: 'Montserrat';
 }
-@media (min-width: 850px) {
-
+@media (max-width: 850px) {
+    a{
+        color:black;
+    }
 }
 @media (min-width: 480px){
 /* Browser */
