@@ -101,6 +101,15 @@ body{
     background-color: #1F14A7;
     z-index: 1;
 }
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  
 @font-face{
     font-family: "Rage";
     src: url("../../fonts/RAGE.TTF");

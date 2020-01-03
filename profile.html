@@ -7,37 +7,50 @@
         <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Raleway|Open+Sans|Alatsi|Shrikhand&display=swap');
         </style>
+        <meta name="viewport" content="width=device-width">
+
     </head>
-    <body>
+    <body class="noSelect">
         <header>
-            <nav id="header_nav">
-                <a id="header_link" href="index.html">Back To Works</a>
+            <nav id = "mobile_header">
+            <a href="index.html"><img id = "mobile_logo" src="Logo.svg" alt="Logo"> </a>
+            <a id="mobile_back" href="index.html">Back To My Projects</a>
+            </nav>
+            <nav id = "browser_header">
+                <a href="index.html"><img id = "logo" src="Logo.svg" alt="Logo"> </a>
+                <a href="index.html" id="back">Back To My Projects</a>
             </nav>
         </header>
         <main>
-            <div id="main_text">
-                <h1>Jacob Kleiman</h1>
-                <h2>Junior Developer</h2>
-                <p class="bio">I'm Jacob, and I'm a junior developer with a bachelor's degree in computer science and ux design.
+            <img id = "headshot" src="images/headshots/jacob_img.svg" alt="headshot">
+            <h2>About Me</h2>
+            <p>I'm Jacob Kleiman, and I'm a junior developer with a bachelor's degree in computer science and ux design.
                     I graduated from Western Washington University in the Spring of 2019,
-                    and I'm currently working at <a class="bio_a" href="https://www.universalmusic.com/">Universal Music Group</a> in the Greater Los Angeles Area. </p>
-                    <strong>Software</strong>
-                    <p class="bio">During my college years, I grew more and more passionate about technology.
-                I love math and solving complex algorithms, as well as learning new technology. My unique talent is seeing the bigger picture in software, 
-                and bringing that picture to life in the most efficient,
-                human-centered way possible.</p>
-                <strong>UX Design</strong><p class="bio">Until this past year, I was able to participate in a UX project, and discovered my passion for researching, ideating, and prototyping. 
-                User experience design is so fundamental for software development, if a product does not provide a meaningful experience to the user, it's not worth the time to create.
-                </p>
-                <strong>Music</strong><p class="bio">Music is my will to live. It allows me to be the most in touch with myself, and perfectly aligns me outside of work.
-                Based on my works, it's evident that I will tend to embed music in everything that I do, because it's my primary identity. I would be lost without my love for music.</p>
-
-            </div>
-            <div id="main_image">
-                <img id="profile_image" src="images/IMG_3129.JPG" alt="">
+                    and I'm currently working at <a class="bio_a" href="https://www.universalmusic.com/">Universal Music Group</a> in the Greater Los Angeles Area.</p>
+            <p id="motivation">I'm looking to explore memorable experiences, whether that be through software development, UX design, or <a href="music.html">music</a>.</p>
+            <div id="Contact">
+            <h2>Contact</h2>
+            <nav id="contact_links" class="clearfix">
+            <a href="mailto:jacobakleiman@gmail.com">jacobakleiman@gmail.com</a>
+            <a href="https://www.linkedin.com/in/jacob-kleiman-577946160/">Linkedin</a>
+            <a href="https://github.com/kleimaj">Github</a>
+            <a href="JacobKleimanResume.docx" download>Resume</a>
+            </nav>
             </div>
         </main>
         <footer>
-
-            </footer>
+            <a href ="colab.html" id = "Colab" class = "card" class="clearfix">
+                <h3>Co.Lab</h3>
+                <p>UX Case Study</p>
+            </a>
+            <a href ="jamr.html" id = "Jamr" class = "card" class="clearfix">
+                    <h3>Jamr</h3>
+                    <p>Mobile Project</p>
+            </a>
+            <a href ="ircam.html" id="ircam" class = "card" class="clearfix">
+                    <h3>ircam</h3>
+                    <p>Music Classifier</p>
+            </a>
+        </footer>
     </body>
+</html>

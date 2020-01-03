@@ -7,59 +7,45 @@
         <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Raleway|Open+Sans|Alatsi|Shrikhand&display=swap');
         </style>
-        <script lang="en" src="function.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width">
 
     </head>
-    <body>
+    <body class="noSelect">
         <header>
-            <nav id = "header_nav">
-                <div id=home>
-                    <p class="header_text" id = "header_name"><a class="a_nav" href="#">Jacob</a></p>
-                    <p class = "header_subname"><a class="a_nav" href="#">Junior Developer</a></p>
+            <a href="#"><img id="header_logo" src="Logo.svg" alt="logo"></a>
+            <span id = "right_nav">
+            <a id="about" href="profile.html">Profile</a>
+            <a id="header_palmtree" href="music.html"><img src="images/portfolio_icons/header_palmtree.svg" alt="Palm Tree"></a>
+            </span>
+        </header>
+        <main>
+            <a class = "card" id = "profile" href="profile.html">
+                <img id = "logo" src="Logo.svg" alt="logo">
+                <img id = "palmtree" src="images/portfolio_icons/palm_tree.svg" alt="Palm Tree">
+            </a>
+            <div id="desktop_cards">
+            <a class = "card" id = "CoLab" href="colab.html">
+                <div class="card_label">
+                <h3>Co.Lab</h3>
+                <p>UX Project</p>
+                <img class ="icon" src="images/portfolio_icons/group.svg" alt="Co.Lab Icon">
                 </div>
-                <p class="header_text" id = "header_music"><a class="a_nav">🌴</a></p>
-                <!-- <p class="header_text" id = "header_works">My Works</p> -->
-                <p class="header_text" id = "header_profile"><a href="profile.html" class="a_nav"><b>Profile</b></a></p>
-                
-            </nav>
-            </header>
-            <main>
-            <div id="hero">
-            <section id = "hero_text">
-                <h1 id="first">Jacob Kleiman</h1>
-                <article id="profile_text">
-                    <h2 id="quote">Quote Here</h2>
-                    <p id="bio">Thanks for visiting my site! I'm Jacob, and I'm a junior developer. I'm currently working as a </br>Research Analyst at Universal Music Group in the Greater Los Angeles Area.
-                    <a href="profile.html">Read more...</a></p>
-                    <span id="links">
-                       <a href="https://github.com/kleimaj"><img id = "git_logo" src="images/git.svg"></a> 
-                       <a href="https://www.linkedin.com/in/jacob-kleiman-577946160/"><img id ="linkedin_logo" src="images/linkedin.jpg"></a>
-                       <a href="mailto:jacobakleiman@gmail.com"><img id="mail_logo" src="images/mail.jpg"></a>
-                   </span>
-                </article>
-        </section>
-            <!-- <img id="hero_image" alt="" src="images/IMG_3129.JPG"> -->
-            <img id="landscape_image" alt="" src="images/landscape.JPG">
-        </div>
-    </main>
-        <footer>
-            <div class ="footer_project">
-                <a class="footer_link" href="./projects/colab.html">Co.Lab</a>
-                <a class="footer_sublink" href="./projects/colab.html">UX Project</a>
+            </a>
+            <a class = "card" id = "Jamr" href="jamr.html">
+                <div class="card_label">
+                <h3>Jamr</h3>
+                <p>Mobile Project</p>
+                <img class ="icon" src="images/portfolio_icons/jamr_logo_blak.svg" alt="Jamr Icon">
+                </div>
+            </a> 
+            <a class = "card" id = "ircam" href="ircam.html">
+                <div class="card_label">
+                <h3>ircam</h3>
+                <p>Music Classifier</p>
+                <img class ="icon" src="images/portfolio_icons/ircam.svg" alt="Ircam Icon">
+                </div>
+            </a>
             </div>
-            <div class ="footer_project">
-                <a class="footer_link" href="#">Jamr</a>
-                <a class="footer_sublink" href="#">Mobile Device Project</a>
-            </div>
-            <div class ="footer_project">
-                <a class="footer_link" href="#">ircam</a>
-                <a class="footer_sublink" href="#">Music Classifier</a>
-            </div>
-            <div class ="footer_project">
-                <a class="footer_link" href="#">M.o.M</a>
-                <a class="footer_sublink" href="#">Graphic Design Project</a>
-            </div>
-        </footer>
+        </main>
     </body>
 </html>

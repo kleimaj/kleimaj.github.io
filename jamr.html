@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <title>Jacob Kleiman | Junior Developer</title>
+        <link rel="stylesheet" type="text/css" href="css/jamr.css">
+        <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/apple/232/palm-tree_1f334.png">
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Raleway|Open+Sans|Alatsi|Shrikhand&display=swap');
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body class="noSelect">
+        <main>
+            <a id = "button" href="index.html">Close This Shi*t</a>
+        <div id="logo_whole">
+        <img id="logo" src="images/jamr/jamr_logo.png" alt="Jamr Logo">
+        <h2 id="subhead">Music Networking App</h2>
+        </div>
+        <div id="problem_solution">
+            <h2>Problem:</h2>
+            <p>In can be difficult to network with other
+                artists without connections, as well as
+                finding likeminded people in a big city.</p>
+            <h2>Proposed Solution:</h2>
+            <p>A mobile app to express your talents and
+                goals, find other artists to meet, inspire,
+                and collaborate.</p>
+        </div>
+        <h2>The Team</h2>
+                <div id="team">
+                    <div class="teammate">
+                    <img src="images/jamr/kanghui.jpg" alt="Kanghui">
+                    <h3>Kanghui Liu</h3>
+                    <p>Back-End Developer, Database Developer</p>
+                    </div>
+                    <div class="teammate">
+                        <img src="images/jamr/jacob.JPG" alt="Jacob">
+                        <h3>Jacob Kleiman</h3>
+                        <p>Front-End Developer, UX Designer</p>
+                    </div>
+                    <div class="teammate">
+                        <img src="images/jamr/81916666_738733756650447_3502969446807371776_n.jpg" alt="Owen">
+                        <h3>Owen Sheets</h3>
+                        <p>Back-End Developer, Technical Documentation</p>
+                    </div>
+                    <div class="teammate">
+                        <img src="images/jamr/ryan.jpg" alt="Ryan">
+                        <h3>Ryan McGinnis</h3>
+                        <p>Front-End Developer</p>
+                    </div>   
+                </div> 
+        
+        <div id="background_info">
+            <div class="item">
+            <h3>Platform</h3>
+            <ul>
+                <li>Android OS</li>
+                <li>XML (frontend)</li>
+                <li>Java (backend)</li>
+            </ul>
+            </div>
+            <div class="item">
+            <h3>Role</h3>
+            <ul>
+                <li>Developer</li>
+                <li>Design</li>
+            </ul>
+            </div>
+            <div style='clear:both'></div>
+            <div class="item">
+            <h3>Occaison</h3>
+            <ul>
+                <li>Mobile Application Development</li>
+                <li>WWU</li>
+            </ul>
+            </div>
+            <div class="item">
+            <h3>Repository</h3>
+            <a id ="git" href="https://github.com/kleimaj/Jamr">
+                <img src="images/jamr/git_white.png" alt="github icon">
+            </a>
+            </div>
+            <div style='clear:both'></div>
+
+        </div>
+            <div id="goals">
+                <h2>Implementation Goals</h2>
+                <div class ="goal">
+                <img src="images/jamr/group.png" alt="Group picture">
+                <h3>Advanced Matching</h3>
+                <p>Query users based on preferred genre
+                    and musical identity</p>
+                </div>
+                <div class="goal">
+                    <img src="images/jamr/chat.png" alt="Chat icon">
+                    <h3>Instant Chat Feature</h3>
+                    <p>Allow users to meet and chat via Google 
+                        Firebase client/server architecture</p>     
+                </div>
+                <div class="goal">
+                    <img src="images/jamr/user (1).png" alt="User Icon">
+                    <h3>Unique Artist Profiles</h3>
+                    <p>Identify as a group or artist, and design 
+                        a unique profile to express your interests</p>     
+                </div>
+            </div>
+            <div id="userflow">
+                <h1>User Flow Process</h1>
+                <img src="images/jamr/MVC.png" alt="User Flow">
+                <h3>Model</h3>
+                <p>The project was revolved around the Model View Controller design pattern. Models include “Artist” and “Group” profiles, containing strings for display names, and arrays for genres, skills, and preferences.</p>
+                <h3>View</h3>
+                <p>The view relies on responsive frontend elements, implemented in XML with Android Studio. We ensured responsive design with constraint layouts on every screen.</p>
+                <h3>Controller</h3>
+                <p>Controller elements include the database manager. Since our database (Google Firebase) behaves asynchronously, we utilized database and connection controllers for function callbacks.</p>
+            </div>
+            <div id="wireframes">
+                <h1>Wireframes</h1>
+                <img src="images/jamr/wire1.png" alt="wireframe">
+                <img src="images/jamr/wire2.png" alt="wireframe">
+                <img src="images/jamr/wire3.png" alt="wireframe">
+                <img src="images/jamr/wire4.png" alt="wireframe">
+                <img src="images/jamr/wire5.png" alt="wireframe">
+                <img src="images/jamr/wire6.png" alt="wireframe">
+            </div>
+            <div id="final">
+                <h1>Final Implementation</h1>
+                <p id="users">Users sign up or log in</p>
+                <div id="rect_bg1">
+                    <div id="images">
+                <img src="images/jamr/Login.png" alt="login">
+                <img src="images/jamr/register.png" alt="register">
+                </div>
+                <div id="images1">
+                    <p>Create individual user profile, instance of “Artist” or “Band” initialized in the Google Firebase backend.
+                        Instance retrieved on login</p>
+                    <img src="images/jamr/Profile.png" alt="profile">
+                
+                </div>
+                <div style='clear:both'></div>
+                </div>
+                <div id="images2">
+                <div id="rect_bg2">
+                <img src="images/jamr/sophiaswipe.png" alt="sophia">
+                <img src="images/jamr/inbox.png" alt="chat">
+                </div>
+                <p id ="p_float">Find other users populated in database. Query user results based on user preferred traits (genre or musical identity)</p>
+                <div id="images3">
+                <img src="images/jamr/JFunk.png" alt="jfunk profile">
+                </div>
+                <div style='clear:both'></div>
+                </div>
+            </div>
+            <div id="future_work">
+                <h2>Future Work</h2>
+                <ol>
+                    <li>Redesign frontend based on research and user feedback</li>
+                    <li>Develop location-based matching </li>
+                    <li>Implement for iOS</li>
+                </ol>
+                </div>
+            </main>
+            <footer>
+                <a href="ircam.html">
+                    <h1>ircam</h1>
+                    <p>See the next project!</p>
+                </a>
+            </footer>
+    </body>
+</html>

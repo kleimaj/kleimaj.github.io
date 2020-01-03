@@ -1,252 +1,304 @@
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
 body{
-    text-align: center; 
-    /*position: relative;*/
+    font-size: 30px;
+    margin:0;
 }
-footer{
-    background-color: #DDDDDD;
-    display: inline-block;
-    width: 100%;
-    bottom:-10px;
-    height: 100px;
-    position: fixed;
-    z-index: 1;
-    left:0%;
+.card_label {
+    position: relative;
+    /* margin: 0 auto; */
 }
-
-.header_text{
-    display: inline;
-    font-weight: bold;
-}
-.a_nav{
-    color:black;
+.card{
+    text-align: center;
     text-decoration: none;
-    font-weight: normal;
+    display: inline-block;    
+    color: white;
+    border-radius: 0 0 0 25px;
+    /* left: 15%; */
+    /* width: 100%; */
+    /* margin: 50px; */
+    float:left;
+    margin-top: -20px;
+    padding: 10px;
+    /* margin: 10px; */
+    position: relative;
+    height: 200px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.7);
 }
-.project_article{
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-.project_aside{
-    padding: 20px;
-    overflow: hidden;
-    float: right;   
-    width: 62%;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-.footer_project{
-    /*width:100px;*/
-    display:inline-block;
+.card h3{
+    font-family: 'Alatsi', normal;
+    font-size: 2em;
 
 }
-.footer_link{
-    padding: 0 100px;
-    display: block;
-    font-family: 'Alatsi',regular;
-    /*background-color: yellow;*/
-    color:black;
-    font-size:30px;
+.card p{
+    font-family: 'Montserrat', bold;
 }
-.footer_sublink{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
+#header_logo{
+    width:250px;
+    position: relative;
+    left: 15%;
+    display: inline-block;
+}
+#right_nav {
+    float: right;
+}
+#about{
+    /* float: right; */
+    text-decoration: none;
     color: black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    position: relative;
+    right: 220px;
 }
-#two_column {
-    /*background-color: #FFB7CF;*/
-    /*border: 1px black solid;*/
-    padding: 20px;
+#header_palmtree{
+    position: relative;
+    right: 120px;
+    top:20px;
 }
 
-#links{
-    /*float:left;*/
-    /* z-index: 2; */
-    /* margin-right: 100px; */
-    /* background-color: yellow; */
-    position: relative;
-    /* z-index: 3; */
-    /* height:300px; */
-}
-#git_logo{
-    width:40px;
-    padding:20px;
-}
-#linkedin_logo{
-    width:40px;
-    padding:20px;
-}
-#mail_logo{
-    width:40px;
-    padding:20px;
-}
-
-#colab_photo{
-    position: relative;
-    /*left: 1000px;*/
-    /*right:50px;*/
-    /*height:10px;*/
-    /*width: 30%;*/
-    /*width:1500px;*/
-    height:600px;
-}
-#jamr_photo{
-    position: relative;
-    /*width: 1500px;*/
-    height: 600px;
-}
-
-#ircam_photo{
-    position: relative;
-    height:600px;
-}
-#mom_photo{
-    position: relative;
-}
-
-#home {
-    line-height: 0.5em;
-    display: inline;
-    font-weight: normal;
-    margin: 35px 0 0 100px;
-    float: left;
-}
-#header_nav {
-    z-index: 1;
-    background-color: white;
-    position: fixed;
-    /*opacity: .8;*/
-    /*border-bottom: 2px solid black;*/
-    top:0;
+#profile {
+    box-shadow: none;
+    text-align: left;
+    display: inline-block;
     width:100%;
-    height: 100px;
 }
-
-#header_name {
-    font-weight: bold;
-    font-size: 40px;
-    /* font-family: 'Shrikhand',regular; */
+#profile h1{
     font-family: 'Rage';
-    margin: 0px;
+    font-weight: normal;
+    font-size: 3em;
 }
-#header_subname{
-    float: left;
-    
+#profile h2{
+    font-family: 'Alatsi', normal, 1em;
 }
-#header_profile {
-    margin: 40px 95px 0 0;
-    float: right;
+#CoLab {
+    background-color: #0DBBA3;
+    z-index: 3;
 }
-#header_works {
-    margin: 40px 35px 0 0px;
-    float: right;
+#CoLab p{
+    position: relative;
+    bottom:30px;
 }
-#header_music {
-    margin: 35px 35px 0 0px;
-    font-size: 24px;
-    float: right;
+#CoLab h3{
+    position: relative;
+    bottom:30px;
 }
-
-#hero {
-     /*background-color: yellow; */
-     /*border: 2px solid black;*/
+#CoLab img{
+    position: relative;
+}
+#Jamr {
+    background-color: #6514a7;
+    z-index: 2;
+}
+#ircam {
+    background-color: #1F14A7;
+    z-index: 1;
+}
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
     overflow: hidden;
-    position: relative;
-    /*min-height: 800px;*/
-    /*padding:10px;*/
-    /*width:2000px;*/
-    /*float:right;*/
-     height: 810px; 
-}
-#landscape_image{
-    position: relative;
-    height:800px;
-    /*width: 80%;*/
-    left:500px;
-    bottom:500px;
-    z-index: -1;
-}
-#hero_text{
-    /*float:left;*/
-    /* background-color: yellow; */
-    /* width:100%; */
-    /* margin: 1em 0 0 3em; */
-}
-#first {
-    /* font-weight: bold; */
-    width: 45%;
-    line-height: 4em;
-    /* margin: 0px; */
-    /* background-color: red; */
-    font-size:80px;
-    /* font-family: 'Open Sans',sans-serif; */
-    font-family: 'Alatsi',regular;
-    font-weight: bold;
-}
-#profile_text{
-    /* background-color: aqua; */
-    width:45%;
-    margin: -5em 0;
-    /* margin: 1em 0 0em 3em; */
-}
-#quote{
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-size: 42px;
-}
-#bio{
-    line-height: 2em;
-}
-#hero_image{
-    position: relative;
-    z-index: -1;
-    /*left:30%;*/
-    /*top:0%;*/
-    /* border: 3px solid black; */
-    /* background-color: yellow; */
-    bottom:500px;
-    left: 800px;
-    display: block;
-    /*bottom:30%;*/
-    /*top: 100%;*/
-    /*top:-1000px;*/
-    transform: rotate(90deg);
-    filter: grayscale(100%);
-    /*max-width: 75%;*/
-    height:900px;
-}
-
-
-@font-face{
-    font-family: "Superfly";
-    src: url("../fonts/SUPERFLY.TTF");
-}
+  }
+  
 @font-face{
     font-family: "Rage";
-    src: url("../fonts/RAGE.TTF");
+    src: url("../../fonts/RAGE.TTF");
 }
+@media (min-width: 750px){
+    main {
+        position: relative;
+        top: 75px;
+    }
+}
+@media (min-width: 480px){
+    
+    #profile {
+        visibility: hidden;
+        display: none;
+    }
+    .card h3 {
+        position: relative;
+        bottom: 15px;
+    }
+    .card p{
+        position: relative;
+        visibility: hidden;
+    }
+    .card :hover > p{
+        visibility: visible;
+        
+    }
+    .card{
+        position: relative;
+        padding-bottom: 25px;
+    }
+    #CoLab img {
+        position: relative;
+        margin: auto;
+        bottom:160px;
+    }
+    #Jamr img {
+        position: relative;
+        margin: auto;
+        bottom:140px;
+    }
+    #ircam img {
+        position: relative;
+        margin: auto;
+        bottom:140px;
+    }
+    .card_label {
+        position: relative;
+        bottom:40px;
+        height: 190px;
+    }
 
-a{
-    color:darkviolet;
-    text-decoration: none;
-    font-weight: bolder;
 }
-h1{
-    font-family: 'Alatsi',regular;
-    font-size: 50px;
+@media (min-width: 850px) {
+    body{
+        position: relative;
+        top: 50px;
+    }
+    .card{
+        position: relative;
+        margin: 5%;
+        left: 5%;
+        border-radius: 25px;
+    }
+    #CoLab h3{
+        padding: 15px;
+        bottom: 25px;
+    }
+    #desktop_cards{
+        position: relative;
+        left: 5%;
+        margin: auto;
+        text-align: center;
+    }
 }
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: normal;
-    /*text-transform: capitalize;*/
+@media (max-width: 850px) and (min-width: 480px){
+    #CoLab p{
+        position: relative;
+        top: 0px;
+    }
 }
-p {
-font-family: 'Montserrat', sans-serif;
+@media (max-width: 850px) {
+    body{
+        font-size: 25px;
+    }
+    header {
+        display: none;
+    }
+    #profile {
+        background-color: white;
+        z-index: 4;
+        width: 110%;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.7);
+    visibility: visible;
+    display: block;
+    }
+    #CoLab p{
+        position: relative;
+    }
+    #logo{
+        width: 200px;
+        margin-top: 100px;
+        padding-bottom: 20px;
+        margin-left: 45px;
+    }
+    .card_label{
+        display: inline-block;
+    }
+    
+    .card{
+        text-align: left;
+        float: none;
+        width: 110%;
+        height: 230px;
+        margin-top: -80px;
+        padding-top: 10px;
+        position: relative;
+        display: block;
+        box-shadow: 0px 4px 5px rgba(0,0,0,.7);
+    }
+    .card h3{
+        margin-left: 75px;
+        top: 40px;
+        /* background-color: blue; */
+        position: relative;
+        line-height: 1em;
+        text-align: left;
+        padding-top: 50px;
+    }
+    .card p{
+        text-align: center;
+        left: 35px;
+        visibility: visible;
+        /* background-color: chartreuse; */
+    }
+    .icon {
+        /* padding-left: 200px; */
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        top: -100px;
+    }
+    #palmtree{
+        position: relative;
+        left:20px;
+        bottom: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .card h3{
+        position: relative;
+        top: -1px;
+    }
+    .card p{
+        position: relative;
+        top: -40px;
+    }
+    .icon{
+        position: relative;
+        top: -136px;
+        left: 270px;
+    }
+}
+@media (max-width:850px) and (min-width:450px) {
+    .card h3,img,p{
+        text-align: center;
+    }
+    .card_label{
+        /* background-color: brown; */
+        width: 100%;
+        text-align: center;
+        display: block;
+        position: relative;
+        left: -50px;
+    }
+    .card_label h3,p{
+        text-align: center;
+    }
+    .card {
+        text-align: center;
+        height: 190px;
+
+    }
+    #palmtree {
+        position: relative;
+        left: 75px;
+    }
+    #profile{
+        text-align: center;
+    }
 }

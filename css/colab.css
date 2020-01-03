@@ -1,44 +1,305 @@
-header{
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
-.row::after{
-    content:"";
-    clear:both;
-    display:table;
-}
-#header_nav{
-    text-align: center;
-    z-index: 2;
-    background-color: rgba(255,255,255,0.9);
-    position: fixed;
-    /*border-bottom: 2px solid black;*/
-    top:0;
+html, body {
     width:100%;
-    height: 100px;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
 }
-#gif{
-    display:block;
-    width: 80%;
-    margin: 0 auto 0 auto;
+body{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background-color: #0DBBA3;
+    color: white;
 }
-#close{
+main{ 
     position: relative;
-    top:30px;
-    opacity: 1;
-    background-color: black;
-    border-radius: 5px;
-    color:white;
+    width: 100%;
+}
+h1,h2,h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+h1{
+    font-size:1.5em;
+}
+h2 {
+    font-size: 1.3em;
+}
+p {
+    font-family: 'Montserrat';
+    text-align: left;
+}
+footer {
+    background-color: #6514a7;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+footer img{
+    position: relative;
+    /* top:-20px; */
+}
+footer h2{
     z-index: 2;
-    font-size: 25px;
-    padding: .5em;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+#button{
+    z-index: 2;
+    color:white;
+    background-color: black;
+    font-family: 'Montserrat';
     text-decoration: none;
+    position: fixed;
+    padding: 10px;
+    left: 10%;
+    top: 5%;
+    opacity: 65%;
 }
-#iphone{
-    float:right;
-    width:40%;
-    padding:5px;
+#subheader {
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    text-align: center;
 }
-#iphones{
-float: left;
-width:40%;
-padding:5px;
+#logo {
+    display: block;
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+#problem_solution {
+    width: 90%;
+    padding: 30px;
+}
+#problem_solution p{
+    position:relative;
+    top: -10px;
+}
+#problem_solution h2 {
+    text-align:left;
+}
+#background_info p{
+    text-align: center;
+}
+#occaison{
+    width: 70%;
+}
+#project_goals{
+    margin: 0;
+    background-color: #FEFFF5;
+    color:#0DBBA3; 
+    width: 100%;
+}
+#project_goals h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#prototyping{
+    text-align: center;
+}
+#takeaways h1,h2{
+    text-align: center;
+}
+#takeaways img{
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    /* left: 25%; */
+}
+#takeaways p{
+    padding: 0 20px;
+}
+#branding h1,h2{
+    text-align: center;
+}
+#branding{
+    padding-top:20px;
+}
+#branding p{
+    padding: 0 20px;
+}
+#final_design{
+    text-align: center;
+}
+#yt {
+    padding: 15px;
+    width: 560px;
+    height: 315px;
+}
+#team{
+    margin: 0 auto;
+    display: inline-block;
+}
+.teammate{
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.teammate img{
+    width: 150px;
+      border-radius: 1000px;
+}
+.teammate p{
+    line-height: .5em;
+    position: relative;
+    text-align: center;
+    top: -10px;
+}
+.goal img{
+    float: left;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    /* left: 5%; */
+}
+.goal h3{
+    font-size: 1em;
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+.goal{
+    display:block;
+    position: relative;
+    padding:  5px 15px;
+}
+.info {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+@media (min-width: 560px){
+    .goal img{
+        left: 15%;
+    }
+    #prototyping img {
+        text-align: center;
+        /* display: block; */
+    }
+    #paper {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        /* left: 20%; */
+    }
+    #takeaways img{
+        position: relative;
+        margin: auto;
+        /* display: inline-block; */
+        /* left: 35%; */
+    }
+    #branding img{
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    #phones {
+        display: block;
+    }
+}
+@media (max-width: 650px) {
+    #yt {
+        width: 345px;
+        height: 235px;
+     }
+}
+@media (min-width: 700px){
+    #problem_solution {
+        /* background-color: yellow; */
+        /* display: block; */
+        width: auto;
+        padding: 0 100px;
+        /* padding: 50px; */
+    }
+    .goal img{
+        left: 25%;
+    }
+}
+@media (min-width: 1000px){
+    body{
+        font-size: 30px;
+    }
+    #problem_solution {
+        padding: 0 200px;
+    }
+    .goal img{
+        left: 30%;
+    }
+    #takeaways p{
+        width: auto;
+        padding: 0 100px;
+    }
+    #branding p {
+        width: auto;
+        padding: 0 100px;
+    }
+}
+@media (max-width: 1100px) {
+    .teammate{
+        font-size: 15px;
+    }
+    .teammate img{
+        width: 90px;
+          border-radius: 1000px;
+    }
+}
+@media (min-width: 1200px){
+    #problem_solution {
+        padding: 0 30%;
+    }
+    #takeaways p{
+        padding: 0 20px;
+    }
+    #branding p {
+        width: auto;
+        padding: 0 30%;
+    }
+    .takeaway_item {
+        display: inline-block;
+        width: 30%;
+        /* float: left; */
+        position: relative;
+        left: 5%;
+    }
+    #moodboards {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    #moodboards img {
+        float: left;
+        padding: 15px;
+        /* left: 25%; */
+        /* left: 10%; */
+    }
+}
+@media (min-width: 1400px){
+    .goal img{
+        left: 35%;
+    }
+}
+@media (min-width: 1850px){
+    .goal img{
+        left: 40%;
+    }
 }
