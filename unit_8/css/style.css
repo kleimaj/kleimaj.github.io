@@ -82,6 +82,13 @@ body{
     background-color: #0DBBA3;
     z-index: 3;
 }
+#CoLab p{
+    position: relative;
+    bottom:30px;
+}
+#CoLab img{
+    position: relative;
+}
 #Jamr {
     background-color: #6514a7;
     z-index: 2;
@@ -130,7 +137,7 @@ body{
     #CoLab img {
         position: relative;
         margin: auto;
-        bottom:132px;
+        bottom:160px;
     }
     #Jamr img {
         position: relative;
