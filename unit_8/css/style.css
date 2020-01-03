@@ -86,6 +86,10 @@ body{
     position: relative;
     bottom:30px;
 }
+#CoLab h3{
+    position: relative;
+    bottom:30px;
+}
 #CoLab img{
     position: relative;
 }
@@ -169,12 +173,19 @@ body{
     }
     #CoLab h3{
         padding: 15px;
+        bottom: 25px;
     }
     #desktop_cards{
         position: relative;
         left: 5%;
         margin: auto;
         text-align: center;
+    }
+}
+@media (max-width: 850px) and (min-width: 480px){
+    #CoLab p{
+        position: relative;
+        top: 0px;
     }
 }
 @media (max-width: 850px) {
