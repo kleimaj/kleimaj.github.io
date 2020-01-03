@@ -19,6 +19,7 @@ p {
 }
 a {
     color: black;
+    display: block;
 }
 .card h3 {
     font-family: 'Alatsi';
@@ -28,21 +29,22 @@ a {
     color: white;
     font-family: 'Montserrat';
 }
+@media (min-width: 850px) {
 
+}
 @media (min-width: 480px){
 /* Browser */
 #mobile_header {
      display: none;
  }
  #back{
-     float: right;
      font-size: 1.5em;
      position: relative;
      line-height: 4em;
      font-family: 'Montserrat';
      text-decoration: underline;
      font-weight: bold;
-     right: 30%;
+     left: 10%;
  }
  h2 {
      font-size: 1.25em;
@@ -193,7 +195,11 @@ a {
         font-size: 20px;
     }
     #logo{
-        width:200px
+        /* width:200px */
+        left: 5%;
+    }
+    #back{
+        left: 5%;
     }
     p{
         padding-left: 20px;
@@ -322,7 +328,7 @@ a {
     }
     p {
         /* width: 90%; */
-        /* left: 4%; */
+        left: 4%;
         font-size: .9em;
         line-height: 1.4em;
     }

@@ -120,14 +120,9 @@ body{
     .card h3 {
         position: relative;
         bottom: 15px;
-    
-        /* right: 100px; */
     }
     .card p{
         position: relative;
-        /* bottom: 100px; */
-        /* top: 10px; */
-        /* line-height: 2em; */
         visibility: hidden;
     }
     .card :hover > p{
