@@ -7,6 +7,14 @@
     -webkit-tap-highlight-color: transparent;
     user-select: none;
 }
+@font-face{
+    font-family: "Vulf Sans";
+    src: url("../fonts/VulfSans-Light.otf");
+}
+@font-face{
+    font-family: "Vulf Sans Black";
+    src: url("../fonts/VulfSans-Black.otf")
+}
 body{
     overflow-x: hidden;
     font-size: 30px;
@@ -15,7 +23,7 @@ h1,h2{
     font-family: 'Montserrat';
 }
 p {
-    font-family: 'Montserrat';
+    font-family: 'Vulf Sans';
     color: #707070;
 }
 a {
