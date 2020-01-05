@@ -123,6 +123,9 @@ footer h2{
 #prototyping{
     text-align: center;
 }
+#prototyping img{
+    width: 25%;
+}
 #takeaways h1,h2{
     text-align: center;
 }
@@ -272,6 +275,13 @@ footer h2{
     .teammate img{
         width: 90px;
           border-radius: 1000px;
+    }
+    #prototyping img{
+        width: 90%;
+        padding: 15px;
+    }
+    .wire img{
+        width: 80%;
     }
 }
 @media (min-width: 1200px){
