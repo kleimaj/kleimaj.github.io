@@ -7,10 +7,6 @@
     -webkit-tap-highlight-color: transparent;
     user-select: none;
 }
-@font-face{
-    font-family: "Vulf Sans";
-    src: url("../fonts/Vulf Sans/VulfSans-Light.otf");
-}
 html, body {
     width:100%;
     height:100%;
@@ -61,6 +57,10 @@ footer h2{
     color: white;
     text-decoration: underline;
     text-decoration-color: white;
+}
+@font-face{
+    font-family: "Vulf Sans";
+    src: url("../fonts/Vulf Sans/VulfSans-Light.otf");
 }
 #button{
     z-index: 2;

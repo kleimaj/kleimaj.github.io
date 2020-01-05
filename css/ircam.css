@@ -44,17 +44,22 @@ footer a{
     color: black;
     font-weight: bold;
 }
+@font-face{
+    font-family: "Vulf Sans";
+    src: url("../fonts/Vulf Sans/VulfSans-Light.otf");
+}
 #button{
     z-index: 2;
     color:white;
     background-color: black;
-    font-family: 'Montserrat';
+    font-family: 'Vulf Sans';
     text-decoration: none;
     position: fixed;
     padding: 10px;
     left: 10%;
     top: 5%;
-    opacity: 65%;
+    /* opacity: 65%; */
+    background-color: rgba(0,0,0,65%);
 }
 #umg {
     position: relative;
