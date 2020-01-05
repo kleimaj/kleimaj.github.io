@@ -7,6 +7,14 @@
     -webkit-tap-highlight-color: transparent;
     user-select: none;
 }
+@font-face{
+    font-family: "Vulf Sans";
+    src: url("../fonts/Vulf Sans/VulfSans-Light.otf");
+}
+@font-face{
+    font-family: "Vulf Sans Bold";
+    src: url("../fonts/Vulf Sans/VulfSans-Bold.otf")
+}
 body{
     font-size: 30px;
     margin:0;
@@ -39,7 +47,7 @@ body{
 
 }
 .card p{
-    font-family: 'Montserrat', bold;
+    font-family: 'Vulf Sans';
 }
 #header_logo{
     width:250px;

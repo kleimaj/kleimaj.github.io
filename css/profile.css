@@ -9,11 +9,7 @@
 }
 @font-face{
     font-family: "Vulf Sans";
-    src: url("../fonts/VulfSans-Light.otf");
-}
-@font-face{
-    font-family: "Vulf Sans Black";
-    src: url("../fonts/VulfSans-Black.otf")
+    src: url("../fonts/Vulf Sans/VulfSans-Light.otf");
 }
 body{
     overflow-x: hidden;
