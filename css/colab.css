@@ -87,6 +87,12 @@ footer h2{
     top: 75px;
     text-align: center;
 }
+#logo img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
 #problem_solution {
     width: 90%;
     padding: 30px;
