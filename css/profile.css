@@ -93,9 +93,12 @@ a:hover{
  #headshot {
      position: absolute;
      z-index: -1;
-     right: 0;
      top: 0;
+     right: 0;
+     display: block;
      width: 50%;
+     filter: grayscale(100%);
+     opacity: 80%;
  }
  #contact_links a{
      display: table;
@@ -286,11 +289,13 @@ a:hover{
     }
     #headshot{
         float: none;
-        margin: 0;
-        z-index: 0;
-        display: inline-block;
+        margin: auto;
+        z-index: 1;
+        top: 0%;
+        display: block;
         text-align: center;
         position: relative;
+         filter: grayscale(100%);
     }
     #contact {
         display: block;
@@ -360,9 +365,6 @@ a:hover{
     }
     #mobile_back {
         font-size: 1em;
-    }
-    #headshot{
-        width: 300px;
     }
     #Colab {
         background-color: #0DBBA3;

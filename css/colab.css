@@ -160,6 +160,9 @@ footer h2{
     margin: 0 auto;
     display: inline-block;
 }
+.about{
+    display: block;
+}
 .teammate{
     margin: auto;
     padding: 15px;
