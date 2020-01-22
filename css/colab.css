@@ -78,20 +78,21 @@ footer h2{
 #subheader {
     position: relative;
     z-index: 1;
-    top: -100px;
+    font-size: 2.5em;
     text-align: center;
 }
 #logo {
     display: block;
     position: relative;
-    top: 75px;
     text-align: center;
 }
 #logo img{
     display: block;
     margin: auto;
+    position: relative;
+    top: 100px;
     text-align: center;
-    width: 100%;
+    width: 80%;
 }
 #problem_solution {
     width: 90%;
@@ -204,6 +205,7 @@ footer h2{
     text-align: center;
 }
 @media (min-width: 560px){
+
     .goal img{
         left: 15%;
     }
@@ -235,6 +237,17 @@ footer h2{
     }
 }
 @media (max-width: 650px) {
+    #subheader{
+        font-size: 1.5em;
+        line-height: 1.5em;
+        padding: 10px;
+    }
+    #logo{
+        top: 75px;
+    }
+    #logo img{
+        top: 0px;
+    }
     #yt {
         width: 345px;
         height: 235px;
@@ -256,8 +269,9 @@ footer h2{
     body{
         font-size: 30px;
     }
-    #problem_solution {
-        padding: 0 200px;
+    main{
+        position: relative;
+        bottom: 200px;
     }
     .goal img{
         left: 30%;
@@ -289,7 +303,11 @@ footer h2{
 }
 @media (min-width: 1200px){
     #problem_solution {
-        padding: 0 30%;
+        padding: 0 10%;
+    }
+    .ps_item{
+        float: left;
+        width: 50%;
     }
     #takeaways p{
         padding: 0 20px;

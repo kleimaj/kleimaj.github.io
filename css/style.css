@@ -56,6 +56,8 @@ body{
     display: inline-block;
 }
 #right_nav {
+    right: 10px;
+    position: relative;
     float: right;
 }
 #about{
