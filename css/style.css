@@ -21,7 +21,7 @@
 }
 header{
     background-color: #FFFEF7;
-    height: 450px;
+    height: 600px;
     width: 110%;
 }
 h2{
@@ -112,7 +112,6 @@ figure {
 #jacob{
     position: absolute;
     right: 15px;
-    bottom: -20px;
 }
 #header_logo{
     width:250px;
