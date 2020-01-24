@@ -15,10 +15,57 @@
     font-family: "Vulf Sans Bold";
     src: url("../fonts/Vulf Sans/VulfSans-Bold.otf")
 }
+@font-face{
+    font-family: "Vulf Code";
+    src: url("../fonts/VulfMonoCode-Light.otf")
+}
+header{
+    background-color: #FFFEF7;
+    height: 450px;
+    width: 110%;
+}
+h2{
+    font-family: 'Vulf Sans';
+    width: 35%;
+    font-size: 1.3em;
+    top: 40%;
+    position: relative;
+    margin: auto;
+    right:2%;
+}
 body{
     font-size: 30px;
     margin:0;
     overflow-x: hidden;
+}
+aside{
+    position: fixed;
+    padding: 15% 10%;
+    z-index: 3;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Vulf Sans';
+    text-align: left;
+}
+aside a:hover{
+    color:black;
+}
+span{
+    font-family: 'Vulf Code';
+}
+figure {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  .project_link:hover{
+    transform: translate(10px, 0);
 }
 .card_label {
     position: relative;
@@ -31,9 +78,9 @@ body{
     color: white;
     border-radius: 0 0 0 25px;
     /* left: 15%; */
-    /* width: 100%; */
+    width: 50%;
     /* margin: 50px; */
-    float:left;
+    float:right;
     margin-top: -20px;
     padding: 10px;
     /* margin: 10px; */
@@ -49,10 +96,28 @@ body{
 .card p{
     font-family: 'Vulf Sans';
 }
+#bio a{
+    color:red;
+}
+#projects{
+    color:black;
+    text-align: center;
+}
+#misc{
+    padding: 10%;
+}
+#misc a{
+    text-align: center;
+}
+#jacob{
+    position: absolute;
+    right: 15px;
+    bottom: -20px;
+}
 #header_logo{
     width:250px;
-    position: relative;
-    left: 15%;
+    position: fixed;
+    left: 8%;
     display: inline-block;
 }
 #right_nav {
@@ -112,14 +177,7 @@ body{
     background-color: #1F14A7;
     z-index: 1;
 }
-figure {
-    width: 300px;
-    height: 200px;
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    overflow: hidden;
-  }
+
   
 @font-face{
     font-family: "Rage";
@@ -150,6 +208,7 @@ figure {
         
     }
     .card{
+        display: block;
         position: relative;
         padding-bottom: 25px;
     }
@@ -183,7 +242,7 @@ figure {
     .card{
         position: relative;
         margin: 5%;
-        left: 5%;
+        right: 15%;
         border-radius: 25px;
     }
     #CoLab h3{
