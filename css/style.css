@@ -13,7 +13,7 @@
 }
 @font-face{
     font-family: "Vulf Sans Bold";
-    src: url("../fonts/Vulf Sans/VulfSans-Bold.otf")
+    src: url("../fonts/Vulf Sans/VulfSans-MediumItalic.otf")
 }
 @font-face{
     font-family: "Vulf Code";
@@ -26,12 +26,15 @@ header{
 }
 h2{
     font-family: 'Vulf Sans';
-    width: 35%;
+    width: 40%;
     font-size: 1.3em;
     top: 25%;
     position: relative;
     margin: auto;
     right:2%;
+}
+strong{
+    font-family: 'Vulf Sans Bold';
 }
 body{
     font-size: 30px;
