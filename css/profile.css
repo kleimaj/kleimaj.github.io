@@ -50,6 +50,9 @@ a:hover{
 #music:hover{
     font-family: 'Shrikhand';
 }
+#mobile_headshot {
+    display: none;
+}
 @media (max-width: 850px) {
     a{
         color:black;
@@ -292,11 +295,26 @@ a:hover{
         margin: auto;
         z-index: 1;
         top: 0%;
+        /* display: block; */
+        width: 50%;
+        text-align: center;
+        position: relative;
+        filter: grayscale(100%);
+        display: none;
+        /* border-radius: 50%; */
+    }
+    #mobile_headshot {
+        float: none;
+        margin: auto;
+        z-index: 1;
+        top: 0%;
         display: block;
         width: 50%;
         text-align: center;
         position: relative;
-         filter: grayscale(100%);
+        filter: grayscale(100%);
+        border-radius: 50%;
+        border: 1px solid gray;
     }
     #contact {
         display: block;
