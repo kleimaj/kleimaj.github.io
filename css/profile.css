@@ -41,8 +41,11 @@ a:hover{
     color: white;
     font-family: 'Montserrat';
 }
-#umg{
+.umg{
     display: inline;
+}
+#ga {
+    color:red;
 }
 #music{
     display: inline;
