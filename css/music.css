@@ -8,6 +8,7 @@
     user-select: none;
 }
 body{
+    overscroll-behavior: none;
     font-size: 30px;
     background-color: black;
     color: white;
