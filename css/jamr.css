@@ -41,6 +41,7 @@ footer {
     background-color: #1F14A7;
     z-index: 2;
     border-radius: 5px 5px 0 0;
+    padding-bottom: 70px;
     
 }
 @font-face{
