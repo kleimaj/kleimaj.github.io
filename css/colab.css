@@ -126,7 +126,14 @@ footer h2{
     text-align: center;
 }
 #prototyping img{
-    width: 200px;
+    /* width: 200px; */
+    width: 70%;
+}
+#prototyping .wire {
+    width: 30%;
+}
+#paper {
+    width: 30%;
 }
 #takeaways h1,h2{
     text-align: center;
@@ -222,6 +229,7 @@ footer h2{
         position: relative;
         text-align: center;
         margin: auto;
+        width: 30%;
         /* left: 20%; */
     }
     #takeaways img{
@@ -301,7 +309,14 @@ footer h2{
         width: 20%;
     }
     #prototyping img{
-        /* width: 90%; */
+        width: 80%;
+        padding: 15px;
+    }
+    #paper {
+        width: 30%;
+    }
+    #prototyping .wire {
+        width: 50%;
         padding: 15px;
     }
     
