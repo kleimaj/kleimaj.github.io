@@ -1,0 +1,54 @@
+// Desktop View
+aside{
+    h2 {
+        font-family: 'Vulf Sans Bold';
+        font-size: 30px;
+        padding: 10px;
+    }
+    position: fixed;
+    padding: 10% 5%;
+    z-index: 3;
+    line-height: 1.5em;
+    .project_link:hover{
+        transform: translate(10px, 0);
+        transition: all .5s ease-in-out;
+        text-decoration: none;
+      }
+  a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Vulf Sans';
+    text-align: left;
+  }
+  a:hover{
+    color:black;
+    transition: color .2s ease;
+  }
+  span{
+    font-family: 'Vulf Code';
+  }
+  #projects{
+    // color:black;
+    text-align: center;
+    text-decoration: none;
+  }
+  #misc{
+    padding: 10%;
+    a {
+        text-align: center;
+        text-decoration: none;
+    }
+  }
+  #header_logo{
+    width:250px;
+    position: fixed;
+    top: 30px;
+    display: inline-block;
+    left: 85px;
+  }
+}
+// Mobile View
+nav {
+    
+}

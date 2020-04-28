@@ -1,0 +1,61 @@
+aside {
+  position: fixed;
+  padding: 10% 5%;
+  z-index: 3;
+  line-height: 1.5em;
+}
+
+aside h2 {
+  font-family: 'Vulf Sans Bold';
+  font-size: 30px;
+  padding: 10px;
+}
+
+aside .project_link:hover {
+  -webkit-transform: translate(10px, 0);
+          transform: translate(10px, 0);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  text-decoration: none;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-family: 'Vulf Sans';
+  text-align: left;
+}
+
+aside a:hover {
+  color: black;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+aside span {
+  font-family: 'Vulf Code';
+}
+
+aside #projects {
+  text-align: center;
+  text-decoration: none;
+}
+
+aside #misc {
+  padding: 10%;
+}
+
+aside #misc a {
+  text-align: center;
+  text-decoration: none;
+}
+
+aside #header_logo {
+  width: 250px;
+  position: fixed;
+  top: 30px;
+  display: inline-block;
+  left: 85px;
+}
+/*# sourceMappingURL=Nav.css.map */
