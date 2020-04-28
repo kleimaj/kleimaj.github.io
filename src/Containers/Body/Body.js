@@ -33,8 +33,8 @@ const Body = () => {
                     <FontAwesomeIcon className="sass" icon={faSass} />
                     <p>Sass</p>
                 </div>
-
             </div>
+            <p><a href="#">Contact me</a>, or check out my <a href="#">projects</a>!</p>
         </main>
     )
 }

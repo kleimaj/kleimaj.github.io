@@ -42,6 +42,10 @@ aside #projects {
   text-decoration: none;
 }
 
+aside #works {
+  padding-top: 20px;
+}
+
 aside #misc {
   padding: 10%;
 }

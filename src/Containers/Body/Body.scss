@@ -30,6 +30,8 @@ main {
         }
     }
     .tools {
+        border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
         p {
             font-family: 'Vulf Code';
             padding: 25px;
@@ -90,12 +92,20 @@ main {
             font-size: 20px
         }
         .tools {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
             p {
                 font-size: 20px
             }
             .tool {
-                margin: 20px;
+                // margin: 20px;
+                width: 100px;
                 font-size: 50px;
+                p {
+                    opacity: 1;
+                    font-size: 15px;
+                    padding: 0;
+                }
                 :hover {
                     transform: none;
                 }
