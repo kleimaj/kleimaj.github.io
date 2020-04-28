@@ -6,6 +6,7 @@ import './Nav.css';
 const Nav = () => {
     const size = useWindowSize();
     const render = (size.width > 980) ? renderDesktop() : renderMobile();
+    const [show, setShow] = useState(false);
     return render;
 }
 const renderDesktop = () => {
@@ -36,7 +37,7 @@ const renderMobile = () => {
             <FontAwesomeIcon icon={faBars} />
             </div>
             <div className="nav-center">
-                
+        <a href="#"><img id="nav_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></a>
             </div>
         </nav>
     )
