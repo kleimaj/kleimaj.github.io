@@ -1,5 +1,7 @@
 $mobile-breakpoint: 980px;
-
+$react: #33d8ff;
+$node: #68a063;
+$sass: #ce679a;
 // Body of Portfolio
 main {
     display: block;
@@ -27,6 +29,52 @@ main {
             font-family: 'Vulf Sans Bold';
         }
     }
+    .tools {
+        p {
+            font-family: 'Vulf Code';
+            padding: 25px;
+            font-size: 30px;
+            line-height: 1.25em;
+        }
+        .tool {
+            display: inline-block;
+            padding: 30px;
+            font-size: 90px;
+            // transition: all .9s ease-in-out; 
+            p {
+            transition: all .2s ease-in-out; 
+                font-size: 30px;
+                opacity: 0;
+                // visibility: hidden;
+            }
+            :hover {
+            transition: all .5s ease-in-out; 
+                transform: scale(1.1);
+            }
+            :hover+p {
+                // visibility: visible;
+                opacity: 1;
+            }
+            .react {
+                color: $react;
+                :hover {
+                    transform: none;
+                }
+            }
+            .node {
+                color: $node;
+                :hover {
+                    transform: none;
+                }
+            }
+            .sass {
+                color: $sass;
+                :hover {
+                    transform: none;
+                }
+            }
+        }
+    }
 
     @media screen and (max-width: $mobile-breakpoint){
     margin-top: 50px;
@@ -40,6 +88,18 @@ main {
         }
         p {
             font-size: 20px
+        }
+        .tools {
+            p {
+                font-size: 20px
+            }
+            .tool {
+                margin: 20px;
+                font-size: 50px;
+                :hover {
+                    transform: none;
+                }
+            }
         }
     }
 }

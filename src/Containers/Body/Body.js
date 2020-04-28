@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faNode, faSass } from '@fortawesome/free-brands-svg-icons'
 import './Body.css';
 const Body = () => {
     const [imgSrc, setSrc] = useState('/images/headshots/portfolio_pic.jpg');
@@ -15,8 +17,24 @@ const Body = () => {
             <p>
                 Thanks for checking out my site! I'm Jacob, a software developer <span>currently seeking a full-time position.</span>
                 {<br/>}
-                * With the pandemic occurring, I'm absolutely open to remote work, as well as contracting!
+                *With the pandemic occurring, I'm absolutely open to remote work, as well as contracting!
             </p>
+            <div className="tools">
+                <p>Some of my favorite developer tools:</p>
+                <div className="tool">
+                    <FontAwesomeIcon className="react" icon={faReact} />
+                    <p>React</p>
+                </div>
+                <div className="tool">
+                    <FontAwesomeIcon className="node" icon={faNode} />
+                    <p>Node.js</p>
+                </div>
+                <div className="tool">
+                    <FontAwesomeIcon className="sass" icon={faSass} />
+                    <p>Sass</p>
+                </div>
+
+            </div>
         </main>
     )
 }
