@@ -65,11 +65,14 @@ nav {
   height: 75px;
   -webkit-box-shadow: 0px 3px 8px 0px #8a7e8a;
   box-shadow: 0px 3px 8px 0px #8a7e8a;
+  text-align: center;
 }
 
 nav .nav-left {
   padding: 15px;
   display: inline-block;
+  position: absolute;
+  left: 0;
 }
 
 nav .nav-center {
@@ -79,5 +82,32 @@ nav .nav-center {
 
 nav .nav-center #nav_logo {
   width: 150px;
+}
+
+nav .hamburger_menu {
+  text-align: left;
+  font-family: 'Vulf Code';
+  height: 87vh;
+  padding-top: 20px;
+  background-color: #fff;
+  opacity: .9;
+  position: relative;
+  z-index: 2;
+}
+
+nav .hamburger_menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav .hamburger_menu a span {
+  padding: 10px;
+}
+
+nav .hamburger_menu .hamburger_misc {
+  font-family: 'Vulf Sans';
+  padding: 10px 25px;
 }
 /*# sourceMappingURL=Nav.css.map */
