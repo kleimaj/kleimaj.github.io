@@ -1,0 +1,47 @@
+main {
+  display: block;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+main .headshot {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+main h1 {
+  font-family: 'Vulf Sans Bold';
+  position: relative;
+  font-size: 60px;
+  padding: 20px;
+}
+
+main p {
+  font-family: 'Vulf Sans';
+  text-align: left;
+  padding: 20px;
+}
+
+main p span {
+  font-family: 'Vulf Sans Bold';
+}
+
+@media screen and (max-width: 980px) {
+  main {
+    margin-top: 50px;
+  }
+  main .headshot {
+    width: 200px;
+    height: 200px;
+  }
+  main h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+  main p {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=Body.css.map */

@@ -1,0 +1,45 @@
+$mobile-breakpoint: 980px;
+
+// Body of Portfolio
+main {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 100px;
+    .headshot {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        // background: url(/images/headshots/portfolio_pic.jpg);
+        // background-position: center;
+    }
+    h1 {
+        font-family: 'Vulf Sans Bold';
+        position: relative;
+        font-size: 60px;
+        padding: 20px;
+    }
+    p {
+        font-family: 'Vulf Sans';
+        text-align: left;
+        padding: 20px;
+        span {
+            font-family: 'Vulf Sans Bold';
+        }
+    }
+
+    @media screen and (max-width: $mobile-breakpoint){
+    margin-top: 50px;
+        .headshot {
+            width: 200px;
+            height: 200px;
+        }
+        h1 {
+            font-size: 40px;
+            padding: 20px;
+        }
+        p {
+            font-size: 20px
+        }
+    }
+}

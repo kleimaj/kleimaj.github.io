@@ -1,3 +1,19 @@
+// Sass Variables
+$mobile-breakpoint: 980px;
+
+.App {
+    display: flex;
+    .left {
+        width: 60vw;
+    }
+    main {
+        width: 100vw;
+    }
+    @media screen and (max-width: $mobile-breakpoint){
+        display: block;
+    }
+
+}
 .noSelect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;

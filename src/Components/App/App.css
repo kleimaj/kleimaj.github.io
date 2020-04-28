@@ -1,3 +1,23 @@
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .left {
+  width: 60vw;
+}
+
+.App main {
+  width: 100vw;
+}
+
+@media screen and (max-width: 980px) {
+  .App {
+    display: block;
+  }
+}
+
 .noSelect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
