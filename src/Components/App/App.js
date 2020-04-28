@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Nav from '../../Layout/Nav/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header>
+        <Nav />
+      {/* <header>
             <a href="#"><img id="header_logo" src="Logo.svg" alt="logo"/></a>
             <aside>
                 <div id="works">
@@ -55,7 +57,7 @@ function App() {
                 </div>
             </a>
             </div>
-        </main>
+        </main> */}
     </div>
   );
 }
