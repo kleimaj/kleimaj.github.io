@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Routes from '../../config/routes';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNode, faSass } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faReact, faNode, faSass } from '@fortawesome/free-brands-svg-icons'
 import './Body.css';
 const Body = () => {
-    const [imgSrc, setSrc] = useState('/images/headshots/portfolio_pic.jpg');
+    // const [imgSrc, setSrc] = useState('/images/headshots/portfolio_pic.jpg');
     return (
         // <main>
         //     <img 

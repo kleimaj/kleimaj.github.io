@@ -65,7 +65,10 @@ aside #header_logo {
 
 nav {
   width: 100vw;
-  position: static;
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 3;
   height: 75px;
   -webkit-box-shadow: 0px 3px 8px 0px #8a7e8a;
   box-shadow: 0px 3px 8px 0px #8a7e8a;

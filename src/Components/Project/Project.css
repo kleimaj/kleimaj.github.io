@@ -1,0 +1,44 @@
+.project {
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+}
+
+.project h3 {
+  font-family: 'Vulf Sans Bold';
+  font-size: 50px;
+}
+
+.project p {
+  text-align: center;
+}
+
+.freechat {
+  background-color: #000;
+  color: white;
+}
+
+.pikatsume {
+  background-color: #daa520;
+}
+
+.jamr {
+  color: white;
+  background-color: #cb686e;
+}
+
+.aboop {
+  color: white;
+  background-color: #3068a7;
+}
+
+.colab {
+  color: white;
+  background-color: #2fbba3;
+}
+
+.ircam {
+  color: white;
+  background-color: #1f14a7;
+}
+/*# sourceMappingURL=Project.css.map */

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import './Nav.css';
@@ -13,9 +14,9 @@ const renderDesktop = () => {
     return (
         <div className="left">
             <aside>
-            <a href="#"><img id="header_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></a>
+            <Link to="/"><img id="header_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
                     <div id="works">
-                    <a id="projects" href="index.html"><h2>Projects</h2></a>
+                    <Link id="projects" to="/projects"><h2>Projects</h2></Link>
                     <a className = "project_link" href="colab.html"><span>01:&emsp;FreeChat</span></a>
                     <a className = "project_link" href="jamr.html"><span>02:&emsp;Pikatsume</span></a>
                     <a className = "project_link" href="ircam.html"><span>03:&emsp;Jamr</span></a>
@@ -43,7 +44,7 @@ const renderMobile = (show, setShow) => {
                     <FontAwesomeIcon icon={faBars} onClick={() => setShow(true)} /> }
                 </div>
                 <div className="nav-center">
-            <a href="#"><img id="nav_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></a>
+            <Link to="/"><img id="nav_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
                 </div>
                 {/* Hamburger Menu */}
                 {show ?
