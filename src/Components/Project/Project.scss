@@ -1,3 +1,4 @@
+$mobile-breakpoint: 980px;
 $pikatsume: #daa520;
 $jamr: #cb686e;
 $aboop: #3068a7;
@@ -14,6 +15,20 @@ $ircam: #1f14a7;
     p {
         text-align: center;
     }
+    // img {
+    //     width: 70px;
+    //     margin: 20px;
+    //     position: relative;
+    //     display: block;
+    //     bottom: 100px;
+    // }
+    // @media screen and (max-width: $mobile-breakpoint){
+    //     img {
+    //         width: 50px;
+    //         bottom: 30px;
+    //         margin: 0 auto;
+    //         }
+    //     }
     
 }
 .freechat {

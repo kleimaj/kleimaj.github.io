@@ -6,17 +6,17 @@ const Projects = () => {
     const projects = [
         {
             name: 'FreeChat',
-            description: 'React, Node, Twilio',
+            description: 'React / Node / Twilio',
             src: path+'freechat_logo.png'
         },
         {
             name: 'Pikatsume',
-            description: 'Django, Postgres, Bulma',
+            description: 'Django / Postgres / Bulma',
             src: path+'surprised_pika.png'
         },
         {
             name: 'Jamr',
-            description: 'Node, MongoDB, Socket.io',
+            description: 'Node / MongoDB / Socket.io',
             src: path+'jamr_logo_white.svg'
         },
         {
@@ -26,12 +26,12 @@ const Projects = () => {
         },
         {
             name: 'CoLab',
-            description: 'UX Design, Sketch, Adobe Xd',
+            description: 'UX Research / Sketch / Adobe Xd',
             src: path+'group.svg'
         },
         {
             name: 'ircam',
-            description: 'Metadata Modeling, D3.js, Plot.ly',
+            description: 'Metadata Modeling / D3.js / Plot.ly',
             src: path+'ircam.svg'
         }
 
@@ -43,6 +43,7 @@ const Projects = () => {
         key={index} 
         name={project.name} 
         description={project.description}
+        src={project.src}
         />
     );
     return (
