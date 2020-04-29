@@ -8,6 +8,13 @@ const Routes = (props) => {
         <Switch>
           <Route exact path='/' component={ Home } />
           <Route path='/projects' component={ Projects } />
+          <Route path='/freechat' component={ Projects } />
+          <Route path='/pikatsume' component={ Projects } />
+          <Route path='/jamr' component={ Projects } />
+          <Route path='/aboop' component={ Projects } />
+          <Route path='/colab' component={ Projects } />
+          <Route path='/ircam' component={ Projects } />
+
         </Switch>
       );
     }

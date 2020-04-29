@@ -1,3 +1,9 @@
+a.project {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
 .project:hover {
   -webkit-transition: all .7s ease-in-out;
   transition: all .7s ease-in-out;
@@ -96,7 +102,7 @@
 
 .ircam {
   color: white;
-  background-color: #1f14a7;
+  background-color: #6232BF;
 }
 
 .ircam img {

@@ -10,24 +10,24 @@ const Projects = () => {
             src: path+'freechat_logo.png'
         },
         {
-            name: 'Pikatsume',
-            description: 'Django / Postgres / Bulma',
-            src: path+'surprised_pika.png'
-        },
-        {
             name: 'Jamr',
             description: 'Node / MongoDB / Socket.io',
             src: path+'jamr_logo_white.svg'
         },
         {
-            name: 'Aboop',
-            description: 'Vanilla Javascript',
-            src: path+'aboop_logo.png'
+            name: 'Pikatsume',
+            description: 'Django / Postgres / Bulma',
+            src: path+'surprised_pika.png'
         },
         {
             name: 'CoLab',
             description: 'UX Research / Sketch',
             src: path+'group.svg'
+        },
+        {
+            name: 'Aboop',
+            description: 'Vanilla Javascript',
+            src: path+'aboop_logo.png'
         },
         {
             name: 'ircam',

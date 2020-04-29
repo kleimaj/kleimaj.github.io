@@ -3,8 +3,13 @@ $pikatsume: #daa520;
 $jamr: #cb686e;
 $aboop: #3068a7;
 $colab: #2fbba3;
-$ircam: #1f14a7;
+$ircam: #6232BF;
 
+a.project {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
 .project:hover {
         img {
             display: inline-block;
