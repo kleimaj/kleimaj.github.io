@@ -1,4 +1,19 @@
+.project:hover {
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.project:hover img {
+  display: inline-block;
+}
+
 .project {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
   -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
           box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
   border-radius: 25px;
@@ -16,13 +31,37 @@
   margin-bottom: -20px;
 }
 
+.project img {
+  width: 70px;
+  margin: 20px;
+  display: none;
+  bottom: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .project .project:hover {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
 .freechat {
   background-color: #000;
   color: white;
 }
 
+.freechat img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
 .pikatsume {
   background-color: #daa520;
+}
+
+.pikatsume img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
 .jamr {
@@ -30,9 +69,19 @@
   background-color: #cb686e;
 }
 
+.jamr img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
 .aboop {
   color: white;
   background-color: #3068a7;
+}
+
+.aboop img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
 .colab {
@@ -40,8 +89,18 @@
   background-color: #2fbba3;
 }
 
+.colab img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
 .ircam {
   color: white;
   background-color: #1f14a7;
+}
+
+.ircam img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 /*# sourceMappingURL=Project.css.map */

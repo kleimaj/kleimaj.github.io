@@ -5,7 +5,18 @@ $aboop: #3068a7;
 $colab: #2fbba3;
 $ircam: #1f14a7;
 
+.project:hover {
+        img {
+            display: inline-block;
+        }
+        transition: all .7s ease-in-out; 
+            // transform: scale(1.1);
+            transform: translate(0px, -10px);
+}
 .project {
+    transition: all 1s ease; 
+    transform: translate(0px, 0px);
+
     box-shadow: 0px 4px 5px rgba(0,0,0,.7);
     border-radius: 25px;
     h3 {
@@ -18,42 +29,64 @@ $ircam: #1f14a7;
         padding-bottom: 30px;
         margin-bottom: -20px;
     }
-    // img {
-    //     width: 70px;
-    //     margin: 20px;
-    //     position: relative;
-    //     display: block;
-    //     bottom: 100px;
-    // }
-    // @media screen and (max-width: $mobile-breakpoint){
-    //     img {
-    //         width: 50px;
-    //         bottom: 30px;
-    //         margin: 0 auto;
-    //         }
-    //     }
+    img {
+        width: 70px;
+        margin: 20px;
+        // position: relative;
+        // display: inline-block;
+        display: none;
+        bottom: 100px;
+    }
+    @media screen and (max-width: $mobile-breakpoint){
+        // img {
+        //     width: 50px;
+        //     bottom: 30px;
+        //     margin: 0 auto;
+        //     }
+        .project:hover{
+            transition: none;
+        }
+        }
     
 }
 .freechat {
     background-color: #000;
     color: white;
+    img {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
 }
 .pikatsume {
     background-color: $pikatsume;
+    img {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
 }
 .jamr {
     color: white;
     background-color: $jamr;
+    img {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
 }
 .aboop {
     color: white;
     background-color: $aboop;
+    img {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
 }
 .colab {
     color: white;
     background-color: $colab;
+    img {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
 }
 .ircam {
     color: white;
     background-color: $ircam;
+    img {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
 }
