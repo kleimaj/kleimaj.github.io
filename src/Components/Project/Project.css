@@ -7,10 +7,13 @@
 .project h3 {
   font-family: 'Vulf Sans Bold';
   font-size: 50px;
+  padding-top: 20px;
 }
 
 .project p {
   text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: -20px;
 }
 
 .freechat {

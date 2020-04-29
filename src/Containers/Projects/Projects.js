@@ -26,12 +26,12 @@ const Projects = () => {
         },
         {
             name: 'CoLab',
-            description: 'UX Research / Sketch / Adobe Xd',
+            description: 'UX Research / Sketch',
             src: path+'group.svg'
         },
         {
             name: 'ircam',
-            description: 'Metadata Modeling / D3.js / Plot.ly',
+            description: 'Metadata Modeling',
             src: path+'ircam.svg'
         }
 
