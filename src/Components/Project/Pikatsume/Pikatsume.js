@@ -12,7 +12,7 @@ const Pikatsume = () => {
                 <FontAwesomeIcon icon={faTimesCircle} /> 
             </Link>
             <h1>Pikatsume</h1>
-            <img className="detail-logo" src="/images/portfolio_icons/surprised_pika.png" alt="pika!!"/>
+            <img className="detail-logo" src="https://i.ibb.co/6tYzGn9/pikachu-hop.gif" alt="pika!!"/>
             <p>A Pikachu Collector Game {<br/>} (for a good cause)!</p>
             <div className="external-links">
                 <a href="#">
@@ -40,31 +40,32 @@ const Pikatsume = () => {
                 <a href="/images/pika/postgresdesign.png">
                 <img src="/images/pika/postgresdesign.png" alt="twilio-video-backend"/>
                 </a>
-                <p>This website is implemented with React Hooks. The Lobby component handles the creation of rooms and users. The room component houses the participants, which contain the user identities, and the video + audio streams.</p>
+                <p>Pikatsume is implemented with Django, the fullstack Python framework. A postgres database is utilized to track user authentication, pikachu toys in the database, as well as all user transactions with stripe.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>Twilio Video</h2>
-                <a href="/images/freechat/access-tokens.png">
-                <img src="/images/freechat/access-tokens.png" alt="twilio-video-backend"/>
+                <h2>User Story</h2>
+                <a href="/images/pika/wire2.png">
+                <img src="/images/pika/wire2.png" alt="twilio-video-backend"/>
                 </a>
-                <p>For my application I decided to use the video application programming interface from Twilio. This API ensures secure, high quality, video connection. All video chat rooms and user identities are organized by a form of JWTs - Twilio Access Tokens</p>
+                <p>Users desire to collect cute, unique Pikachus. The user will sign up for an account and is awarded 10 Poffins (currency). To "catch" a Pikachu, which costs 5 poffins
+                User "catches" a Pikachu and it is automatically added to their Pikachu collection.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>UI & Design</h2>
-                <a href="/images/freechat/freechat-wires.png">
-                <img src="/images/freechat/freechat-wires.png" alt="twilio-video-backend"/>
+                <h2>Payment with Stripe API</h2>
+                <a href="/images/pika/stripe.png">
+                <img src="/images/pika/stripe.png" alt="twilio-video-backend"/>
                 </a>
-                <p>The visual concept behind my app is minimalistic. No bells and whistles to confuse the user, light button gradients, monospace typefaces. This was one of the hardest front-end designs I ever implemented, due to the less is more concept that I pursued, and the arbitrary number of video feeds connecting at any given time.</p>
+                <p>We utilized the stripe api to handle secure payments and online transactions. When the user decides to buy more poffins, or the in-game currency. Those poffin values are added to the database, and the money from the transaction is spent towards the save the children foundation.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
                 <h2>Final Implementation</h2>
-                <a href="/images/freechat/final-implementation.png">
-                <img src="/images/freechat/final-implementation.png" alt="twilio-video-backend"/>
+                <a href="/images/pika/pikabase.png">
+                <img src="/images/pika/pikabase.png" alt="twilio-video-backend"/>
                 </a>
-                <p>During the 2020 shelter-in-place, I utilized this app to communicate with my close friends and family. The website is deployed on heroku you can view it <a href="https://jakechat69.herokuapp.com/">here</a>!</p>
+                <p>This web-app was so fun to make. Most of the development process was streamlined thanks to Django! I'd love to thank my team, Johnson and Cat for help on the project! I'm happy to call you guys my friends and I hope we get to work on more projects in the future!</p>
             </div>
             </div>
             {/* <Link className="next" to="/jamr">
