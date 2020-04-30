@@ -5,14 +5,14 @@ $aboop: #3068a7;
 $colab: #2fbba3;
 $ircam: #6232BF ;
 
-[aos="fade"] {
-    opacity: 0;
-    transition-property: opacity;
-  }
+// [aos="fade"] {
+//     opacity: 0;
+//     transition-property: opacity;
+//   }
   
-  [aos="fade"].aos-animate {
-    opacity: 1;
-  }
+//   [aos="fade"].aos-animate {
+//     opacity: 1;
+//   }
 
 a.project {
     display: block;
@@ -73,6 +73,19 @@ a.project {
 .details {
     text-align: center;
     border-radius: 25px;
+    h1 {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .detail-logo {
+        transition: all .5s ease-in-out;
+        transform: translate(0px, 0px);
+    }
+    .detail-logo:hover {
+        transition: all .5s ease-in-out; 
+        cursor: pointer;
+            // transform: scale(1.1);
+            transform: translate(0px, -10px);
+    }
     p {
         text-align: center;
     }
@@ -88,7 +101,9 @@ a.project {
             display: inline-block;
             color: white;
             text-decoration: none;
-            padding: 25px;
+            transition: all .5s ease-in-out;
+            transform: translate(0px, 0px);
+            // padding: 25px;
             svg {
                 font-size: 50px;
                 display: block;
@@ -101,7 +116,7 @@ a.project {
             }
         }
         a:hover {
-            transition: all .7s ease-in-out; 
+            transition: all .5s ease-in-out; 
             // transform: scale(1.1);
             transform: translate(0px, -10px);
         }
@@ -176,6 +191,25 @@ a.next {
 }
 .pikatsume {
     background-color: $pikatsume;
+    .item p {
+        a {
+            color: black;
+        }
+    }
+    h1 {
+        filter: none;
+    }
+    .detail-logo {
+        width: 200px;
+        padding: 45px;
+    }
+    a.exit {
+        color: black;
+    }
+    .external-links a{
+        color: black;
+    }
+    // color: black;
     img {
         filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     }
@@ -194,7 +228,7 @@ a.next {
         filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
     }
 }
-.colab {
+a.colab {
     color: white;
     background-color: $colab;
     img {

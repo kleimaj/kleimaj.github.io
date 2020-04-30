@@ -14,18 +14,18 @@ const renderDesktop = () => {
     return (
         <div className="left">
             <aside>
-            <Link to="/"><img id="header_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
-                    <div id="works">
+            <Link to="/"><img data-aos="fade-up" id="header_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
+                    <div id="works" data-aos="fade-up">
                     <Link id="projects" to="/projects"><h2>Projects</h2></Link>
-                    <a className = "project_link" href="colab.html"><span>01:&emsp;FreeChat</span></a>
-                    <a className = "project_link" href="ircam.html"><span>02:&emsp;Jamr</span></a>
-                    <a className = "project_link" href="jamr.html"><span>03:&emsp;Pikatsume</span></a>
-                    <a className = "project_link" href="ircam.html"><span>04:&emsp;Co.Lab</span></a>
-                    <a className = "project_link" href="ircam.html"><span>05:&emsp;Aboop</span></a>
-                    <a className = "project_link" href="ircam.html"><span>06:&emsp;ircam</span></a>
+                    <Link className="project_link" to="/freechat"><span>01:&emsp;FreeChat</span></Link>
+                    <Link className="project_link" to="/jamr"><span>02:&emsp;Jamr</span></Link>
+                    <Link className="project_link" to="/pikatsume"><span>03:&emsp;Pikatsume</span></Link>
+                    <Link className="project_link" to="/colab"><span>04:&emsp;Co.Lab</span></Link>
+                    <Link className="project_link" to="/aboop"><span>05:&emsp;Aboop</span></Link>
+                    <Link className="project_link" to="/ircam"><span>06:&emsp;ircam</span></Link>
 
                     </div>
-                    <div id="misc">
+                    <div id="misc" data-aos="fade-up">
                     <a href="profile.html"><h2>About</h2></a>
                     <a href="music.html"><h2>Misc</h2></a>
                     </div>

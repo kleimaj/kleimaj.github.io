@@ -4,15 +4,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Freechat = () => {
+const Pikatsume = () => {
     return (
         <main>
-            <div className="freechat details" data-aos="fade-up">
+            <div className="pikatsume details" data-aos="fade-up">
             <Link to="/projects" className="exit"> 
                 <FontAwesomeIcon icon={faTimesCircle} /> 
             </Link>
-            <h1>Freechat</h1>
-            <p className="detail-logo">easy 👏 simple 👏 free 👏 video 👏 chat</p>
+            <h1>Pikatsume</h1>
+            <img className="detail-logo" src="/images/portfolio_icons/surprised_pika.png" alt="pika!!"/>
+            <p>A Pikachu Collector Game {<br/>} (for a good cause)!</p>
             <div className="external-links">
                 <a href="#">
                 <FontAwesomeIcon icon={faTv} /> 
@@ -26,18 +27,18 @@ const Freechat = () => {
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>
-                <p>I observed how arduous it is for some users to install and sign-up for Zoom, or Skype - as well as loading up the software to use it everytime one wants to video-chat with friends and family.</p>
+                <p>Online 'Gacha games' consistently trick younger users into spending their parent's credit cards on virtual items.</p>
                 </div>
                 <div className="text-block">
                 <h4>Solution:</h4>
-                <p>Freechat streamlines the ability to video chat with friends online - by allowing for dynamic creation of rooms and participants, without the burden of an installation or onboarding process.</p>
+                <p>Pikatsume (or Pika Collector), is a means of converting this user behavior into a charity driven platform!</p>
                 </div>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>React Component Tree</h2>
-                <a href="/images/freechat/react-components.png">
-                <img src="/images/freechat/react-components.png" alt="twilio-video-backend"/>
+                <h2>Postgres Design</h2>
+                <a href="/images/pika/postgresdesign.png">
+                <img src="/images/pika/postgresdesign.png" alt="twilio-video-backend"/>
                 </a>
                 <p>This website is implemented with React Hooks. The Lobby component handles the creation of rooms and users. The room component houses the participants, which contain the user identities, and the video + audio streams.</p>
             </div>
@@ -76,4 +77,4 @@ const Freechat = () => {
     )
 }
 
-export default Freechat;
+export default Pikatsume;

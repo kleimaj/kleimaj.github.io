@@ -6,7 +6,7 @@ import { faReact, faNode, faSass } from '@fortawesome/free-brands-svg-icons'
 const Home = () => {
     const [imgSrc, setSrc] = useState('/images/headshots/portfolio_pic.jpg');
     return (
-        <main>
+        <main data-aos="fade-up">
             <img 
             className="headshot" 
             src={imgSrc} 

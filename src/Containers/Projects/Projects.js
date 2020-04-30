@@ -47,7 +47,7 @@ const Projects = () => {
         />
     );
     return (
-        <main>
+        <main data-aos="fade-up">
             {projectComponents}
         </main>
     )

@@ -1,13 +1,3 @@
-[aos="fade"] {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-}
-
-[aos="fade"].aos-animate {
-  opacity: 1;
-}
-
 a.project {
   display: block;
   text-decoration: none;
@@ -76,6 +66,26 @@ a.project {
   border-radius: 25px;
 }
 
+.details h1 {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.details .detail-logo {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.details .detail-logo:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
 .details p {
   text-align: center;
 }
@@ -92,7 +102,10 @@ a.project {
   display: inline-block;
   color: white;
   text-decoration: none;
-  padding: 25px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
 }
 
 .details .external-links a svg {
@@ -108,8 +121,8 @@ a.project {
 }
 
 .details .external-links a:hover {
-  -webkit-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   -webkit-transform: translate(0px, -10px);
           transform: translate(0px, -10px);
 }
@@ -197,6 +210,28 @@ a.next h3 {
   background-color: #daa520;
 }
 
+.pikatsume .item p a {
+  color: black;
+}
+
+.pikatsume h1 {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.pikatsume .detail-logo {
+  width: 200px;
+  padding: 45px;
+}
+
+.pikatsume a.exit {
+  color: black;
+}
+
+.pikatsume .external-links a {
+  color: black;
+}
+
 .pikatsume img {
   -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
           filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
@@ -222,12 +257,12 @@ a.next h3 {
           filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
-.colab {
+a.colab {
   color: white;
   background-color: #2fbba3;
 }
 
-.colab img {
+a.colab img {
   -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
           filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
