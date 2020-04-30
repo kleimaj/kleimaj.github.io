@@ -368,8 +368,35 @@ a.colab img {
   background-color: #6232BF;
 }
 
+.ircam .detail-logo {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
 .ircam img {
   -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
           filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.ircam .item h3 {
+  font-family: 'Vulf Sans Bold';
+}
+
+.ircam .item img {
+  width: 300px;
+}
+
+.ircam .item svg {
+  font-size: 105px;
+  padding: 15px;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.ircam .item ul li {
+  font-family: 'Vulf Code';
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=Project.css.map */

@@ -312,7 +312,31 @@ a.colab {
 .ircam {
     color: white;
     background-color: $ircam;
+    .detail-logo {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
     img {
         filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    .item {
+        h3 {
+            font-family: 'Vulf Sans Bold';
+        }
+        img {
+            width: 300px;
+        }
+        svg {
+            font-size: 105px;
+            padding: 15px;
+            filter: none;
+        }
+        ul {
+            li {
+                font-family: 'Vulf Code';
+                text-align: left;
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
     }
 }
