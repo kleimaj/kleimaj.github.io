@@ -24,6 +24,21 @@ const Pikatsume = () => {
                     <p>View Code</p>
                 </a>
             </div>
+            <div className="team" data-aos="fade-up">
+                <h2>The Team</h2>
+                <div className="teammate">
+                    <img className="team-headshot" src="https://ca.slack-edge.com/T0351JZQ0-URQKLT3U3-12180cc3a937-512" alt="Cat" />
+                    <p>Cat Carbonell</p>
+                </div>
+                <div className="teammate">
+                    <img className="team-headshot" src="/images/headshots/portfolio_pic.jpg" alt="Jakey" />
+                    <p>Jacob Kleiman</p>
+                </div>
+                <div className="teammate">
+                    <img className="team-headshot" src="https://ca.slack-edge.com/T0351JZQ0-US6V78CTH-f153c9cab8be-512" alt="Johnson" />
+                    <p>Johnson Thieu</p>
+                </div>
+            </div>
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>

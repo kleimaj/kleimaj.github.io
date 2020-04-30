@@ -24,6 +24,17 @@ const Jamr = () => {
                     <p>View Code</p>
                 </a>
             </div>
+            <div className="team" data-aos="fade-up">
+                <h2>The Team</h2>
+                <div className="teammate">
+                    <img className="team-headshot" src="/images/headshots/portfolio_pic.jpg" alt="Jakey" />
+                    <p>Jacob Kleiman</p>
+                </div>
+                <div className="teammate">
+                    <img className="team-headshot" src="https://ca.slack-edge.com/T0351JZQ0-USFNL1FJQ-c019665b7422-512" alt="Jesus" />
+                    <p>Jesus Quezada</p>
+                </div>
+            </div>
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>

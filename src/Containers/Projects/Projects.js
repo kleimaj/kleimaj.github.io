@@ -26,7 +26,7 @@ const Projects = () => {
         },
         {
             name: 'Aboop',
-            description: 'Vanilla Javascript',
+            description: 'Vanilla Javascript ES6',
             src: path+'aboop_logo.png'
         },
         {

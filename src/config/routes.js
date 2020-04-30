@@ -5,6 +5,9 @@ import Projects from '../Containers/Projects/Projects';
 import Freechat from '../Components/Project/Freechat/Freechat';
 import Jamr from '../Components/Project/Jamr/Jamr';
 import Pikatsume from '../Components/Project/Pikatsume/Pikatsume';
+import Colab from '../Components/Project/Colab/Colab';
+import Aboop from '../Components/Project/Aboop/Aboop';
+
 const Routes = (props) => {
 
     return (
@@ -14,8 +17,8 @@ const Routes = (props) => {
           <Route path='/freechat' component={ Freechat } />
           <Route path='/jamr' component={ Jamr } />
           <Route path='/pikatsume' component={ Pikatsume } />
-          <Route path='/aboop' component={ Projects } />
-          <Route path='/colab' component={ Projects } />
+          <Route path='/colab' component={ Colab } />
+          <Route path='/aboop' component={ Aboop } />
           <Route path='/ircam' component={ Projects } />
 
         </Switch>
