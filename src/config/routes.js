@@ -2,13 +2,14 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from '../Components/Home/Home';
 import Projects from '../Containers/Projects/Projects';
+import Freechat from '../Components/Project/Freechat/Freechat';
 const Routes = (props) => {
 
     return (
         <Switch>
           <Route exact path='/' component={ Home } />
           <Route path='/projects' component={ Projects } />
-          <Route path='/freechat' component={ Projects } />
+          <Route path='/freechat' component={ Freechat } />
           <Route path='/pikatsume' component={ Projects } />
           <Route path='/jamr' component={ Projects } />
           <Route path='/aboop' component={ Projects } />
