@@ -2,6 +2,9 @@ import React from 'react';
 import Project from '../../Components/Project/Project';
 
 const Projects = () => {
+    window.scrollTo({
+        top: 0,
+      });
     const path = "/images/portfolio_icons/";
     const projects = [
         {
