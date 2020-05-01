@@ -20,7 +20,7 @@ const Home = () => {
                 {<br/>}
                 *With the pandemic occurring, I'm absolutely open to remote work, as well as contracting!
             </p>
-            <p><Link to="#">Contact me</Link>, or check out my <Link to="/projects">projects</Link>!</p>
+            <p><a href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
         </main>
     );
 }
