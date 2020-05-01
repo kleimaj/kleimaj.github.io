@@ -49,6 +49,9 @@ a.project {
     -webkit-transition: none;
     transition: none;
   }
+  .project .project:hover img {
+    display: none;
+  }
 }
 
 .freechat {

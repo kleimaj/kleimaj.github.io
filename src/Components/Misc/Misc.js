@@ -51,22 +51,16 @@ const Misc = () => {
             <div className="tools artist" data-aos="fade-up">
                 <p>My music heroes:</p>
                 <div className="tool">
-                    <a href="https://reactjs.org/">
-                    <img src="https://lh3.googleusercontent.com/proxy/KL5g8L_QzxcKk3pZMpYl5I6oOeO8YNE7prwDPFl0IRhnDcE2RN3wUYJnxEJryyiWR2OsvsoMOktLFdoqXPvGEnT9fGKQyVmtwDkX_XbLKKazw-wSuDKo8ovHfHMUGq-_5uF0jyu7488mQ94rBzsiLzXDctY2g6Ku3Vdal9uxSoeThc2sKN7E_u8Udk75m58RHmZBuNIonrpqsrwZrBn4TZtOEadEqq0wn8RXZVoZNHHyCCULd8mhDMsNUa0IFA" alt="Sketch"/>
+                    <img src="https://lh3.googleusercontent.com/proxy/KL5g8L_QzxcKk3pZMpYl5I6oOeO8YNE7prwDPFl0IRhnDcE2RN3wUYJnxEJryyiWR2OsvsoMOktLFdoqXPvGEnT9fGKQyVmtwDkX_XbLKKazw-wSuDKo8ovHfHMUGq-_5uF0jyu7488mQ94rBzsiLzXDctY2g6Ku3Vdal9uxSoeThc2sKN7E_u8Udk75m58RHmZBuNIonrpqsrwZrBn4TZtOEadEqq0wn8RXZVoZNHHyCCULd8mhDMsNUa0IFA" alt="JoeDart"/>
                     <p>Joe Dart</p>
-                    </a>
                 </div>
                 <div className="tool">
-                    <a href="https://nodejs.org/">
-                    <img src="https://i0.wp.com/www.notreble.com/wp-content/uploads/2012/04/james-jamerson-600x400.jpg" alt="Figma"/>
+                    <img src="https://i0.wp.com/www.notreble.com/wp-content/uploads/2012/04/james-jamerson-600x400.jpg" alt="James Jamerson"/>
                     <p>James Jamerson</p>
-                    </a>
                 </div>
                 <div className="tool">
-                    <a href="https://sass-lang.com/">
-                    <img src="https://www.premierguitar.com/ext/resources/images/content/2018_10/FEAT/MonoNeon/Dec18_PG_FEAT_MonoNeon_Live-with-Ghost-Note_Photo-by-Fred-SanFilipo_WEB.jpg" alt="xd"/>
+                    <img src="https://www.premierguitar.com/ext/resources/images/content/2018_10/FEAT/MonoNeon/Dec18_PG_FEAT_MonoNeon_Live-with-Ghost-Note_Photo-by-Fred-SanFilipo_WEB.jpg" alt="MonoNeon"/>
                     <p>MonoNeon</p>
-                    </a>
                 </div>
             </div>
         </main>

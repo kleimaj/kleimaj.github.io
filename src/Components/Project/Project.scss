@@ -59,6 +59,9 @@ a.project {
         //     }
             .project:hover{
                 transition: none;
+                img {
+                    display: none;
+                }
             }
         }
     
