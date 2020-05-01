@@ -11,9 +11,9 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 ReactDOM.render(
-<HashRouter>
+<Router>
     <App />
-  </HashRouter>, 
+  </Router>, 
   document.getElementById('root')
 );
 
