@@ -22,6 +22,9 @@ a.project {
 .project:hover {
         img {
             display: inline-block;
+            @media screen and (max-width: $mobile-breakpoint){
+                display: none;
+            }
         }
         transition: all .7s ease-in-out; 
             // transform: scale(1.1);

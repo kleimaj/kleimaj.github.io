@@ -15,6 +15,12 @@ a.project {
   display: inline-block;
 }
 
+@media screen and (max-width: 980px) {
+  .project:hover img {
+    display: none;
+  }
+}
+
 .project {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
