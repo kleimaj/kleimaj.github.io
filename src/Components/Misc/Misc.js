@@ -51,7 +51,7 @@ const Misc = () => {
             <div className="tools artist" data-aos="fade-up">
                 <p>My music heroes:</p>
                 <div className="tool">
-                    <img src="https://lh3.googleusercontent.com/proxy/KL5g8L_QzxcKk3pZMpYl5I6oOeO8YNE7prwDPFl0IRhnDcE2RN3wUYJnxEJryyiWR2OsvsoMOktLFdoqXPvGEnT9fGKQyVmtwDkX_XbLKKazw-wSuDKo8ovHfHMUGq-_5uF0jyu7488mQ94rBzsiLzXDctY2g6Ku3Vdal9uxSoeThc2sKN7E_u8Udk75m58RHmZBuNIonrpqsrwZrBn4TZtOEadEqq0wn8RXZVoZNHHyCCULd8mhDMsNUa0IFA" alt="JoeDart"/>
+                    <img src="http://www.markbass.it/media/filer_public_thumbnails/filer_public/0e/e4/0ee4a7d2-cc79-4924-adf9-48970513beb8/joe_dart_-_vulfpeck.jpg__1980x1980_q85_subsampling-2.jpg" alt="JoeDart"/>
                     <p>Joe Dart</p>
                 </div>
                 <div className="tool">
