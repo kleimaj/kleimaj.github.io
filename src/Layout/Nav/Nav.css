@@ -1,0 +1,120 @@
+aside {
+  position: fixed;
+  padding: 95px 5%;
+  z-index: 3;
+  line-height: 1.5em;
+}
+
+aside h2 {
+  font-family: 'Vulf Sans Bold';
+  font-size: 30px;
+  padding: 10px;
+}
+
+aside .project_link:hover {
+  -webkit-transform: translate(10px, 0);
+          transform: translate(10px, 0);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  text-decoration: none;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-family: 'Vulf Sans';
+  text-align: left;
+}
+
+aside a:hover {
+  color: black;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+aside span {
+  font-family: 'Vulf Code';
+}
+
+aside #projects {
+  text-align: center;
+  text-decoration: none;
+}
+
+aside #works {
+  padding-top: 20px;
+}
+
+aside #misc {
+  padding: 10%;
+}
+
+aside #misc a {
+  text-align: center;
+  text-decoration: none;
+}
+
+aside #header_logo {
+  width: 250px;
+  position: fixed;
+  top: 30px;
+  display: inline-block;
+  left: 85px;
+}
+
+nav {
+  width: 100vw;
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  height: 75px;
+  -webkit-box-shadow: 0px 3px 8px 0px #8a7e8a;
+  box-shadow: 0px 3px 8px 0px #8a7e8a;
+  text-align: center;
+}
+
+nav .nav-left {
+  padding: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+nav .nav-center {
+  display: inline;
+  padding: 30px;
+}
+
+nav .nav-center #nav_logo {
+  width: 150px;
+}
+
+nav .hamburger_menu {
+  text-align: left;
+  font-family: 'Vulf Code';
+  height: 87vh;
+  padding-top: 20px;
+  background-color: #fff;
+  opacity: .9;
+  position: relative;
+  z-index: 2;
+}
+
+nav .hamburger_menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav .hamburger_menu a span {
+  padding: 10px;
+}
+
+nav .hamburger_menu .hamburger_misc {
+  font-family: 'Vulf Sans';
+  padding: 10px 25px;
+}
+/*# sourceMappingURL=Nav.css.map */

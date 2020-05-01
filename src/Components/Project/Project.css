@@ -1,0 +1,402 @@
+a.project {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.project:hover {
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.project:hover img {
+  display: inline-block;
+}
+
+.project {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+}
+
+.project h3 {
+  font-family: 'Vulf Sans Bold';
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.project p {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: -20px;
+}
+
+.project img {
+  width: 70px;
+  margin: 20px;
+  display: none;
+  bottom: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .project .project:hover {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.freechat {
+  background-color: #000;
+  color: white;
+}
+
+.freechat img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.details {
+  text-align: center;
+  border-radius: 25px;
+}
+
+.details h1 {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.details .detail-logo {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.details .detail-logo:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.details p {
+  text-align: center;
+}
+
+.details .exit {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  padding: 10px 25px;
+}
+
+.details .external-links {
+  border-bottom: 1px solid white;
+}
+
+.details .external-links a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.details .external-links a svg {
+  font-size: 50px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.details .external-links a p {
+  text-align: center;
+  display: inline-block;
+  font-family: 'Vulf Code';
+  font-size: 24px;
+}
+
+.details .external-links a:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.details .team h2 {
+  font-family: 'Vulf Sans Bold';
+  padding: 25px;
+}
+
+.details .team .teammate {
+  display: inline-block;
+  padding: 25px 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.details .team .teammate:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.details .team .team-headshot {
+  width: 200px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 980px) {
+  .details .team .teammate {
+    padding: 0px;
+  }
+}
+
+.details .problem-solution {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 25px;
+}
+
+.details .problem-solution .text-block {
+  width: 50%;
+  display: -ms-inline-grid;
+  display: inline-grid;
+}
+
+.details .problem-solution h4 {
+  text-align: left;
+  font-family: 'Vulf Sans Bold';
+}
+
+.details .problem-solution p {
+  font-size: 20px;
+  text-align: left;
+}
+
+@media screen and (max-width: 980px) {
+  .details .problem-solution .text-block {
+    width: 100%;
+    display: inline-block;
+  }
+  .details .problem-solution p {
+    font-size: 18px;
+  }
+}
+
+.details .item {
+  border-bottom: .5px solid white;
+}
+
+.details .item h2 {
+  font-family: 'Vulf Sans Bold';
+  width: 100%;
+  padding: 45px;
+}
+
+.details .item img {
+  width: 600px;
+}
+
+.details .item p {
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.details .item p a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+  .details .item img {
+    width: 300px;
+  }
+}
+
+a.next {
+  display: block;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+a.next div {
+  border-radius: 25px;
+}
+
+a.next h3 {
+  font-family: 'Vulf Sans Bold';
+  text-decoration: underline;
+  padding: 25px;
+}
+
+.pikatsume {
+  background-color: #daa520;
+}
+
+.pikatsume .item {
+  border-bottom: .5px solid black;
+}
+
+.pikatsume .item:last-child {
+  border-bottom: none;
+}
+
+.pikatsume .item p a {
+  color: black;
+}
+
+.pikatsume h1 {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.pikatsume .problem-solution {
+  border-top: .5px solid black;
+  border-bottom: .5px solid black;
+}
+
+.pikatsume .detail-logo {
+  width: 200px;
+  padding: 45px;
+  margin-top: -50px;
+}
+
+.pikatsume a.exit {
+  color: black;
+}
+
+.pikatsume .external-links {
+  border-bottom: .5px solid black;
+}
+
+.pikatsume .external-links a {
+  color: black;
+}
+
+.pikatsume img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.jamr {
+  color: white;
+  background-color: #cb686e;
+}
+
+.jamr img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.aboop {
+  color: white;
+  background-color: #3068a7;
+}
+
+.aboop .detail-logo {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  width: 100px;
+}
+
+.aboop img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.colab {
+  color: white;
+  background-color: #2fbba3;
+}
+
+.colab img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.colab h1 {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.colab .detail-logo {
+  width: 400px;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.colab .team .team-headshot {
+  width: 170px;
+}
+
+@media screen and (max-width: 980px) {
+  .colab img {
+    width: 300px;
+  }
+  .colab .detail-logo {
+    width: 300px;
+  }
+}
+
+a.colab {
+  color: white;
+  background-color: #2fbba3;
+}
+
+a.colab img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.ircam {
+  color: white;
+  background-color: #6232BF;
+}
+
+.ircam .detail-logo {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.ircam img {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.ircam .item h3 {
+  font-family: 'Vulf Sans Bold';
+}
+
+.ircam .item img {
+  width: 300px;
+}
+
+.ircam .item svg {
+  font-size: 105px;
+  padding: 15px;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.ircam .item ul li {
+  font-family: 'Vulf Code';
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=Project.css.map */

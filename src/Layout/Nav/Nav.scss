@@ -1,0 +1,102 @@
+// Desktop View
+aside{
+    h2 {
+        font-family: 'Vulf Sans Bold';
+        font-size: 30px;
+        padding: 10px;
+    }
+    position: fixed;
+    padding: 95px 5%;
+    z-index: 3;
+    line-height: 1.5em;
+    .project_link:hover{
+        transform: translate(10px, 0);
+        transition: all .5s ease-in-out;
+        text-decoration: none;
+      }
+  a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Vulf Sans';
+    text-align: left;
+  }
+  a:hover{
+    color:black;
+    transition: color .2s ease;
+  }
+  span{
+    font-family: 'Vulf Code';
+  }
+  #projects{
+    // color:black;
+    text-align: center;
+    text-decoration: none;
+  }
+  #works {
+      padding-top: 20px;
+  }
+  #misc{
+    padding: 10%;
+    a {
+        text-align: center;
+        text-decoration: none;
+    }
+  }
+  #header_logo{
+    width:250px;
+    position: fixed;
+    top: 30px;
+    display: inline-block;
+    left: 85px;
+  }
+}
+// Mobile View
+nav {
+    width: 100vw;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    height: 75px;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(138,126,138,1);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(138,126,138,1);
+    box-shadow: 0px 3px 8px 0px rgba(138,126,138,1);
+    text-align: center;
+    .nav-left {
+        padding: 15px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+    }
+    .nav-center {
+        display: inline;
+        padding: 30px;
+        #nav_logo {
+            width: 150px;
+        }
+    }
+    .hamburger_menu {
+        text-align: left;
+        font-family: 'Vulf Code';
+        height: 87vh;
+        padding-top: 20px;
+        background-color: #fff;
+        opacity: .9;
+        position: relative;
+        z-index: 2;
+        a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+            span {
+                padding: 10px;
+            }
+        }
+        .hamburger_misc {
+            font-family: 'Vulf Sans';
+            padding: 10px 25px;
+        }
+    }
+}
