@@ -52,7 +52,7 @@ const renderMobile = (show, setShow) => {
                     <Link className = "hamburger_link" to="/freechat" onClick={()=>setShow(false)}><span>01:&emsp;FreeChat</span></Link>
                     <Link className = "hamburger_link" to="/jamr" onClick={()=>setShow(false)}><span>02:&emsp;Jamr</span></Link>
                     <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>03:&emsp;Pikatsume</span></Link>
-                    <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>04:&emsp;Co.Lab</span></Link>
+                    <Link className = "hamburger_link" to="/colab" onClick={()=>setShow(false)}><span>04:&emsp;Co.Lab</span></Link>
                     <Link className = "hamburger_link" to="/aboop" onClick={()=>setShow(false)}><span>05:&emsp;Aboop</span></Link>
                     <Link className = "hamburger_link" to="/ircam" onClick={()=>setShow(false)}><span>06:&emsp;ircam</span></Link>
                     <Link className = "hamburger_misc" to="/about" onClick={()=>setShow(false)}>About</Link>
