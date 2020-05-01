@@ -1,0 +1,116 @@
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+body{
+    overscroll-behavior: none;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+img{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    /* left:5%; */
+}
+h1{
+    font-family: 'Shrikhand';
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    top:-40px;
+    font-weight: normal;
+    text-decoration: underline;
+    font-family: 'Montserrat';
+}
+h3{
+    font-size: .9em;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-decoration: underline;
+    padding: 25px;
+}
+p{
+    font-size: .9em;
+    padding: 25px 15%;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+ul{
+    position: relative;
+    top:-50px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: .9em;
+}
+li {
+    list-style: none;
+    font-weight: normal;
+
+}
+#bio{
+    text-align: left;
+    position: relative;
+    left:5%;
+    justify-content: center;
+}
+#contact{
+    display: block;
+    text-align: center;
+    color: lightskyblue;
+    text-decoration: underline;
+}
+#genres{
+    position: relative;
+    top: -50px;
+}
+#dts{
+    position: relative;
+    top: -50px;
+}
+#vulf{
+    color: red;
+}
+#badu{
+    color:lightskyblue;
+}
+#gaye{
+    color:lightgreen;
+}
+#misch{
+    color:yellow;
+}
+#funk{
+    color:violet;
+}
+#soul{
+    color: turquoise;
+}
+#rb{
+    color:lightgreen;
+}
+#citypop{
+    color:pink;
+}
+@media (min-width: 1000px){
+    p{
+        padding: 25px 25%;
+    }
+}

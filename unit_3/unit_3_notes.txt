@@ -1,0 +1,69 @@
+Text Treatment
+Font -
+font-family (Fallback after comma backup font option)
+, font-size
+, font-weight (normal or bold)
+, font-style  (normal or italic)
+
+Text - 
+text-align, (left, center, right, justify)
+text-decoration, (underline or none)
+text-transform  (uppercase, lowercase, capitalize)
+
+Classes and IDs
+
+Classes- Provides a label for HTML elements
+(should be used for multiple tags)
+.ExampleName
+
+IDs- Specifies a unique id for an HTML element
+(should only be used once)
+#ExampleName
+
+Colors
+1. background: red;
+2. backgroundL #ff0000
+3. background: rgb(255,0,0)
+
+Alpha channels
+rgba(0,0,0,1)
+
+Choosing the right markup
+list tags ul and ol
+ul - unordered list (bullets)
+ol - order list (numbers)
+li - list item
+br- line breaks
+
+Images
+<img>
+
+local hosted (preferred), or globally hosted
+Relative Address
+<img src = "img/name.png"> 
+
+Absolute Address - need url of online location of image file
+<img src = "link_to_image.com">
+
+Image Attributes
+Alt (text shown if image can't be rendered)
+Title (provides additional information about image, title value will pop up over image)
+in CSS:
+    background: url("imageurl");
+    background-size: cover; //covers the entire page in an image (not tiled)
+
+<hr> horizontal rule (line)
+&hearts; makes a heart 'html entity'
+
+CSS Nomenclature
+h1 - the selector
+{ - curly brackets
+text-align: -property
+center; -value
+}
+
+1:1
+HTTPS - secure protocol, security certificate tied to domain. Allows for more encryption and protection.
+
+Transitions
+https://css-tricks.com/almanac/properties/t/transition/

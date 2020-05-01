@@ -1,0 +1,50 @@
+Section1.
+Typography: The art and science of arranging type
+Visual Design: a creative process that combines art and technology to communicate ideas
+legibility (size) and readability (poor spacing)
+Glyph - single symbol of a typeface, letters, puncuation, numbers
+typeface: family of glyphs
+font: specific setting of glyphs 
+sizing: top to bottom of letters (point)
+1. absolute size
+2. relative size
+x height: top to baseline of lowercase 'x'
+weight - heaviness of typeface based on thickness of strokes (bold and normal)
+
+css font stack (helvetica, times new roman, etc.)
+prioritized listing based on browser
+
+Section 2. Typography and Readability
+Line Length - number of characters per line (preferred 80 characters)
+Line Height - 2em for example (preferred 150% - 200% of text size) (margin 2em)
+Paragraph Spacing - spacing between paragraphs
+Hierarchy and Flow:
+Headlines, body (bodycopy)
+
+Section 4. Typographic Pairings : Best Practices
+Mixing type families can help flow
+Sans and Serrifs (good pairing)
+Weights (Semi-bold, Bold, and Black) 1 degree between weights eg. Semi-bold and black are best paired
+Stroke Thickness: Wide and Condensed faces are bad for small text (legibility problems)
+If types share same baseline, they should also share a similar x-height
+
+Section 6. Advanced Typographic Considerations
+Type Scalability
+- use css em, not px
+Extended Characters (ligatures, alternates, smallcaps)
+("typography is the visual design of grammar")
+follow typographic norms:
+	1. Only use single space after periods
+	2.Hyphens (-) ex. Blue-green sea
+		en dash (--) 3--4 times per week
+		em dash --- 
+	3.Typographer's Quotes (boy's dog) vs Prime Marks (6'5")
+
+Section 8. Color --- Typography and Beyond
+Navigational Text: Hoverstate, permenantly changed states
+red yellow and blue are primary colors
+orange, green, purple, secondary colors
+1. Analogous (adjacent colors)
+2. Triadic (spaced apart colors, e.g red blue yellow)
+3. Complementary (opposite colors e.g blue and orange)
+4. Monochromatic (tints and shades of 1 color)
