@@ -9,7 +9,7 @@ import Colab from '../Components/Project/Colab/Colab';
 import Aboop from '../Components/Project/Aboop/Aboop';
 import Ircam from '../Components/Project/Ircam/Ircam';
 import About from '../Components/About/About';
-
+import Misc from '../Components/Misc/Misc';
 const Routes = (props) => {
 
     return (
@@ -23,6 +23,7 @@ const Routes = (props) => {
           <Route path='/aboop' component={ Aboop } />
           <Route path='/ircam' component={ Ircam } />
           <Route path='/about' component={ About } />
+          <Route path='/misc' component={ Misc } />
 
         </Switch>
       );

@@ -49,14 +49,14 @@ const renderMobile = (show, setShow) => {
                 {/* Hamburger Menu */}
                 {show ?
                 <div className="hamburger_menu">
-                    <a className = "hamburger_link" href="colab.html"><span>01:&emsp;FreeChat</span></a>
-                    <a className = "hamburger_link" href="ircam.html"><span>02:&emsp;Jamr</span></a>
-                    <a className = "hamburger_link" href="jamr.html"><span>03:&emsp;Pikatsume</span></a>
-                    <a className = "hamburger_link" href="ircam.html"><span>04:&emsp;Co.Lab</span></a>
-                    <a className = "hamburger_link" href="ircam.html"><span>05:&emsp;Aboop</span></a>
-                    <a className = "hamburger_link" href="ircam.html"><span>06:&emsp;ircam</span></a>
-                    <a className = "hamburger_misc" href="#">About</a>
-                    <a className = "hamburger_misc" href="#">Misc</a>
+                    <Link className = "hamburger_link" to="/freechat" onClick={()=>setShow(false)}><span>01:&emsp;FreeChat</span></Link>
+                    <Link className = "hamburger_link" to="/jamr" onClick={()=>setShow(false)}><span>02:&emsp;Jamr</span></Link>
+                    <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>03:&emsp;Pikatsume</span></Link>
+                    <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>04:&emsp;Co.Lab</span></Link>
+                    <Link className = "hamburger_link" to="/aboop" onClick={()=>setShow(false)}><span>05:&emsp;Aboop</span></Link>
+                    <Link className = "hamburger_link" to="/ircam" onClick={()=>setShow(false)}><span>06:&emsp;ircam</span></Link>
+                    <Link className = "hamburger_misc" to="/about" onClick={()=>setShow(false)}>About</Link>
+                    <Link className = "hamburger_misc" to="/misc" onClick={()=>setShow(false)}>Misc</Link>
 
                 </div>
                 :

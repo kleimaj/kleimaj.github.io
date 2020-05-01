@@ -161,4 +161,58 @@ main {
             }
         }
     }
+    .tools.bass {
+        .tool {
+            padding: 0px;
+            img {
+                width: 500px;
+                
+                @media screen and (max-width: $mobile-breakpoint){
+                    width: 200px;
+                    position: relative;
+                    right: 50px;
+                }
+            }
+            @media screen and (max-width: $mobile-breakpoint){
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .tools.artist {
+        .tool {
+            padding: 0px;
+            img {
+                width: 300px;
+                
+                @media screen and (max-width: $mobile-breakpoint){
+                    width: 200px;
+                    position: relative;
+                    right: 50px;
+                }
+            }
+            @media screen and (max-width: $mobile-breakpoint){
+                display: block;
+                margin: 0 auto;
+                p {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    .about-img {
+        width: 400px;
+        padding: 25px;
+        border-radius: 25px;
+        transition: all .5s ease-in-out; 
+        transform: translate(0px, 0px);
+        @media screen and (max-width: $mobile-breakpoint){
+            width: 300px;
+            padding: 25px;
+        }
+    }
+    .about-img:hover {
+        transition: all .5s ease-in-out; 
+                transform: translate(0px, -10px);
+    }
 }
