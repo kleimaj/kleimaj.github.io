@@ -44,7 +44,7 @@ const Misc = () => {
             </div>
             <div data-aos="fade-up">
             <h3>Performer</h3>
-            <p>I love to play in bands, I will constantly find people to play with - in whatever location I'm in. My favorite genre of music to play is funk music, </p>
+            <p>I love to play in bands, I will constantly find people to play with - in whatever location I'm in. My favorite genre of music to play is funk music, Motown, jazz, the occaisonal grunge and alternative which is hard to avoid nowadays. I love all music!</p>
             <img className="about-img" src="/images/about/jfunk2.png" alt="J-Funk" />
 
             </div>
