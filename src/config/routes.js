@@ -24,6 +24,7 @@ const Routes = (props) => {
           <Route path='/ircam' component={ Ircam } />
           <Route path='/about' component={ About } />
           <Route path='/misc' component={ Misc } />
+          <Route path='/*' component={ Home } />
 
         </Switch>
       );
