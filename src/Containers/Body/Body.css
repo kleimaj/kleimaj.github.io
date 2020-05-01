@@ -134,4 +134,58 @@ main .tools .tool .sass :hover {
             transform: none;
   }
 }
+
+.about h2 {
+  display: block;
+  font-family: 'Vulf Sans Bold';
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.about h3 {
+  font-family: 'Vulf Sans Bold';
+  font-size: 40px;
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 15px;
+}
+
+.about .unicorn {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.about .unicorn:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate(0px, -10px);
+          transform: translate(0px, -10px);
+}
+
+.about .tools .tool {
+  padding: 0px;
+}
+
+.about .tools .tool img {
+  width: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .about .tools .tool img {
+    width: 50px;
+  }
+}
+
+.about .tools .tool #figma {
+  width: 70px;
+}
+
+@media screen and (max-width: 980px) {
+  .about .tools .tool #figma {
+    width: 50px;
+  }
+}
 /*# sourceMappingURL=Body.css.map */

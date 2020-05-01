@@ -120,3 +120,45 @@ main {
         }
     }
 }
+.about {
+    h2 {
+        display: block;
+        font-family: 'Vulf Sans Bold';
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+    h3 {
+        font-family: 'Vulf Sans Bold';
+        font-size: 40px;
+        text-align: left;
+        padding-left: 35px;
+        padding-top: 15px;
+    }
+    .unicorn {
+        transition: all .5s ease-in-out; 
+                transform: translate(0px, 0px);
+    }
+    .unicorn:hover {
+        transition: all .5s ease-in-out; 
+                transform: translate(0px, -10px);
+
+    }
+    .tools {
+        .tool {
+            padding: 0px;
+            img {
+                width: 100px;
+                @media screen and (max-width: $mobile-breakpoint){
+                    width: 50px;
+                }
+            }
+            #figma {
+                width: 70px;
+                @media screen and (max-width: $mobile-breakpoint){
+                    width: 50px;
+                }
+            }
+        }
+    }
+}

@@ -5,6 +5,9 @@ import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Pikatsume = () => {
+    window.scrollTo({
+        top: 0,
+      });
     return (
         <main>
             <div className="pikatsume details" data-aos="fade-up">
@@ -15,11 +18,11 @@ const Pikatsume = () => {
             <img className="detail-logo" src="https://i.ibb.co/6tYzGn9/pikachu-hop.gif" alt="pika!!"/>
             <p>A Pikachu Collector Game {<br/>} (for a good cause)!</p>
             <div className="external-links">
-                <a href="#">
+                <a href="https://pikatsume.herokuapp.com/">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Site</p>
                 </a>
-                <a href="#">
+                <a href="https://git.generalassemb.ly/Johnson/project-Pikatsume">
                     <FontAwesomeIcon icon={faGithub} /> 
                     <p>View Code</p>
                 </a>

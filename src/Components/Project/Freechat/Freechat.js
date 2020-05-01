@@ -5,6 +5,9 @@ import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Freechat = () => {
+    window.scrollTo({
+        top: 0,
+      });
     return (
         <main>
             <div className="freechat details" data-aos="fade-up">
@@ -14,11 +17,11 @@ const Freechat = () => {
             <h1>Freechat</h1>
             <p className="detail-logo">easy 👏 simple 👏 free 👏 video 👏 chat</p>
             <div className="external-links">
-                <a href="#">
+                <a href="https://jakechat69.herokuapp.com/">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Site</p>
                 </a>
-                <a href="#">
+                <a href="https://github.com/kleimaj/jakechat-frontend">
                     <FontAwesomeIcon icon={faGithub} /> 
                     <p>View Code</p>
                 </a>

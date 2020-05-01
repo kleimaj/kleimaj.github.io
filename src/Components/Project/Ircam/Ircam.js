@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faFacebook, faYoutube, faAmazon } from '@fortawesome/free-brands-svg-icons';
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faYoutube, faAmazon } from '@fortawesome/free-brands-svg-icons';
 
 const Ircam = () => {
+    window.scrollTo({
+        top: 0,
+      });
     return (
         <main>
             <div className="ircam details" data-aos="fade-up">
@@ -13,17 +16,7 @@ const Ircam = () => {
             </Link>
             <h1>ircam</h1>
             <img src="/images/portfolio_icons/ircam.svg" className="detail-logo" alt="" />
-            <p>Universal Music Group's {<br/>}Machine Learning and Metadata Modeling!</p>
-            <div className="external-links">
-                <a href="#">
-                <FontAwesomeIcon icon={faTv} /> 
-                    <p>View Site</p>
-                </a>
-                <a href="#">
-                    <FontAwesomeIcon icon={faGithub} /> 
-                    <p>View Code</p>
-                </a>
-            </div>
+            <p>Universal Music Group's {<br/>}Machine Learning and Metadata Modeling!</p>   
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>
@@ -58,7 +51,8 @@ const Ircam = () => {
                     the musical characteristics of our catalog</p>
                 <h3>Synchronization & Licensing</h3>
                 <p>Empower search across UMG’s catalog & create
-                    a unified metadata standard across partners and labels.</p>
+                    a unified metadata standard across partners and labels.
+                    </p>
             </div>
 
             <div className="item" data-aos="fade-up">
@@ -90,14 +84,14 @@ const Ircam = () => {
             </div>
             <div className="item" data-aos="fade-up">
                 <h2>Metadata Modeling</h2>
-                <a href="/images/ircam/interscope.png">
-                <img src="/images/ircam/interscope.png" alt="twilio-video-backend"/>
+                <a href="https://i.pinimg.com/originals/ce/f3/73/cef373254ff38570434d46c82f6884f4.gif">
+                <img src="https://i.pinimg.com/originals/ce/f3/73/cef373254ff38570434d46c82f6884f4.gif" alt="twilio-video-backend"/>
                 </a>
-                <p>These visualizations are created via a script utilizing the Google Big Query API. An input set of ISRCs (or songs) will output averages of creative metadata</p>
-                <a href="/images/ircam/disney.png">
-                <img src="/images/ircam/disney.png" alt="twilio-video-backend"/>
+                <p>D3.js data visualizations are created via a script utilizing the Google Big Query API. The script will average creative metadata with its occurences in the master catalogue. An input set of ISRCs (or songs) will output averages of creative metadata</p>
+                <a href="https://www.d3-graph-gallery.com/img/graph/pie_changeData.gif">
+                <img src="https://www.d3-graph-gallery.com/img/graph/pie_changeData.gif" alt="twilio-video-backend"/>
                 </a>
-                <p>The averages are tailored into d3 donut graphs and are utilized to articulate the creative metadata analytics of sub labels and UMG partners.</p>
+                <p>The averages are tailored into d3 donut graphs and pie charts. The visualizations are utilized to articulate the creative metadata analytics to sub labels and UMG partners. This data would be presented in meetings of 30+ people.</p>
             </div>
             </div>
             {/* <Link className="next" to="/jamr">

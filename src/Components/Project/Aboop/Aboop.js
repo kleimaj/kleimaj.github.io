@@ -5,6 +5,9 @@ import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Aboop = () => {
+    window.scrollTo({
+        top: 0,
+      });
     return (
         <main>
             <div className="aboop details" data-aos="fade-up">
@@ -15,11 +18,11 @@ const Aboop = () => {
             <img className="detail-logo" src="/images/portfolio_icons/aboop_logo.png" alt="bubble"/>
             <p>Pop, Breathe, Restore</p>
             <div className="external-links">
-                <a href="#">
+                <a href="http://jacobkleiman.com/bubble_pop/">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Site</p>
                 </a>
-                <a href="#">
+                <a href="https://github.com/kleimaj/bubble_pop">
                     <FontAwesomeIcon icon={faGithub} /> 
                     <p>View Code</p>
                 </a>
@@ -76,7 +79,7 @@ const Aboop = () => {
                 <img src="/images/aboop/hifi.png" alt="twilio-video-backend"/>
                 </a>
                 <p>After the first inital days of logic development, wireframing and planning. I committed my final two days to implementing as much of the front-end design as I could. And I'm proud to announce I've never been happier with a project that entails front-end development. Some of my major acheivements were creating the breathe element (the bubble guru) as well as the bubble animations, theme and bubble customization, and how this project can really go many ways from here.</p>
-                <p>If you're interested in seeing my project presentation in front of 30 people, please check it out <a href="#">here</a>!</p>
+                <p>If you're interested in seeing my project presentation in front of 30 people at General Assembly, please check it out <a href="https://youtu.be/Anr0rGHVRsE">here</a>!</p>
             </div>
             </div>
             {/* <Link className="next" to="/jamr">

@@ -5,6 +5,9 @@ import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Jamr = () => {
+    window.scrollTo({
+        top: 0,
+      });
     return (
         <main>
             <div className="jamr details" data-aos="fade-up">
@@ -15,11 +18,11 @@ const Jamr = () => {
             <img className="detail-logo" src="/images/portfolio_icons/jamr_logo_white.svg" alt="jamr-logo" />
             <p>Find Musicians in your Area!</p>
             <div className="external-links">
-                <a href="#">
+                <a href="https://jamr-sei08.herokuapp.com/">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Site</p>
                 </a>
-                <a href="#">
+                <a href="https://github.com/kleimaj/jamr-web">
                     <FontAwesomeIcon icon={faGithub} /> 
                     <p>View Code</p>
                 </a>
@@ -110,7 +113,7 @@ const Jamr = () => {
                 <a href="/images/jamr/map.png">
                 <img src="/images/jamr/map.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard"/>
                 </a>
-                <p>For those readers who know me personally, this application is a long-time passion project of mine. It's something that I will always continue to craft, iterate, and modify. If you really know me, you would know that this isn't my first iteration of Jamr, if you'd like to view the Jamr - Android implementation, you can view it <a href="#">here</a>!</p>
+                <p>For those readers who know me personally, this application is a long-time passion project of mine. It's something that I will always continue to craft, iterate, and modify. If you really know me, you would know that this isn't my first iteration of Jamr, if you'd like to view the Jamr - Android implementation, you can view it <a href="./jamr.html">here</a>!</p>
             </div>
             </div>
             {/* <Link className="next" to="/jamr">

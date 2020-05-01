@@ -26,8 +26,8 @@ const renderDesktop = () => {
 
                     </div>
                     <div id="misc" data-aos="fade-up">
-                    <a href="profile.html"><h2>About</h2></a>
-                    <a href="music.html"><h2>Misc</h2></a>
+                    <Link to="/about"><h2>About</h2></Link>
+                    <Link to="/misc"><h2>Misc</h2></Link>
                     </div>
                 </aside>
             </div>

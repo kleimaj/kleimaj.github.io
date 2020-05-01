@@ -8,6 +8,7 @@ import Pikatsume from '../Components/Project/Pikatsume/Pikatsume';
 import Colab from '../Components/Project/Colab/Colab';
 import Aboop from '../Components/Project/Aboop/Aboop';
 import Ircam from '../Components/Project/Ircam/Ircam';
+import About from '../Components/About/About';
 
 const Routes = (props) => {
 
@@ -21,6 +22,7 @@ const Routes = (props) => {
           <Route path='/colab' component={ Colab } />
           <Route path='/aboop' component={ Aboop } />
           <Route path='/ircam' component={ Ircam } />
+          <Route path='/about' component={ About } />
 
         </Switch>
       );

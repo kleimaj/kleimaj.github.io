@@ -5,6 +5,9 @@ import { faTimesCircle, faTv } from '@fortawesome/free-solid-svg-icons';
 import { faSketch } from '@fortawesome/free-brands-svg-icons';
 
 const Colab = () => {
+    window.scrollTo({
+        top: 0,
+      });
     return (
         <main>
             <div className="colab details" data-aos="fade-up">
@@ -15,11 +18,11 @@ const Colab = () => {
             <img className="detail-logo" src="/images/colab/colab.gif" alt="pika!!"/>
             <p>an academic app for {<br/>} finding a study buddy!</p>
             <div className="external-links">
-                <a href="#">
+                <a href="https://youtu.be/ZJyZ8ufpyPU">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Demo</p>
                 </a>
-                <a href="#">
+                <a href="/images/colab/colab.sketch">
                     <FontAwesomeIcon icon={faSketch} /> 
                     <p>Prototype</p>
                 </a>
@@ -111,7 +114,7 @@ const Colab = () => {
                 <a href="/images/colab/final.png">
                 <img src="/images/colab/final.png" alt="final-wires"/>
                 </a>
-                <p>We applied the design direction to our mid-fi wireframes, integrating the themes, colors, typefaces, and iconography. In the end we presented our project to nearly 50 people at the Artefact Strategy Firm, in Seattle WA. You can view our video demo <a href="#">here</a>!</p>
+                <p>We applied the design direction to our mid-fi wireframes, integrating the themes, colors, typefaces, and iconography. In the end we presented our project to nearly 50 people at the Artefact Strategy Firm, in Seattle WA. You can view our video demo <a href="https://youtu.be/ZJyZ8ufpyPU">here</a>!</p>
             </div>
             </div>
             {/* <Link className="next" to="/jamr">
