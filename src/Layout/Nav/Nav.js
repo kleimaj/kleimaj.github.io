@@ -44,7 +44,7 @@ const renderMobile = (show, setShow) => {
                     <FontAwesomeIcon icon={faBars} onClick={() => setShow(true)} /> }
                 </div>
                 <div className="nav-center">
-            <Link to="/"><img id="nav_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
+            <Link to="/" onClick={()=>setShow(false)}><img id="nav_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
                 </div>
                 {/* Hamburger Menu */}
                 {show ?
