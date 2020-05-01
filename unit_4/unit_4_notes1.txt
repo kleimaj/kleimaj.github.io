@@ -1,8 +1,0 @@
-Typeface - The font family/what the viewer sees (Helvetica)
-Font - the specification (12pt Bold Helvetica)
-x height (top of the lowercase x to the baseline, or the bottom)
-weight (thickness of stroke ex. Bold or Normal)
-
-HTML tags
-<strong> bolds text
-<em> italicaize text
