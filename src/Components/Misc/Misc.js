@@ -20,7 +20,7 @@ const Misc = () => {
         <h1>Miscellaneous</h1>
             <img className="unicorn" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/palm-tree_1f334.png" alt="unicorn"/>
         <h3>Bassist</h3>
-        <p>I picked up the bass nearly, 4 years ago, and I haven't put it dow since. This instrument is my voice and my muse for inspiration, creativity, and love. I'm a groove bassist, I love to play, forever.</p>
+        <p>I picked up the bass nearly 4 years ago, and I haven't put it down since. This instrument is my voice and my muse for inspiration, creativity, and love. I'm a groove bassist, I love to play, forever.</p>
             <div className="tools bass" data-aos="fade-up">
                 <p>My favorite Basses:</p>
                 <div className="tool">

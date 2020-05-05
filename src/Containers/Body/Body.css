@@ -14,10 +14,11 @@ main .headshot {
 }
 
 main h1 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   position: relative;
   font-size: 60px;
   padding: 20px;
+  margin-bottom: -10px;
 }
 
 main p {
@@ -137,21 +138,32 @@ main .tools .tool .sass :hover {
 
 .about h2 {
   display: block;
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   top: 0;
   left: 0;
   text-align: left;
 }
 
 .about h3 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   font-size: 40px;
+  margin-bottom: 0px;
   text-align: left;
   padding-left: 35px;
   padding-top: 15px;
 }
 
+@media screen and (max-width: 980px) {
+  .about h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+
 .about .unicorn {
+  width: 70px;
+  margin: 15px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translate(0px, 0px);

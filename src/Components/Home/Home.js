@@ -16,9 +16,13 @@ const Home = () => {
             {/* <div className="headshot"></div> */}
             <h1>Jacob Kleiman</h1>
             <p>
-                Thanks for checking out my site! I'm Jacob, a software developer and funky bass player. <span>I'm currently seeking a full-time position.</span>
+                Thanks for checking out my site! I'm Jacob, a software developer and funky bass player. 
                 {<br/>}
-                *With the pandemic occurring, I'm absolutely open to remote work, as well as contracting!
+                I'm a creative soul, with a passion for building scalable, hi-fidelity interfaces and experiences.
+                {<br/>}
+                 I'm most interested in working on projects involving React and front-end javascript development. 
+                {<br/>}
+                <span>Currently, I am seeking a full-time position.</span>
             </p>
             <p><a href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
         </main>

@@ -1,3 +1,13 @@
+[data-aos="fade-out"] {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+[data-aos="fade-out"].aos-animate {
+  opacity: 0;
+}
+
 aside {
   position: fixed;
   padding: 95px 5%;
@@ -6,7 +16,7 @@ aside {
 }
 
 aside h2 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   font-size: 30px;
   padding: 10px;
 }

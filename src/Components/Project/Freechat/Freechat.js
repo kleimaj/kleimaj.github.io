@@ -26,6 +26,13 @@ const Freechat = () => {
                     <p>View Code</p>
                 </a>
             </div>
+            <div className="item summary" data-aos="fade-up">
+                <h2>Summary</h2>
+                <a href="/images/freechat/summary.png">
+                <img src="/images/freechat/summary.png" alt="freechat summary"/>
+                </a>
+                <p>FreeChat is a means of easy, simple communication without the hassle of a sign-up / sign-in page. The most difficult task of this project was managing independent rooms by only allowing invited guests to communicate with the room host. This application was built with React hooks, node, express, and the twilio api!</p>
+            </div>
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>

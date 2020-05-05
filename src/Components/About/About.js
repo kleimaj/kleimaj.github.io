@@ -68,7 +68,7 @@ const About = () => {
                 </div>
             </div>
             <div data-aos="fade-up">
-            <h3>Data Scientist</h3>
+            <h3>Data Specialist</h3>
             <p>I found a job with Universal Music Group in Los Angeles, CA. I found my niche in the big corporation by focusing on in-house data visualization tools. You can view more information about the project <Link to="/ircam">here</Link>. I created apps with <a href="https://d3js.org/">d3.js</a>, and anaylzed millions of units of creative metadata. My passion for attention to detail went mostly unnoticed, which ultimately led to my pursuit of becoming a front-end developer.</p>
             <p><Link to="#">Contact me</Link>, or check out my <Link to="/projects">projects</Link>!</p>
             </div>

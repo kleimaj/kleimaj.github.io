@@ -27,6 +27,13 @@ const Pikatsume = () => {
                     <p>View Code</p>
                 </a>
             </div>
+            <div className="item summary" data-aos="fade-up">
+                <h2>Summary</h2>
+                <a href="/images/pika/summary.png">
+                <img src="/images/pika/summary.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard"/>
+                </a>
+                <p>Pikatsume (or Pika Collector) is an online game that encourages users to catch a varieties of Pikachu for charity. The most difficult part of this project was remote collaboration. The game is built with Django, Postgres, Bulma, and the Stripe api!</p>
+            </div>
             <div className="team" data-aos="fade-up">
                 <h2>The Team</h2>
                 <div className="teammate">

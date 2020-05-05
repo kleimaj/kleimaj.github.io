@@ -27,6 +27,21 @@ const Aboop = () => {
                     <p>View Code</p>
                 </a>
             </div>
+            <div className="item summary" data-aos="fade-up">
+                <h2>Summary</h2>
+                <a href="/images/aboop/summary.png">
+                <img src="/images/aboop/summary.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard" style={{width:'300px', padding:'15px'}}/>
+                </a>
+                <a href="/images/aboop/summary2.png">
+                <img src="/images/aboop/summary2.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard" style={{width:'300px' , padding:'15px'}}/>
+                </a>
+                <p>Aboop is a web application that gamifies the restorative process by encouraging the user to breathe, while providing a comfortable interaction (like bubble-wrap).
+                    {<br/>}
+                The hardest part of this project was the collision detection of bubbles, and animating how they move on the screen.
+                {<br/>}
+                Aboop is programmed in pure, Javascript ES6, CSS, and HTML.
+                </p>
+            </div>
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>

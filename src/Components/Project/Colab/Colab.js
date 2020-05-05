@@ -27,6 +27,13 @@ const Colab = () => {
                     <p>Prototype</p>
                 </a>
             </div>
+            <div className="item summary" data-aos="fade-up">
+                <h2>Summary</h2>
+                <a href="/images/colab/summary.png">
+                <img src="/images/colab/summary.png" alt="freechat summary"/>
+                </a>
+                <p>CoLab is a mobile application that enhances the student learning experience, and conditions users for academic success. This UX project was created under the mentorship of Artefact, UX strategy firm in Seattle WA. This product was created with user research, ideation, and prototyping.</p>
+            </div>
             <div className="team" data-aos="fade-up">
                 <h2>The Team</h2>
                 <div className="teammate">

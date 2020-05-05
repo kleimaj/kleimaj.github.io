@@ -19,10 +19,11 @@ main {
     box-shadow: 0px 3px 8px 0px rgba(138,126,138,1);
     }
     h1 {
-        font-family: 'Vulf Sans Bold';
+        font-family: 'Alatsi';
         position: relative;
         font-size: 60px;
         padding: 20px;
+        margin-bottom: -10px;
     }
     p {
         font-family: 'Vulf Sans';
@@ -123,19 +124,27 @@ main {
 .about {
     h2 {
         display: block;
-        font-family: 'Vulf Sans Bold';
+        font-family: 'Alatsi';
         top: 0;
         left: 0;
         text-align: left;
     }
     h3 {
-        font-family: 'Vulf Sans Bold';
+        font-family: 'Alatsi';
         font-size: 40px;
+        margin-bottom: 0px;
         text-align: left;
         padding-left: 35px;
         padding-top: 15px;
+        @media screen and (max-width: $mobile-breakpoint){
+            font-size: 30px;
+            text-align: center;
+            padding-left: 0px;
+        }
     }
     .unicorn {
+        width: 70px;
+        margin: 15px;
         transition: all .5s ease-in-out; 
                 transform: translate(0px, 0px);
     }

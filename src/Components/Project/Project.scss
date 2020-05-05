@@ -37,7 +37,7 @@ a.project {
     box-shadow: 0px 4px 5px rgba(0,0,0,.7);
     border-radius: 25px;
     h3 {
-        font-family: 'Vulf Sans Bold';
+        font-family: 'Alatsi';
         font-size: 50px;
         padding-top: 20px;
     }
@@ -131,8 +131,10 @@ a.project {
         }
     }
     .team {
+        border-bottom: 1px solid white;
+
         h2 {
-            font-family: 'Vulf Sans Bold';
+            font-family: 'Alatsi';
             padding: 25px;
         }
         .teammate {
@@ -156,7 +158,7 @@ a.project {
         }
     }
     .problem-solution {
-        border-top: 1px solid white;
+        // border-top: 1px solid white;
         border-bottom: 1px solid white;
         padding: 25px;
         .text-block {
@@ -166,7 +168,9 @@ a.project {
         }
         h4 {
             text-align: left;
-            font-family: 'Vulf Sans Bold';
+            margin-bottom: -10px;
+            font-size: 30px;
+            font-family: 'Alatsi';
         }
         p {
             font-size: 20px;
@@ -187,7 +191,7 @@ a.project {
         // border-top: .5px solid white;
         border-bottom: .5px solid white;
         h2 {
-            font-family: 'Vulf Sans Bold';
+            font-family: 'Alatsi';
             width: 100%;
             padding: 45px;
         }
@@ -218,13 +222,16 @@ a.next {
         border-radius: 25px;
     }
     h3 {
-        font-family: 'Vulf Sans Bold';
+        font-family: 'Alatsi';
         text-decoration: underline;
         padding: 25px;
     }
 }
 .pikatsume {
     background-color: $pikatsume;
+    .team {
+        border-bottom: none;
+    }
     .item {
         // border-top: .5px solid black;
         border-bottom: .5px solid black;
@@ -326,7 +333,7 @@ a.colab {
     }
     .item {
         h3 {
-            font-family: 'Vulf Sans Bold';
+            font-family: 'Alatsi';
         }
         img {
             width: 300px;

@@ -1,7 +1,15 @@
+[data-aos="fade-out"] {
+  opacity: 1;
+  transition-property: opacity;
+  &.aos-animate {
+    opacity: 0;
+  }
+}
+
 // Desktop View
 aside{
     h2 {
-        font-family: 'Vulf Sans Bold';
+        font-family: 'Alatsi';
         font-size: 30px;
         padding: 10px;
     }

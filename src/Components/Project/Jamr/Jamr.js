@@ -27,6 +27,13 @@ const Jamr = () => {
                     <p>View Code</p>
                 </a>
             </div>
+            <div className="item summary" data-aos="fade-up">
+                <h2>Summary</h2>
+                <a href="/images/jamr/map.png">
+                <img src="/images/jamr/map.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard"/>
+                </a>
+                <p>Jamr is a musician networking application that allows users to find each other based on musical identity and preferences. The most difficult aspect of implementing this product was the instant messaging that's available for connected users. This site was built with javascript, node.js,express, and socket.io!</p>
+            </div>
             <div className="team" data-aos="fade-up">
                 <h2>The Team</h2>
                 <div className="teammate">

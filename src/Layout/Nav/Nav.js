@@ -48,7 +48,7 @@ const renderMobile = (show, setShow) => {
                 </div>
                 {/* Hamburger Menu */}
                 {show ?
-                <div className="hamburger_menu">
+                <div className="hamburger_menu" data-aos="fade-right">
                     <Link className = "hamburger_link" to="/freechat" onClick={()=>setShow(false)}><span>01:&emsp;FreeChat</span></Link>
                     <Link className = "hamburger_link" to="/jamr" onClick={()=>setShow(false)}><span>02:&emsp;Jamr</span></Link>
                     <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>03:&emsp;Pikatsume</span></Link>

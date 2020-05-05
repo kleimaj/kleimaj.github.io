@@ -32,7 +32,7 @@ a.project {
 }
 
 .project h3 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   font-size: 50px;
   padding-top: 20px;
 }
@@ -142,8 +142,12 @@ a.project {
           transform: translate(0px, -10px);
 }
 
+.details .team {
+  border-bottom: 1px solid white;
+}
+
 .details .team h2 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   padding: 25px;
 }
 
@@ -175,7 +179,6 @@ a.project {
 }
 
 .details .problem-solution {
-  border-top: 1px solid white;
   border-bottom: 1px solid white;
   padding: 25px;
 }
@@ -188,7 +191,9 @@ a.project {
 
 .details .problem-solution h4 {
   text-align: left;
-  font-family: 'Vulf Sans Bold';
+  margin-bottom: -10px;
+  font-size: 30px;
+  font-family: 'Alatsi';
 }
 
 .details .problem-solution p {
@@ -211,7 +216,7 @@ a.project {
 }
 
 .details .item h2 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   width: 100%;
   padding: 45px;
 }
@@ -248,13 +253,17 @@ a.next div {
 }
 
 a.next h3 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
   text-decoration: underline;
   padding: 25px;
 }
 
 .pikatsume {
   background-color: #daa520;
+}
+
+.pikatsume .team {
+  border-bottom: none;
 }
 
 .pikatsume .item {
@@ -388,7 +397,7 @@ a.colab img {
 }
 
 .ircam .item h3 {
-  font-family: 'Vulf Sans Bold';
+  font-family: 'Alatsi';
 }
 
 .ircam .item img {
