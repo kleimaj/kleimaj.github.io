@@ -22,7 +22,7 @@ const Home = () => {
                 {<br/>}
                  I'm most interested in working on projects involving React and front-end javascript development. 
                 {<br/>}
-                <span>Currently, I am seeking a full-time position.</span>
+                <span>*Currently, I am seeking a full-time position.</span>
             </p>
             <p><a href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
         </main>
