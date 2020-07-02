@@ -268,8 +268,30 @@ a.next h3 {
           filter: none;
 }
 
+.potty .external-links {
+  border-bottom: 1px solid black;
+}
+
 .potty .external-links a {
   color: black;
+}
+
+.potty .detail-logo {
+  position: relative;
+  margin-top: -80px;
+}
+
+.potty .item.summary img {
+  border: 2px solid black;
+}
+
+.potty .item {
+  border-bottom: 1px solid black;
+  border-top: none;
+}
+
+.potty .problem-solution {
+  border-bottom: 1px solid black;
 }
 
 .pikatsume {

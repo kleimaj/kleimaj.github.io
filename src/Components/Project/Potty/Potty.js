@@ -33,30 +33,30 @@ const Potty = () => {
               />
             <p className="detail-logo">Search, Create, and Rate Bathrooms Near You!</p>
             <div className="external-links">
-                <a href="https://jakechat69.herokuapp.com/">
+                <a href="http://pottyangels.com/">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Site</p>
                 </a>
-                <a href="https://github.com/kleimaj/jakechat-frontend">
+                <a href="https://github.com/kleimaj/pottyangelreact">
                     <FontAwesomeIcon icon={faGithub} /> 
                     <p>View Code</p>
                 </a>
             </div>
             <div className="item summary" data-aos="fade-up">
                 <h2>Summary</h2>
-                <a href="/images/freechat/summary.png">
-                <img src="/images/freechat/summary.png" alt="freechat summary"/>
+                <a href="/images/potty/summary.png">
+                <img src="/images/potty/summary.png" alt="Potty summary"/>
                 </a>
-                <p>FreeChat is a means of easy, simple communication without the hassle of a sign-up / sign-in page. The most difficult task of this project was managing independent rooms by only allowing invited guests to communicate with the room host. This application was built with React hooks, node, express, and the twilio api!</p>
+                <p>Potty Angel is a platform for finding all quality bathrooms, anywhere in the world. The most difficult task of this project was developing a frontend, backend, and deploying the project all on my own. This application was built with React hooks, Django, Postgresql, and AWS.</p>
             </div>
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>
-                <p>I observed how arduous it is for some users to install and sign-up for Zoom, or Skype - as well as loading up the software to use it everytime one wants to video-chat with friends and family.</p>
+                <p>For drivers, mothers, and any kind of person, it can be difficult to find bathrooms, especially in big metropolitan areas.</p>
                 </div>
                 <div className="text-block">
                 <h4>Solution:</h4>
-                <p>Freechat streamlines the ability to video chat with friends online - by allowing for dynamic creation of rooms and participants, without the burden of an installation or onboarding process.</p>
+                <p>Potty Angel allows users to quickly search for bathrooms in that related area. Users are able to rate and comment on their varying bathroom experiences.</p>
                 </div>
             </div>
 
