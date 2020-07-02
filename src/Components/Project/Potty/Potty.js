@@ -61,35 +61,35 @@ const Potty = () => {
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>React Component Tree</h2>
-                <a href="/images/freechat/react-components.png">
-                <img src="/images/freechat/react-components.png" alt="twilio-video-backend"/>
+                <h2>Database Setup</h2>
+                <a href="/images/potty/dbdiagram.png">
+                <img src="/images/potty/dbdiagram.png" alt="potty angel database"/>
                 </a>
-                <p>This website is implemented with React Hooks. The Lobby component handles the creation of rooms and users. The room component houses the participants, which contain the user identities, and the video + audio streams.</p>
+                <p>This site was built with Django, the python backend framework. I utilized a PostgreSQL database with the Psycopg2 ORM. There are 4 main applications for the Potty, Comment, User, and Admin models.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>Twilio Video</h2>
-                <a href="/images/freechat/access-tokens.png">
-                <img src="/images/freechat/access-tokens.png" alt="twilio-video-backend"/>
+                <h2>Google Maps React</h2>
+                <a href="/images/potty/googlemaps.png">
+                <img src="/images/potty/googlemaps.png" alt="twilio-video-backend"/>
                 </a>
-                <p>For my application I decided to use the video application programming interface from Twilio. This API ensures secure, high quality, video connection. All video chat rooms and user identities are organized by a form of JWTs - Twilio Access Tokens</p>
+                <p>For my application I decided to use the Google Maps React API to render longtitude and latitude potty locations on a map. Users are able to navigate to potties from their current location, and filter bathrooms based on their ratings.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>UI & Design</h2>
-                <a href="/images/freechat/freechat-wires.png">
-                <img src="/images/freechat/freechat-wires.png" alt="twilio-video-backend"/>
+                <h2>After Effects Animation</h2>
+                <a href="/images/potty/aftereffects.png">
+                <img src="/images/potty/aftereffects.png" alt="twilio-video-backend"/>
                 </a>
-                <p>The visual concept behind my app is minimalistic. No bells and whistles to confuse the user, light button gradients, monospace typefaces. This was one of the hardest front-end designs I ever implemented, due to the less is more concept that I pursued, and the arbitrary number of video feeds connecting at any given time.</p>
+                <p>I took on the challenge to grow my visual design skills by creating a logo animation with Adobe Illustrator and AfterEffects. I rendered the animation on my site with Lottie.js</p>
             </div>
 
             <div className="item" data-aos="fade-up">
                 <h2>Final Implementation</h2>
-                <a href="/images/freechat/final-implementation.png">
-                <img src="/images/freechat/final-implementation.png" alt="twilio-video-backend"/>
+                <a href="/images/potty/final.png">
+                <img src="/images/potty/final.png" alt="final design"/>
                 </a>
-                <p>During the 2020 shelter-in-place, I utilized this app to communicate with my close friends and family. The website is deployed on heroku you can view it <a href="https://jakechat69.herokuapp.com/">here</a>!</p>
+                <p>I built this website as a present for my father, who spends most of his days driving around Los Angeles. He is a bathroom enthusiast and a potty connoisseur, so I just want to take the time and thank him for the idea. Love you dad!</p>
             </div>
             </div>
             {/* <Link className="next" to="/jamr">

@@ -19,7 +19,7 @@ const About = () => {
             {/* <div className="headshot"></div> */}
         <h1>Design Developer</h1>
             <img className="unicorn" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/unicorn-face_1f984.png" alt="unicorn"/>
-        <h3>Front-end Developer</h3>
+        <h3>Software Developer</h3>
         <p>I enrolled in <a href="https://generalassemb.ly/">General Assembly</a>, where I honed my craft and pursued my passion for front-end development. At GA, I built some of my best projects, and worked over 480 hours on fundamental web development. You can view my profile <a href="https://profiles.generalassemb.ly/profiles/jacobkleiman">here</a>. During this experience, I learned what it means to be the best developer.</p>
             <div className="tools" data-aos="fade-up">
                 <p>Some of my favorite developer tools:</p>
@@ -43,7 +43,7 @@ const About = () => {
                 </div>
             </div>
             <div data-aos="fade-up">
-            <h3>UX Developer</h3>
+            <h3>UX Designer</h3>
             <p>I studied computer science and user experience design at Western Washington University. The best class I took was the UX Capstone, where I worked on my first 6 month UX project with <a href="https://www.artefactgroup.com/">Artefact</a>, a ux firm in Seattle, WA. It was <Link to="/colab">this project</Link> that ignited my passion for building front-end interfaces.</p>
             </div>
             <div className="tools" data-aos="fade-up">
@@ -68,7 +68,7 @@ const About = () => {
                 </div>
             </div>
             <div data-aos="fade-up">
-            <h3>Data Specialist</h3>
+            <h3>Data Analyst</h3>
             <p>I found a job with Universal Music Group in Los Angeles, CA. I found my niche in the big corporation by focusing on in-house data visualization tools. You can view more information about the project <Link to="/ircam">here</Link>. I created apps with <a href="https://d3js.org/">d3.js</a>, and anaylzed millions of units of creative metadata. My passion for attention to detail went mostly unnoticed, which ultimately led to my pursuit of becoming a front-end developer.</p>
             <p><Link to="#">Contact me</Link>, or check out my <Link to="/projects">projects</Link>!</p>
             </div>

@@ -8,6 +8,11 @@ const Projects = () => {
     const path = "/images/portfolio_icons/";
     const projects = [
         {
+            name: 'Potty-Angel',
+            description: 'React / Django / AWS',
+            src: path+'potty_logo.png'
+        },
+        {
             name: 'FreeChat',
             description: 'React / Node / Twilio',
             src: path+'freechat_logo.png'

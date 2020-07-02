@@ -4,6 +4,11 @@ a.project {
   color: white;
 }
 
+a.project:first-child {
+  color: black;
+  background-color: #f9d117;
+}
+
 .project:hover {
   -webkit-transition: all .7s ease-in-out;
   transition: all .7s ease-in-out;
@@ -288,6 +293,10 @@ a.next h3 {
 .potty .item {
   border-bottom: 1px solid black;
   border-top: none;
+}
+
+.potty .item:last-child {
+  border-bottom: none;
 }
 
 .potty .problem-solution {
