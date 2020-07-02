@@ -258,6 +258,20 @@ a.next h3 {
   padding: 25px;
 }
 
+.potty {
+  background-color: #f9d117;
+  color: black;
+}
+
+.potty h1 {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.potty .external-links a {
+  color: black;
+}
+
 .pikatsume {
   background-color: #daa520;
 }

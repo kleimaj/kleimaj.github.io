@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from '../Components/Home/Home';
 import Projects from '../Containers/Projects/Projects';
+import Potty from '../Components/Project/Potty/Potty';
 import Freechat from '../Components/Project/Freechat/Freechat';
 import Jamr from '../Components/Project/Jamr/Jamr';
 import Pikatsume from '../Components/Project/Pikatsume/Pikatsume';
@@ -16,6 +17,7 @@ const Routes = (props) => {
         <Switch>
           <Route exact path='/' component={ Home } />
           <Route path='/projects' component={ Projects } />
+          <Route path='/potty-angel' component={ Potty } />
           <Route path='/freechat' component={ Freechat } />
           <Route path='/jamr' component={ Jamr } />
           <Route path='/pikatsume' component={ Pikatsume } />

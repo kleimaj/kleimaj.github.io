@@ -3,7 +3,8 @@ $pikatsume: #daa520;
 $jamr: #cb686e;
 $aboop: #3068a7;
 $colab: #2fbba3;
-$ircam: #6232BF ;
+$ircam: #6232BF;
+$potty: #f9d117;
 
 // [aos="fade"] {
 //     opacity: 0;
@@ -225,6 +226,18 @@ a.next {
         font-family: 'Alatsi';
         text-decoration: underline;
         padding: 25px;
+    }
+}
+.potty {
+    background-color: $potty;
+    h1 {
+        filter: none;
+    }
+    color: black;
+    .external-links {
+        a {
+            color: black;
+        }
     }
 }
 .pikatsume {
