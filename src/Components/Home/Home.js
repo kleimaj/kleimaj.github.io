@@ -16,13 +16,13 @@ const Home = () => {
             {/* <div className="headshot"></div> */}
             <h1>Jacob Kleiman</h1>
             <p>
-                Thanks for checking out my site! I'm Jacob, a software developer and funky bass player. 
+                Thanks for checking out my site! I'm Jacob, a freelance developer and funky bass player. 
                 {<br/>}
-                I'm a creative soul, with a passion for building scalable, hi-fidelity interfaces and experiences.
+                I'm a creative soul, with a passion for software development and design.
                 {<br/>}
-                 I'm most interested in working on projects involving React and front-end javascript development. 
+                 I'm most interested in working on projects that challenge me and make me a better developer. Whether it be designing a website, building a scalable backend, or deploying fullstack web applications. 
                 {<br/>}
-                <span>*Currently, I am seeking a full-time position.</span>
+                <span>*Currently, I am an IA at General Assembly.</span>
             </p>
             <p><a href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
         </main>
