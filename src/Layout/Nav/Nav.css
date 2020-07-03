@@ -16,7 +16,7 @@ aside {
 }
 
 aside h2 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   font-size: 30px;
   padding: 10px;
 }
@@ -71,6 +71,16 @@ aside #header_logo {
   top: 30px;
   display: inline-block;
   left: 85px;
+}
+
+@media screen and (min-width: 1440px) {
+  aside {
+    padding: 250px 150px;
+  }
+  aside #header_logo {
+    left: 190px;
+    top: 170px;
+  }
 }
 
 nav {

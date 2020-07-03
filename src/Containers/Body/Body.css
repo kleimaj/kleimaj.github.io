@@ -14,7 +14,7 @@ main .headshot {
 }
 
 main h1 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   position: relative;
   font-size: 60px;
   padding: 20px;
@@ -145,7 +145,7 @@ main .tools .tool .sass :hover {
 }
 
 .about h3 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   font-size: 40px;
   margin-bottom: 0px;
   text-align: left;

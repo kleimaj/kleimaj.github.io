@@ -12,6 +12,12 @@
   width: 100vw;
 }
 
+@media screen and (min-width: 750px) and (max-width: 980px) {
+  .App main {
+    margin-top: 250px;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .App {
     display: block;

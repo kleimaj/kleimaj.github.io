@@ -1,3 +1,5 @@
+$laptop-breakpoint: 1440px;
+
 [data-aos="fade-out"] {
   opacity: 1;
   transition-property: opacity;
@@ -6,10 +8,10 @@
   }
 }
 
-// Desktop View
+// Laptop View
 aside{
     h2 {
-        font-family: 'Alatsi';
+        font-family: 'Vulf Sans Bold';
         font-size: 30px;
         padding: 10px;
     }
@@ -57,6 +59,13 @@ aside{
     top: 30px;
     display: inline-block;
     left: 85px;
+  }
+  @media screen and (min-width: $laptop-breakpoint) {
+    #header_logo {
+      left: 190px;
+      top: 170px;
+    }
+    padding: 250px 150px;
   }
 }
 // Mobile View

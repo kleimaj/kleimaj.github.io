@@ -8,6 +8,9 @@ $mobile-breakpoint: 980px;
     }
     main {
         width: 100vw;
+        @media screen and (min-width: 750px) and (max-width: 980px) { 
+          margin-top: 250px;
+        }
     }
     @media screen and (max-width: $mobile-breakpoint){
         display: block;

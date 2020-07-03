@@ -37,7 +37,7 @@ a.project:first-child {
 }
 
 .project h3 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   font-size: 50px;
   padding-top: 20px;
 }
@@ -152,7 +152,7 @@ a.project:first-child {
 }
 
 .details .team h2 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   padding: 25px;
 }
 
@@ -198,7 +198,7 @@ a.project:first-child {
   text-align: left;
   margin-bottom: -10px;
   font-size: 30px;
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
 }
 
 .details .problem-solution p {
@@ -221,7 +221,7 @@ a.project:first-child {
 }
 
 .details .item h2 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   width: 100%;
   padding: 45px;
 }
@@ -258,7 +258,7 @@ a.next div {
 }
 
 a.next h3 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
   text-decoration: underline;
   padding: 25px;
 }
@@ -442,7 +442,7 @@ a.colab img {
 }
 
 .ircam .item h3 {
-  font-family: 'Alatsi';
+  font-family: 'Vulf Sans Bold';
 }
 
 .ircam .item img {
