@@ -68,19 +68,19 @@ const renderMobile = (show, setShow) => {
         // </div>
     )
 }
-const useWindowSize = () => {
+const useWindowSize = () => {  
     const isClient = typeof window === 'object';
-  
+
     const getSize = () => {
       return {
         width: isClient ? window.innerWidth : undefined,
         height: isClient ? window.innerHeight : undefined
       };
     }
-  
     const [windowSize, setWindowSize] = useState(getSize);
-  
-    useEffect(() => {
+
+
+    useEffect(() => {  
       if (!isClient) {
         return false;
       }
@@ -91,7 +91,7 @@ const useWindowSize = () => {
   
       window.addEventListener('resize', handleResize);
       return () => window.removeEventListener('resize', handleResize);
-    }, []); // Empty array ensures that effect is only run on mount and unmount
+    }); // Empty array ensures that effect is only run on mount and unmount
   
     return windowSize;
   }

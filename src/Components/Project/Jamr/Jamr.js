@@ -30,7 +30,7 @@ const Jamr = () => {
             <div className="item summary" data-aos="fade-up">
                 <h2>Summary</h2>
                 <a href="/images/jamr/map.png">
-                <img src="/images/jamr/map.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard"/>
+                <img src="/images/jamr/map.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="Map View"/>
                 </a>
                 <p>Jamr is a musician networking application that allows users to find each other based on musical identity and preferences. The most difficult aspect of implementing this product was the instant messaging that's available for connected users. This site was built with javascript, node.js,express, and socket.io!</p>
             </div>
@@ -63,7 +63,7 @@ const Jamr = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Database Design</h2>
                 <a href="/images/jamr/jamr_mongodb.png">
-                <img src="/images/jamr/jamr_mongodb.png" alt="twilio-video-backend"/>
+                <img src="/images/jamr/jamr_mongodb.png" alt="database visualization"/>
                 </a>
                 <p>Over the intial days of the project, We drafted ERD Diagrams, and conceptualized the entire back-end of our database. We aimed to acheieve full crud on the profiles as the MVP of our project. The back-end of Jamr is implemented with Express (Node.js) and MongoDB. </p>
             </div>
@@ -71,7 +71,7 @@ const Jamr = () => {
             <div className="item" data-aos="fade-up">
                 <h2>User Story</h2>
                 <a href="/images/jamr/uistory2.png">
-                <img src="/images/jamr/uistory2.png" alt="twilio-video-backend"/>
+                <img src="/images/jamr/uistory2.png" alt="low fidelity wireframes"/>
                 </a>
                 <p>When launching the app, the user will be prompted to CREATE (register) or READ (login) to their account. From there they can UPDATE or DESTROY their profile and make them unique and customizable. Users will be able to explore and INDEX (find) fellow musicians to collaborate with.</p>
             </div>
@@ -79,7 +79,7 @@ const Jamr = () => {
             <div className="item" data-aos="fade-up">
             <h2>Google Maps API</h2>
                 <a href="/images/jamr/uistory1.png">
-                <img src="/images/jamr/uistory1.png" alt="twilio-video-backend"/>
+                <img src="/images/jamr/uistory1.png" alt="google maps wireframes"/>
                 </a>
                 <p>To tailor the map to the user's search preferences, we figured that the user should be able to filter the map based on Instruments, Genres, or Distance... we went ahead and built a function to filter out all falsey users of the filtering conditions.
                 </p>
@@ -100,35 +100,29 @@ const Jamr = () => {
             <div className="item" data-aos="fade-up">
                 <h2>UI & Branding</h2>
                 <a href="/images/jamr/mood1.png">
-                <img src="/images/jamr/mood1.png" alt="moodboard"/>
+                <img src="/images/jamr/mood1.png" alt="music gear moodboard"/>
                 </a>
                 <p>The creative direction of the application ui stemmed from two separate ideas encapsulated in these mood boards.</p>
                 <a href="/images/jamr/mood2.png">
-                <img src="/images/jamr/mood2.png" alt="moodboard2"/>
+                <img src="/images/jamr/mood2.png" alt="monochromatic moodboard"/>
                 </a>
                 <p>The final product was an integrated version of the two ideas. Minimal, triadic, and tool-like.</p>
             </div>
             <div className="item" data-aos="fade-up">
                 <h2>High-Fi Wires</h2>
                 <a href="/images/jamr/wires.png">
-                <img src="/images/jamr/wires.png" alt="moodboard"/>
+                <img src="/images/jamr/wires.png" alt="high fidelity wireframes"/>
                 </a>
                 <p>The type logo was created with a modified musical take on the Helvetica typeface. Subheadings and paragraphs included Vice City Sans (which adds a depth of playfulness) as well as Raleway, which provided thin, minimal style to our app.</p>
             </div>
             <div className="item" data-aos="fade-up">
                 <h2>Final Implementation</h2>
                 <a href="/images/jamr/map.png">
-                <img src="/images/jamr/map.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard"/>
+                <img src="/images/jamr/map.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="final map view"/>
                 </a>
                 <p>For those readers who know me personally, this application is a long-time passion project of mine. It's something that I will always continue to craft, iterate, and modify. If you really know me, you would know that this isn't my first iteration of Jamr, if you'd like to view the Jamr - Android implementation, you can view it <a href="./jamr.html">here</a>!</p>
             </div>
             </div>
-            {/* <Link className="next" to="/jamr">
-            <div className="jamr">
-                <img src="/images/portfolio_icons/jamr_logo_white.svg" alt="Jamr Logo"/>
-                <h3>See the next Project!</h3>
-            </div>
-            </Link> */}
         </main>
     )
 }

@@ -30,10 +30,10 @@ const Aboop = () => {
             <div className="item summary" data-aos="fade-up">
                 <h2>Summary</h2>
                 <a href="/images/aboop/summary.png">
-                <img src="/images/aboop/summary.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard" style={{width:'300px', padding:'15px'}}/>
+                <img src="/images/aboop/summary.png" className="image-summary" alt="aboop gameplay"/>
                 </a>
                 <a href="/images/aboop/summary2.png">
-                <img src="/images/aboop/summary2.png" style={{boxShadow: '3px 2px 5px 4px rgba(0,0,0,0.75)'}}alt="moodboard" style={{width:'300px' , padding:'15px'}}/>
+                <img src="/images/aboop/summary2.png" className="image-summary" alt="aboop game settings"/>
                 </a>
                 <p>Aboop is a web application that gamifies the restorative process by encouraging the user to breathe, while providing a comfortable interaction (like bubble-wrap).
                     {<br/>}
@@ -56,7 +56,7 @@ const Aboop = () => {
             <div className="item" data-aos="fade-up">
                 <h2>User Story</h2>
                 <a href="/images/aboop/lowfi.png">
-                <img src="/images/aboop/lowfi.png" alt="twilio-video-backend"/>
+                <img src="/images/aboop/lowfi.png" alt="low fidelity wireframes"/>
                 </a>
                 <p>Upon starting the game, the user's screen will begin to slowly populate with bubbles. During this time, a larger bubble (The Guru bubble, if you will) will guide the player into retaining their breath while popping 108 bubbles (a sacred number in Hindu, Buddhist, and yogic traditions).</p>
             </div>
@@ -64,7 +64,7 @@ const Aboop = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Bubble Class and OOP</h2>
                 <a href="/images/aboop/class.png">
-                <img src="/images/aboop/class.png" alt="twilio-video-backend"/>
+                <img src="/images/aboop/class.png" alt="Javascript Bubble Class snippets"/>
                 </a>
                 <p>Here is the Bubble class in my js file. The bubble class is responsible for housing the bubble positions on the screen, as well as their width, animation, collision detection, and their popping functionality. Bubbles move at a rate of 5 pixels per 100 miliseconds!</p>
             </div>
@@ -72,7 +72,7 @@ const Aboop = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Collision Detection</h2>
                 <a href="/images/aboop/collision.png">
-                <img src="/images/aboop/collision.png" alt="twilio-video-backend"/>
+                <img src="/images/aboop/collision.png" alt="collision detection algorithm"/>
                 </a>
                 <p>For each frame in the game, each bubble scans for:
                     Every other bubble on the screen: if a bubble collides with another bubble, it will change its direction (velocity) in the opposite x or y direction, this depends on where the bubbles hit each other.
@@ -81,17 +81,17 @@ const Aboop = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Design Concepts</h2>
                 <a href="/images/aboop/mood1.png">
-                <img src="/images/aboop/mood1.png" alt="twilio-video-backend"/>
+                <img src="/images/aboop/mood1.png" alt="aboop playful moodboard"/>
                 </a>
                 <a href="/images/aboop/mood2.png">
-                <img src="/images/aboop/mood2.png" alt="twilio-video-backend"/>
+                <img src="/images/aboop/mood2.png" alt="aboop natural moodboard"/>
                 </a>
                 <p>The branding concepts behind the game were playful, fun, and child-like, and on the other hand, nature aesthetic, peaceful, and restorative backdrops. The final result was something of a result of two main ideas, Playful and Natural.</p>
             </div>
             <div className="item" data-aos="fade-up">
                 <h2>Hi-Fi Wireframing</h2>
                 <a href="/images/aboop/hifi.png">
-                <img src="/images/aboop/hifi.png" alt="twilio-video-backend"/>
+                <img src="/images/aboop/hifi.png" alt="high fidelity wireframes"/>
                 </a>
                 <p>After the first inital days of logic development, wireframing and planning. I committed my final two days to implementing as much of the front-end design as I could. And I'm proud to announce I've never been happier with a project that entails front-end development. Some of my major acheivements were creating the breathe element (the bubble guru) as well as the bubble animations, theme and bubble customization, and how this project can really go many ways from here.</p>
                 <p>If you're interested in seeing my project presentation in front of 30 people at General Assembly, please check it out <a href="https://youtu.be/Anr0rGHVRsE">here</a>!</p>

@@ -19,6 +19,8 @@ a.project {
     display: block;
     text-decoration: none;
     color: white;
+    transition: all .5s ease-in-out;
+
     &:first-child {
         color: black;
         background-color: $potty;
@@ -203,14 +205,26 @@ a.project {
         img {
             width: 600px;
         }
+        .image-summary {
+            // box-shadow: 3px 2px 5px 4px rgba(0,0,0,0.75);
+            width:300px; 
+            padding:15px;
+            border: none;
+        }
         p {
             text-align: left;
             font-size: 20px;
-            padding: 20px;
+            padding: 25px;
+            margin: 0 auto;
             a {
                 color: white;
                 text-decoration: underline;
             }
+            @media screen and (min-width: $mobile-breakpoint){
+                // width: 600px;
+                // LINE WIDTH HERE
+            }
+            // width: 1000px;
         }
         @media screen and (max-width: $mobile-breakpoint){
             img {
@@ -236,6 +250,10 @@ a.next {
     background-color: $potty;
     h1 {
         filter: none;
+        margin: 25px;
+    }
+    a.exit {
+        color: black;
     }
     color: black;
     .external-links {

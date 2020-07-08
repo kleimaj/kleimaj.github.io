@@ -63,7 +63,7 @@ const Pikatsume = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Postgres Design</h2>
                 <a href="/images/pika/postgresdesign.png">
-                <img src="/images/pika/postgresdesign.png" alt="twilio-video-backend"/>
+                <img src="/images/pika/postgresdesign.png" alt="database visualization"/>
                 </a>
                 <p>Pikatsume is implemented with Django, the fullstack Python framework. A postgres database is utilized to track user authentication, pikachu toys in the database, as well as all user transactions with stripe.</p>
             </div>
@@ -71,7 +71,7 @@ const Pikatsume = () => {
             <div className="item" data-aos="fade-up">
                 <h2>User Story</h2>
                 <a href="/images/pika/wire2.png">
-                <img src="/images/pika/wire2.png" alt="twilio-video-backend"/>
+                <img src="/images/pika/wire2.png" alt="website wireframes"/>
                 </a>
                 <p>Users desire to collect cute, unique Pikachus. The user will sign up for an account and is awarded 10 Poffins (currency). To "catch" a Pikachu, which costs 5 poffins
                 User "catches" a Pikachu and it is automatically added to their Pikachu collection.</p>
@@ -80,7 +80,7 @@ const Pikatsume = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Payment with Stripe API</h2>
                 <a href="/images/pika/stripe.png">
-                <img src="/images/pika/stripe.png" alt="twilio-video-backend"/>
+                <img src="/images/pika/stripe.png" alt="stripe api view"/>
                 </a>
                 <p>We utilized the stripe api to handle secure payments and online transactions. When the user decides to buy more poffins, or the in-game currency. Those poffin values are added to the database, and the money from the transaction is spent towards the save the children foundation.</p>
             </div>
@@ -88,17 +88,11 @@ const Pikatsume = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Final Implementation</h2>
                 <a href="/images/pika/pikabase.png">
-                <img src="/images/pika/pikabase.png" alt="twilio-video-backend"/>
+                <img src="/images/pika/pikabase.png" alt="pika-base view"/>
                 </a>
                 <p>This web-app was so fun to make. Most of the development process was streamlined thanks to Django! I'd love to thank my team, Johnson and Cat for help on the project! I'm happy to call you guys my friends and I hope we get to work on more projects in the future!</p>
             </div>
             </div>
-            {/* <Link className="next" to="/jamr">
-            <div className="jamr">
-                <img src="/images/portfolio_icons/jamr_logo_white.svg" alt="Jamr Logo"/>
-                <h3>See the next Project!</h3>
-            </div>
-            </Link> */}
         </main>
     )
 }

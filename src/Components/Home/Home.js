@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNode, faSass } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
+    window.scrollTo({
+        top: 0,
+      });
     const [imgSrc, setSrc] = useState('/images/headshots/portfolio_pic.jpg');
     return (
         <main data-aos="fade-up">
@@ -24,7 +25,7 @@ const Home = () => {
                 {<br/>}
                 <span>*Currently, I am an IA at General Assembly.</span>
             </p>
-            <p><a href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
+            <p><a target="_blank" rel="noopener noreferrer" href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
         </main>
     );
 }

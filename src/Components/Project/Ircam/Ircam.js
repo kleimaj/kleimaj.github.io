@@ -15,7 +15,7 @@ const Ircam = () => {
                 <FontAwesomeIcon icon={faTimesCircle} /> 
             </Link>
             <h1>ircam</h1>
-            <img src="/images/portfolio_icons/ircam.svg" className="detail-logo" alt="" />
+            <img src="/images/portfolio_icons/ircam.svg" className="detail-logo" alt="ircam icon" />
             <p>Universal Music Group's {<br/>}Machine Learning and Metadata Modeling!</p>   
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
@@ -85,21 +85,15 @@ const Ircam = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Metadata Modeling</h2>
                 <a href="https://i.pinimg.com/originals/ce/f3/73/cef373254ff38570434d46c82f6884f4.gif">
-                <img src="https://i.pinimg.com/originals/ce/f3/73/cef373254ff38570434d46c82f6884f4.gif" alt="twilio-video-backend"/>
+                <img src="https://i.pinimg.com/originals/ce/f3/73/cef373254ff38570434d46c82f6884f4.gif" alt="d3 animation"/>
                 </a>
                 <p>D3.js data visualizations are created via a script utilizing the Google Big Query API. The script will average creative metadata with its occurences in the master catalogue. An input set of ISRCs (or songs) will output averages of creative metadata</p>
                 <a href="https://www.d3-graph-gallery.com/img/graph/pie_changeData.gif">
-                <img src="https://www.d3-graph-gallery.com/img/graph/pie_changeData.gif" alt="twilio-video-backend"/>
+                <img src="https://www.d3-graph-gallery.com/img/graph/pie_changeData.gif" alt="d3 graph"/>
                 </a>
                 <p>The averages are tailored into d3 donut graphs and pie charts. The visualizations are utilized to articulate the creative metadata analytics to sub labels and UMG partners. This data would be presented in meetings of 30+ people.</p>
             </div>
             </div>
-            {/* <Link className="next" to="/jamr">
-            <div className="jamr">
-                <img src="/images/portfolio_icons/jamr_logo_white.svg" alt="Jamr Logo"/>
-                <h3>See the next Project!</h3>
-            </div>
-            </Link> */}
         </main>
     )
 }

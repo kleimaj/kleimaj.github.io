@@ -26,11 +26,11 @@ const Potty = () => {
             </Link>
             <h1>Potty Angel</h1>
             <Lottie options={defaultOptions}
-              height={300}
-              width={300}
-              // isStopped={this.state.isStopped}
-              // isPaused={this.state.isPaused}
-              />
+            height={300}
+            width={300}
+            // isStopped={this.state.isStopped}
+            // isPaused={this.state.isPaused}
+            />
             <p className="detail-logo">Search, Create, and Rate Bathrooms Near You!</p>
             <div className="external-links">
                 <a href="http://pottyangels.com/">
@@ -71,7 +71,7 @@ const Potty = () => {
             <div className="item" data-aos="fade-up">
                 <h2>Google Maps React</h2>
                 <a href="/images/potty/googlemaps.png">
-                <img src="/images/potty/googlemaps.png" alt="twilio-video-backend"/>
+                <img src="/images/potty/googlemaps.png" alt="google maps view"/>
                 </a>
                 <p>For my application I decided to use the Google Maps React API to render longtitude and latitude potty locations on a map. Users are able to navigate to potties from their current location, and filter bathrooms based on their ratings.</p>
             </div>
@@ -79,7 +79,7 @@ const Potty = () => {
             <div className="item" data-aos="fade-up">
                 <h2>After Effects Animation</h2>
                 <a href="/images/potty/aftereffects.png">
-                <img src="/images/potty/aftereffects.png" alt="twilio-video-backend"/>
+                <img src="/images/potty/aftereffects.png" alt="after effects console"/>
                 </a>
                 <p>I took on the challenge to grow my visual design skills by creating a logo animation with Adobe Illustrator and AfterEffects. I rendered the animation on my site with Lottie.js</p>
             </div>
@@ -92,12 +92,6 @@ const Potty = () => {
                 <p>I built this website as a present for my father, who spends most of his days driving around Los Angeles. He is a bathroom enthusiast and a potty connoisseur, so I just want to take the time and thank him for the idea. Love you dad!</p>
             </div>
             </div>
-            {/* <Link className="next" to="/jamr">
-            <div className="jamr">
-                <img src="/images/portfolio_icons/jamr_logo_white.svg" alt="Jamr Logo"/>
-                <h3>See the next Project!</h3>
-            </div>
-            </Link> */}
         </main>
     )
 }
