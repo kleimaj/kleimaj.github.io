@@ -2,7 +2,7 @@ import React from 'react';
 import Routes from '../../config/routes';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faReact, faNode, faSass } from '@fortawesome/free-brands-svg-icons'
-import './Body.css';
+import './Body.scss';
 const Body = () => {
     // const [imgSrc, setSrc] = useState('/images/headshots/portfolio_pic.jpg');
     return (
