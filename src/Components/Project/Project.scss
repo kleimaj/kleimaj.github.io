@@ -5,6 +5,7 @@ $aboop: #3068a7;
 $colab: #2fbba3;
 $ircam: #6232BF;
 $potty: #f9d117;
+$aiden: #212D71;
 
 // [aos="fade"] {
 //     opacity: 0;
@@ -22,6 +23,14 @@ a.project {
     transition: all .5s ease-in-out;
 
     &:first-child {
+        background-color: $aiden;
+        color: white;
+        img {
+            width: 150px;
+        }
+    }
+
+    &:nth-child(2) {
         color: black;
         background-color: $potty;
     }
@@ -245,6 +254,10 @@ a.next {
         text-decoration: underline;
         padding: 25px;
     }
+}
+.aiden {
+    background-color: $aiden;
+    color: white;
 }
 .potty {
     background-color: $potty;

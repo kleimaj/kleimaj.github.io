@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../../Components/Project/Project';
+// import src from '*.bmp';
 
 const Projects = () => {
     window.scrollTo({
@@ -7,6 +8,11 @@ const Projects = () => {
       });
     const path = "/images/portfolio_icons/";
     const projects = [
+        {
+            name: 'Aiden',
+            description: 'Figma / Styled-Components / Storybook',
+            src: path+'aiden-dark.svg'
+        },
         {
             name: 'Potty-Angel',
             description: 'React / Django / AWS',
