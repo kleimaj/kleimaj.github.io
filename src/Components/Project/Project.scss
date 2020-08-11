@@ -258,6 +258,18 @@ a.next {
 .aiden {
     background-color: $aiden;
     color: white;
+    h1 {
+        filter: none;
+        img {
+            width: 200px;
+        }
+    }
+    .detail-logo {
+        cursor: default;
+        &:hover {
+            transform: none;
+        }
+    }
 }
 .potty {
     background-color: $potty;

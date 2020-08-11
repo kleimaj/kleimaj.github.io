@@ -14,74 +14,81 @@ const Aiden = () => {
             <Link to="/projects" className="exit"> 
                 <FontAwesomeIcon icon={faTimesCircle} /> 
             </Link>
-            <h1>Aiden</h1>
-            <p className="detail-logo">easy 
-            <span role="img" aria-label="clap emoji"> 👏 </span> 
-            simple 
-            <span role="img" aria-label="clap emoji"> 👏 </span> 
-            free 
-            <span role="img" aria-label="clap emoji"> 👏 </span>
-            video 
-            <span role="img" aria-label="clap emoji"> 👏 </span>
-            chat</p>
+            <h1><img src="/images/portfolio_icons/aiden-dark.svg" alt="Aiden Health Logo" /></h1>
+            <p className="detail-logo">Because Life is Worth Living</p>
             <div className="external-links">
-                <a href="https://jakechat69.herokuapp.com/">
+                <a href="https://jacobkleiman.com/AidenHealth">
                 <FontAwesomeIcon icon={faTv} /> 
                     <p>View Site</p>
                 </a>
-                <a href="https://github.com/kleimaj/jakechat-frontend">
+                <a href="https://github.com/kleimaj/AidenHealth">
                     <FontAwesomeIcon icon={faGithub} /> 
                     <p>View Code</p>
                 </a>
             </div>
             <div className="item summary" data-aos="fade-up">
                 <h2>Summary</h2>
-                <a href="/images/freechat/summary.png">
-                <img src="/images/freechat/summary.png" alt="freechat summary"/>
+                <a href="/images/aiden/smartmockup.jpg">
+                <img src="/images/aiden/smartmockup.jpg" alt="Aiden summary"/>
                 </a>
-                <p>FreeChat is a means of easy, simple communication without the hassle of a sign-up / sign-in page. The most difficult task of this project was managing independent rooms by only allowing invited guests to communicate with the room host. This application was built with React hooks, node, express, and the twilio api!</p>
+                <p>Aiden Health is an A11y accessible health care platform for a universal user audience. I designed this project under General Assembly's Visual Design Immersive with Figma and built it with React and styled-components. I also built out a design system with Storybook.js you can view <a href="aidenhealth.netlify.app">here</a>!</p>
             </div>
             <div className="problem-solution" data-aos="fade-up">
                 <div className="text-block ">
                 <h4>Problem:</h4>
-                <p>I observed how arduous it is for some users to install and sign-up for Zoom, or Skype - as well as loading up the software to use it everytime one wants to video-chat with friends and family.</p>
+                <p>Lots of modern health care applications and platforms are riddled with information overflow and inaccessible design. I found this problematic for users, especially during the time of a global pandemic.</p>
                 </div>
                 <div className="text-block">
                 <h4>Solution:</h4>
-                <p>Freechat streamlines the ability to video chat with friends online - by allowing for dynamic creation of rooms and participants, without the burden of an installation or onboarding process.</p>
+                <p>Aiden Health utilizes trustful body content, and an accessible color palette in order to employ a cohesive and minimalistic message to its userbase. This site was built with a design system in order to test every component for A11y compliance.</p>
                 </div>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>React Component Tree</h2>
-                <a href="/images/freechat/react-components.png">
-                <img src="/images/freechat/react-components.png" alt="react component tree"/>
+                <h2>Design Research</h2>
+                <a href="/images/aiden/research.png">
+                <img src="/images/aiden/research.png" alt="Top Three Values"/>
                 </a>
-                <p>This website is implemented with React Hooks. The Lobby component handles the creation of rooms and users. The room component houses the participants, which contain the user identities, and the video + audio streams.</p>
+                <p>The main takeaways of my design research align with Aiden Health's core values. Ensuring an inclusive environment for all users, utilizing accesibility, and providing the users with trustworthy prose and imagery.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>Twilio Video</h2>
-                <a href="/images/freechat/access-tokens.png">
-                <img src="/images/freechat/access-tokens.png" alt="twilio-video-backend"/>
+                <h2>Design Elements</h2>
+                <a href="/images/aiden/palette.png">
+                <img src="/images/aiden/palette.png" alt="color palette"/>
                 </a>
-                <p>For my application I decided to use the video application programming interface from Twilio. This API ensures secure, high quality, video connection. All video chat rooms and user identities are organized by a form of JWTs - Twilio Access Tokens</p>
+                <a href="/images/aiden/typescale.png">
+                <img src="/images/aiden/typescale.png" alt="modular typographic scale"/>
+                </a>
+                <p>I built a consistent color system and modular typographic scale to create a general theme for Aiden. The type-scale uses a variation of the major third type scale in order to create a modular scale for varying screen sizes.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>UI & Design</h2>
-                <a href="/images/freechat/freechat-wires.png">
-                <img src="/images/freechat/freechat-wires.png" alt="video chat wireframes"/>
+                <h2>Figma Wireframes</h2>
+                <a href="/images/aiden/wireframes.png">
+                <img src="/images/aiden/wireframes.png" alt="low and mid fidelity wireframes"/>
                 </a>
-                <p>The visual concept behind my app is minimalistic. No bells and whistles to confuse the user, light button gradients, monospace typefaces. This was one of the hardest front-end designs I ever implemented, due to the less is more concept that I pursued, and the arbitrary number of video feeds connecting at any given time.</p>
+                <p>I began to draft wireframes to create meaningful order of visual elements on the site. After creating a basic low-fidelity that was working, I began adding and editing the body content such that it was related to the core values. Illustrations and images were utilized from undraw.io and unsplash.</p>
             </div>
 
             <div className="item" data-aos="fade-up">
-                <h2>Final Implementation</h2>
-                <a href="/images/freechat/final-implementation.png">
-                <img src="/images/freechat/final-implementation.png" alt="people video chatting with freechat"/>
+                <h2>Styled-Components</h2>
+                <a href="/images/aiden/buttons.png">
+                <img src="/images/aiden/buttons.png" alt="button design system"/>
                 </a>
-                <p>During the 2020 shelter-in-place, I utilized this app to communicate with my close friends and family. The website is deployed on heroku you can view it <a href="https://jakechat69.herokuapp.com/">here</a>!</p>
+                <p>I designed all types of button states that would take place on the Aiden Health website. I stored all states inside a figma file and later exported them into Storybook.js along with button documentation.</p>
+            </div>
+
+            <div className="item" data-aos="fade-up">
+                <h2>Final Design</h2>
+                <a href="/images/aiden/final2.png">
+                <img src="/images/aiden/final2.png" alt="final design"/>
+                </a>
+                <p>I fully programmed the design into code with React and deployed it with Netlify. The site is mobile responsive and also contains a setting for enabling a dark mode feature. Check out the deployed site <a href="https://jacobkleiman.com/AidenHealth">here</a>!</p>
+                <a href="/images/aiden/Storybook.png">
+                <img src="/images/aiden/Storybook.png" alt="final design"/>
+                </a>
+                <p>Along with the prototype, I consistently updated the documentation and components with Storybook.js. The design system contains nearly 20 components and design elements I utilized for the branding of Aiden. If you'd like to see the design system more in depth, check it out <a href="https://aidenhealth.netlify.app/">here</a>!</p>
             </div>
             </div>
         </main>
