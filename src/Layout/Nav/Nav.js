@@ -17,13 +17,14 @@ const renderDesktop = () => {
             <Link to="/"><img data-aos="fade-up" id="header_logo" src="/images/portfolio_icons/LogoDesigner.svg" alt="logo"/></Link>
                     <div id="works" data-aos="fade-up">
                     <Link id="projects" to="/projects"><h2>Projects</h2></Link>
-                    <Link className="project_link" to="/potty-angel"><span>01:&emsp;Potty Angel</span></Link>
-                    <Link className="project_link" to="/freechat"><span>02:&emsp;FreeChat</span></Link>
-                    <Link className="project_link" to="/jamr"><span>03:&emsp;Jamr</span></Link>
-                    <Link className="project_link" to="/pikatsume"><span>04:&emsp;Pikatsume</span></Link>
-                    <Link className="project_link" to="/colab"><span>05:&emsp;Co.Lab</span></Link>
-                    <Link className="project_link" to="/aboop"><span>06:&emsp;Aboop</span></Link>
-                    <Link className="project_link" to="/ircam"><span>07:&emsp;ircam</span></Link>
+                    <Link className="project_link" to="/aiden"><span>01:&emsp;Aiden</span></Link>
+                    <Link className="project_link" to="/potty-angel"><span>02:&emsp;Potty Angel</span></Link>
+                    <Link className="project_link" to="/freechat"><span>03:&emsp;FreeChat</span></Link>
+                    <Link className="project_link" to="/jamr"><span>04:&emsp;Jamr</span></Link>
+                    <Link className="project_link" to="/pikatsume"><span>05:&emsp;Pikatsume</span></Link>
+                    <Link className="project_link" to="/colab"><span>06:&emsp;Co.Lab</span></Link>
+                    <Link className="project_link" to="/aboop"><span>07:&emsp;Aboop</span></Link>
+                    <Link className="project_link" to="/ircam"><span>08:&emsp;ircam</span></Link>
 
                     </div>
                     <div id="misc" data-aos="fade-up">
@@ -50,13 +51,14 @@ const renderMobile = (show, setShow) => {
                 {/* Hamburger Menu */}
                 {show ?
                 <div className="hamburger_menu" data-aos="fade-right">
-                  <Link className = "hamburger_link" to="/potty-angel" onClick={()=>setShow(false)}><span>01:&emsp;Potty Angel</span></Link>
-                    <Link className = "hamburger_link" to="/freechat" onClick={()=>setShow(false)}><span>02:&emsp;FreeChat</span></Link>
-                    <Link className = "hamburger_link" to="/jamr" onClick={()=>setShow(false)}><span>03:&emsp;Jamr</span></Link>
-                    <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>04:&emsp;Pikatsume</span></Link>
-                    <Link className = "hamburger_link" to="/colab" onClick={()=>setShow(false)}><span>05:&emsp;Co.Lab</span></Link>
-                    <Link className = "hamburger_link" to="/aboop" onClick={()=>setShow(false)}><span>06:&emsp;Aboop</span></Link>
-                    <Link className = "hamburger_link" to="/ircam" onClick={()=>setShow(false)}><span>07:&emsp;ircam</span></Link>
+                  <Link className = "hamburger_link" to="/aiden" onClick={()=>setShow(false)}><span>01:&emsp;Aiden</span></Link>
+                  <Link className = "hamburger_link" to="/potty-angel" onClick={()=>setShow(false)}><span>02:&emsp;Potty Angel</span></Link>
+                    <Link className = "hamburger_link" to="/freechat" onClick={()=>setShow(false)}><span>03:&emsp;FreeChat</span></Link>
+                    <Link className = "hamburger_link" to="/jamr" onClick={()=>setShow(false)}><span>04:&emsp;Jamr</span></Link>
+                    <Link className = "hamburger_link" to="/pikatsume" onClick={()=>setShow(false)}><span>05:&emsp;Pikatsume</span></Link>
+                    <Link className = "hamburger_link" to="/colab" onClick={()=>setShow(false)}><span>06:&emsp;Co.Lab</span></Link>
+                    <Link className = "hamburger_link" to="/aboop" onClick={()=>setShow(false)}><span>07:&emsp;Aboop</span></Link>
+                    <Link className = "hamburger_link" to="/ircam" onClick={()=>setShow(false)}><span>08:&emsp;ircam</span></Link>
                     <Link className = "hamburger_misc" to="/about" onClick={()=>setShow(false)}>About</Link>
                     <Link className = "hamburger_misc" to="/misc" onClick={()=>setShow(false)}>Misc</Link>
 
