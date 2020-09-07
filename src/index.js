@@ -10,7 +10,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename="/">
     <App />
   </Router>,
   document.getElementById("root")
