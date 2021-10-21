@@ -23,7 +23,7 @@ const Home = () => {
                 {<br/>}
                  I'm most interested in working on projects that challenge me and make me a better developer. Whether it be designing a website, building a scalable backend, or deploying fullstack web applications. 
                 {<br/>}
-                <span>*Currently, I am an IA at General Assembly.</span>
+                <span>*Currently, I am a Software Developer at <a target="_blank" rel="noopener noreferrer" href="https://www.communicationpartners.com/">Communication Partners Group</a>.</span>
             </p>
             <p><a target="_blank" rel="noopener noreferrer" href="mailto:jacobakleiman@gmail.com">Contact me</a>, or check out my <Link to="/projects">projects</Link>!</p>
         </main>
